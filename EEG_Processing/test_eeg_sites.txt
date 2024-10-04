@@ -1,0 +1,5 @@
+https://sccn.ucsd.edu/~arno/fam2data/publicly_available_EEG_data.html
+https://www.bci2000.org/mediawiki/index.php/User_Tutorial:Performing_an_Offline_Analysis_of_EEG_Data
+
+https://medium.com/@vishal.mi19/processing-eeg-data-with-python-8036fd7336ca
+https://mne.tools/stable/auto_tutorials/intro/10_overview.html
