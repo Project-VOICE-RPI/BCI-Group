@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{url} % For handling URLs
+\usepackage{float}
+
+\title{Annotated Bibliography of Current Research}
+\author{Shaun Rask}
+\date{October 2024}
+
+\begin{document}
+\maketitle
+
+\section{EEG Normal Waveforms}
+\url{https://www.ncbi.nlm.nih.gov/books/NBK539805/} \\
+This article explains how EEG activity reflects the temporal summation of synchronous activity between millions of cortical neurons. It emphasizes the importance of gathering patient information before conducting analysis, as confounding variables such as age, level of consciousness, and environmental stimuli can all affect the waveforms. The article describes the common frequency ranges in EEG, using Greek letters to categorize them: delta, theta, alpha, sigma, and beta, in increasing order. Additionally, it highlights common tasks that each frequency range represents in the brain. It also discusses EEG transients, which are distinguishable waveforms or complexes primarily seen during drowsiness and light sleep.
+
+
+\section{Measuring Brain Waves in the Classroom}
+\url{https://www.repereong.ro/articole-cursuri/measuring-brain-waves-classroom} \\
+This article goes over what brain waves are, how they are measured in the lab and in the classroom, as well as the significance of those measurements. Put simply, brain waves are neurons that communicate with each other when the go up and down, resembling waves. We measure these waves using a technique known as electroencephalography, where small electrodes are placed on a person's head and detects the brain waves. These waves vary in speed, with the frequency measuring different mental states such as tired or awake. The way to examine these brain waves further are though ERPs (event-related potentials), which are the electrical brain response to specific events, such as reading a word or controlling an impulse. To use ERPs, a participant must perform a task that is designed to study a particular function of the brain. 
+
+
+\section{How Deep Learning is Changing Machine Learning AI in EEG Data Processing}
+\url{https://www.bitbrain.com/blog/ai-eeg-data-processing} \\
+This article discusses the strengths and uses of EEG systems, highlighting the challenge of interpreting EEG data, as results can vary significantly between individuals. Machine learning and AI offer the potential to automate and improve EEG data analysis, making it more applicable in Brain-Computer Interface (BCI) applications. The article outlines the three major steps in EEG data processing: pre-processing to handle noise and artifacts, feature extraction to generate descriptors for decoding tasks, and the final step of decoding, where models classify and transform EEG features into high-level signals such as letters, motions, or cognitive states. Deep learning models, particularly convolutional neural networks (CNNs), autoencoders, and recurrent neural networks, have been effective in capturing complex EEG data patterns. This image shows that CNNs are the most commonly used architecture, with autoencoders and recurrent networks used as well. However, challenges remain, such as the high cost, time requirements, and limited availability of EEG datasets. Training deep learning models efficiently for EEG data is still an ongoing area of research.
+
+
+\section{Personalizing an AR-based Communication System for Nonspeaking Autistic Users}
+\url{https://dl.acm.org/doi/pdf/10.1145/3640543.3645153} \\
+This research paper explores the development of a personalized Augmented Reality (AR) communication system for nonspeaking autistic users. The system is based on a virtual letterboard, with automated positioning to assist users in spelling out words. Data is collected from the user's interactions with a physical letterboard, which is then used to train a machine learning model. Once the model is trained, it is integrated into the AR system, where a virtual letterboard is customized for the user. The paper provides an in-depth discussion of the neural network setup and experiments conducted to validate the system.
+
+
+\section{An innovative P300 speller brain–computer interface design: Easy screen}
+\url{https://www.sciencedirect.com/science/article/pii/S174680942200115X} \\
+This article highlights the P300 speller, which are BCIs that display desired characters/words once at a time using ERPs (event related potentials) with the response of flashing visual stimuli to determine the outcome. The interface used mostly involves a 6x6 or 7x7 letter matrix, named the easy screen P300 speller, where the rows and columns of the matrix flash and fade in random order, and when the flashing row/column connects to the target character, the subject is warned by the flash and the ERP is detected 300ms after the character is illuminated. Many different designs have been tested, using different dimensions, shapes, and flash times. There are multiple machine learning algorithms that can classify emotion such as a support vector machine (SVM), k-nearest neighbors (k-NN), and many more. 
+
+
+\section{Machine Learning Methodologies in Brain-Computer Interface Systems}
+\url{https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=459eb1d35e2b394b71d66ee97b05bd42bfbfeed9#:~:text=P300%20Speller%20is%20a%20BCI,signals%20after%20about%20300%20ms.} \\
+This paper attempts to evaluate the performance of different machine learning algorithms to find which has the highest classification accuracy. They go over the process of implementing each machine learning algorithm on the BCI dataset as well as the results they found from each. They found that SVM and BLDA algorithms yielded the highest accuracy for their 3 subjects. There were many issues such as low signal-to-noise ratio of EEG signals and a variance between each different subject. During the feature extraction phase, they found the appropriate feature extraction phase for each subject which helped fix the variance. For the classification phase, it is important to use linear classifier algorithms over linear classifiers, for example using linear SVM classifiers instead of linear SVM. 
+
+
+
+\end{document}
