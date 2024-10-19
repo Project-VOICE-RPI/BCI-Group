@@ -1,0 +1,26 @@
+PWD c:/Users/Shaun R/Desktop/BCI2000/BCI-Group/Notes
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Shaun R/Desktop/BCI2000/BCI-Group/Notes/P300 speller notes.tex
+OUTPUT P300 speller notes.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./P300 speller notes.aux
+INPUT ./P300 speller notes.aux
+INPUT P300 speller notes.aux
+OUTPUT P300 speller notes.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+OUTPUT P300 speller notes.pdf
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT P300 speller notes.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

@@ -1,0 +1,23 @@
+PWD c:/Users/Shaun R/Desktop/BCI2000/BCI-Group/Notes
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/Shaun R/Desktop/BCI2000/BCI-Group/Notes/svm on eeg data notes.tex
+OUTPUT svm on eeg data notes.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./svm on eeg data notes.aux
+INPUT ./svm on eeg data notes.aux
+INPUT svm on eeg data notes.aux
+OUTPUT svm on eeg data notes.aux
+OUTPUT svm on eeg data notes.pdf
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT svm on eeg data notes.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
