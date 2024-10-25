@@ -33,6 +33,10 @@ EEG Signal Acquisition
 -> ML Testing
 
 Linear Regression is the most commonly used with EEG data.
+KNN used for supervised learning w/ data
+
+Split into Classification and Regression
+KNN can handle both.
 
 ### Side Notes
 
