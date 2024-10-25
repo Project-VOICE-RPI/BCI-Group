@@ -10,7 +10,6 @@ Sources:    https://mne.tools/stable/documentation/datasets.html#somato-dataset
 """
 
 import mne
-import numpy as np
 
 # Preparing the data
 somato = mne.datasets.somato.data_path()
