@@ -1,0 +1,455 @@
+Run #1 started
+2015-02-26T23:36:24.969 - 2015-02-26T23:36:24.513Z [client] The file being used is: /20Questions/Questions-Sporting-01.csv
+2015-02-26T23:36:24.969 - 2015-02-26T23:36:24.514Z [client] Answer is Soccer
+2015-02-26T23:36:33.926 - 2015-02-26T23:36:33.470Z [client] Asking question: Individual sport?
+Trial #1
+Chose closest target
+2015-02-26T23:36:57.111 - 2015-02-26T23:36:56.669Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:36:59.455 - 2015-02-26T23:36:58.999Z [client] TMS intensity = 48
+2015-02-26T23:37:04.245 - 2015-02-26T23:37:03.788Z [client] Negative answer received
+2015-02-26T23:37:08.690 - 2015-02-26T23:37:08.236Z [client] Asking question: Use a ball?
+Trial #2
+Chose closest target
+2015-02-26T23:37:31.884 - 2015-02-26T23:37:31.432Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:37:34.214 - 2015-02-26T23:37:33.761Z [client] TMS intensity = 71
+2015-02-26T23:37:38.236 - 2015-02-26T23:37:37.780Z [client] Positive answer received
+2015-02-26T23:37:42.177 - 2015-02-26T23:37:41.716Z [client] Asking question: Use a stick?
+Trial #3
+Chose closest target
+2015-02-26T23:38:05.398 - 2015-02-26T23:38:04.941Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:38:07.729 - 2015-02-26T23:38:07.270Z [client] TMS intensity = 48
+2015-02-26T23:38:11.909 - 2015-02-26T23:38:11.451Z [client] Negative answer received
+2015-02-26T23:38:54.056 - 2015-02-26T23:38:53.599Z [client] The file being used is: /20Questions/Questions-Fruit-01.csv
+2015-02-26T23:38:54.056 - 2015-02-26T23:38:53.600Z [client] Answer is Cherry
+2015-02-26T23:38:59.180 - 2015-02-26T23:38:58.719Z [client] Asking question: Red?
+Trial #4
+Chose closest target
+2015-02-26T23:39:22.289 - 2015-02-26T23:39:21.832Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:39:24.619 - 2015-02-26T23:39:24.162Z [client] TMS intensity = 69
+2015-02-26T23:39:30.375 - 2015-02-26T23:39:29.919Z [client] Negative answer received
+2015-02-26T23:39:34.629 - 2015-02-26T23:39:34.166Z [client] Asking question: Smooth?
+Trial #5
+Chose closest target
+2015-02-26T23:39:57.791 - 2015-02-26T23:39:57.330Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:40:00.118 - 2015-02-26T23:39:59.657Z [client] TMS intensity = 73
+2015-02-26T23:40:05.212 - 2015-02-26T23:40:04.749Z [client] Negative answer received
+2015-02-26T23:40:08.842 - 2015-02-26T23:40:08.382Z [client] Asking question: Berry?
+Trial #6
+Chose closest target
+2015-02-26T23:40:32.032 - 2015-02-26T23:40:31.573Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:40:34.357 - 2015-02-26T23:40:33.903Z [client] TMS intensity = 71
+2015-02-26T23:40:39.077 - 2015-02-26T23:40:38.622Z [client] Negative answer received
+2015-02-26T23:41:43.845 - 2015-02-26T23:41:43.385Z [client] The file being used is: /20Questions/Questions-Family-01.csv
+2015-02-26T23:41:43.845 - 2015-02-26T23:41:43.387Z [client] Answer is Son
+2015-02-26T23:41:49.395 - 2015-02-26T23:41:48.937Z [client] Asking question: Female?
+Trial #7
+Chose closest target
+2015-02-26T23:42:12.555 - 2015-02-26T23:42:12.098Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:42:14.885 - 2015-02-26T23:42:14.427Z [client] TMS intensity = 48
+2015-02-26T23:42:18.665 - 2015-02-26T23:42:18.198Z [client] Positive answer received
+2015-02-26T23:42:24.216 - 2015-02-26T23:42:23.758Z [client] Asking question: Likely older than you?
+Trial #8
+2015-02-26T23:42:44.523 - 2015-02-26T23:42:44.065Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:42:46.853 - 2015-02-26T23:42:46.393Z [client] TMS intensity = 48
+2015-02-26T23:42:55.374 - 2015-02-26T23:42:54.910Z [client] Positive answer received
+2015-02-26T23:42:59.105 - 2015-02-26T23:42:58.644Z [client] Asking question: Immediate family?
+Trial #9
+Chose closest target
+2015-02-26T23:43:22.321 - 2015-02-26T23:43:21.864Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:43:24.652 - 2015-02-26T23:43:24.193Z [client] TMS intensity = 71
+2015-02-26T23:43:28.202 - 2015-02-26T23:43:27.738Z [client] Positive answer received
+2015-02-26T23:44:10.853 - 2015-02-26T23:44:10.391Z [client] The file being used is: /20Questions/Questions-Vegetable-01.csv
+2015-02-26T23:44:10.853 - 2015-02-26T23:44:10.392Z [client] Answer is Potato
+2015-02-26T23:44:14.544 - 2015-02-26T23:44:14.078Z [client] Asking question: Grows on a vine?
+Trial #10
+Chose closest target
+2015-02-26T23:44:37.725 - 2015-02-26T23:44:37.263Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:44:40.055 - 2015-02-26T23:44:39.593Z [client] TMS intensity = 45
+2015-02-26T23:44:44.344 - 2015-02-26T23:44:43.877Z [client] Negative answer received
+2015-02-26T23:44:49.994 - 2015-02-26T23:44:49.528Z [client] Asking question: Edible skin?
+Trial #11
+Chose closest target
+2015-02-26T23:45:13.248 - 2015-02-26T23:45:12.787Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:45:15.578 - 2015-02-26T23:45:15.115Z [client] TMS intensity = 73
+2015-02-26T23:45:20.419 - 2015-02-26T23:45:19.957Z [client] Negative answer received
+2015-02-26T23:45:24.119 - 2015-02-26T23:45:23.652Z [client] Asking question: Green?
+Trial #12
+Chose closest target
+2015-02-26T23:45:47.261 - 2015-02-26T23:45:46.799Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:45:49.591 - 2015-02-26T23:45:49.128Z [client] TMS intensity = 43
+2015-02-26T23:45:54.411 - 2015-02-26T23:45:53.949Z [client] Negative answer received
+2015-02-26T23:47:03.094 - 2015-02-26T23:47:02.626Z [client] The file being used is: /20Questions/Questions-Object-01.csv
+2015-02-26T23:47:03.094 - 2015-02-26T23:47:02.627Z [client] Answer is Boat
+2015-02-26T23:47:08.256 - 2015-02-26T23:47:07.789Z [client] Asking question: Does it fit in a shoebox?
+Trial #13
+2015-02-26T23:47:25.947 - 2015-02-26T23:47:25.480Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:47:28.277 - 2015-02-26T23:47:27.810Z [client] TMS intensity = 45
+2015-02-26T23:47:39.590 - 2015-02-26T23:47:39.128Z [client] Negative answer received
+2015-02-26T23:47:42.400 - 2015-02-26T23:47:41.936Z [client] Asking question: Is it man-made?
+Trial #14
+Chose closest target
+2015-02-26T23:48:05.546 - 2015-02-26T23:48:05.085Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:48:07.876 - 2015-02-26T23:48:07.414Z [client] TMS intensity = 73
+2015-02-26T23:48:11.956 - 2015-02-26T23:48:11.492Z [client] Positive answer received
+2015-02-26T23:48:14.616 - 2015-02-26T23:48:14.149Z [client] Asking question: Does it float?
+Trial #15
+Chose closest target
+2015-02-26T23:48:37.761 - 2015-02-26T23:48:37.311Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:48:40.090 - 2015-02-26T23:48:39.639Z [client] TMS intensity = 73
+2015-02-26T23:48:44.065 - 2015-02-26T23:48:43.612Z [client] Positive answer received
+2015-02-26T23:49:33.595 - 2015-02-26T23:49:33.132Z [client] The file being used is: /20Questions/Questions-Animal-01.csv
+2015-02-26T23:49:33.615 - 2015-02-26T23:49:33.135Z [client] Answer is Vulture
+2015-02-26T23:49:38.625 - 2015-02-26T23:49:38.159Z [client] Asking question: Is it a pet?
+Trial #16
+Chose closest target
+2015-02-26T23:50:01.770 - 2015-02-26T23:50:01.321Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:50:04.100 - 2015-02-26T23:50:03.651Z [client] TMS intensity = 43
+2015-02-26T23:50:10.038 - 2015-02-26T23:50:09.587Z [client] Negative answer received
+2015-02-26T23:50:14.705 - 2015-02-26T23:50:14.262Z [client] Asking question: Is it a mammal?
+Trial #17
+Chose closest target
+2015-02-26T23:50:37.794 - 2015-02-26T23:50:37.354Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:50:40.121 - 2015-02-26T23:50:39.680Z [client] TMS intensity = 45
+2015-02-26T23:50:45.930 - 2015-02-26T23:50:45.492Z [client] Negative answer received
+2015-02-26T23:50:53.339 - 2015-02-26T23:50:52.889Z [client] Asking question: Can it fly?
+Trial #18
+Chose closest target
+2015-02-26T23:51:16.608 - 2015-02-26T23:51:16.161Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:51:18.941 - 2015-02-26T23:51:18.489Z [client] TMS intensity = 69
+2015-02-26T23:51:23.828 - 2015-02-26T23:51:23.374Z [client] Negative answer received
+2015-02-26T23:52:13.237 - 2015-02-26T23:52:12.788Z [client] The file being used is: /20Questions/Questions-Toy-01.csv
+2015-02-26T23:52:13.247 - 2015-02-26T23:52:12.790Z [client] Answer is Remote control car
+2015-02-26T23:52:18.327 - 2015-02-26T23:52:17.872Z [client] Asking question: Soft?
+Trial #19
+Chose closest target
+2015-02-26T23:52:41.381 - 2015-02-26T23:52:40.943Z [client] Negative signal detected, triggering TMS (low)
+2015-02-26T23:52:43.726 - 2015-02-26T23:52:43.272Z [client] TMS intensity = 43
+2015-02-26T23:52:47.646 - 2015-02-26T23:52:47.186Z [client] Positive answer received
+2015-02-26T23:52:51.966 - 2015-02-26T23:52:51.510Z [client] Asking question: Moveable parts?
+Trial #20
+Chose closest target
+2015-02-26T23:53:15.142 - 2015-02-26T23:53:14.690Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:53:17.472 - 2015-02-26T23:53:17.018Z [client] TMS intensity = 73
+2015-02-26T23:53:21.302 - 2015-02-26T23:53:20.845Z [client] Positive answer received
+2015-02-26T23:53:24.002 - 2015-02-26T23:53:23.546Z [client] Asking question: Battery operated?
+Trial #21
+Chose closest target
+2015-02-26T23:53:47.364 - 2015-02-26T23:53:46.910Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:53:49.694 - 2015-02-26T23:53:49.240Z [client] TMS intensity = 73
+2015-02-26T23:53:54.606 - 2015-02-26T23:53:54.166Z [client] Positive answer received
+2015-02-26T23:59:27.971 - 2015-02-26T23:59:27.532Z [client] The file being used is: /20Questions/Questions-Kitchen-01.csv
+2015-02-26T23:59:27.981 - 2015-02-26T23:59:27.535Z [client] Answer is Toaster
+2015-02-26T23:59:31.464 - 2015-02-26T23:59:31.031Z [client] Asking question: Shiny?
+Trial #1
+Chose closest target
+2015-02-26T23:59:54.863 - 2015-02-26T23:59:54.423Z [client] Positive signal detected, triggering TMS (high)
+2015-02-26T23:59:57.195 - 2015-02-26T23:59:56.753Z [client] TMS intensity = 69
+2015-02-27T00:00:02.196 - 2015-02-27T00:00:01.757Z [client] Positive answer received
+2015-02-27T00:00:05.117 - 2015-02-27T00:00:04.682Z [client] Asking question: Can hold a lot of liquid?
+Trial #2
+Chose closest target
+2015-02-27T00:00:28.351 - 2015-02-27T00:00:27.914Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:00:30.681 - 2015-02-27T00:00:30.242Z [client] TMS intensity = 43
+2015-02-27T00:00:33.612 - 2015-02-27T00:00:33.173Z [client] Negative answer received
+2015-02-27T00:00:35.652 - 2015-02-27T00:00:35.214Z [client] Asking question: Heavy?
+Trial #3
+Chose closest target
+2015-02-27T00:00:58.790 - 2015-02-27T00:00:58.347Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:01:01.112 - 2015-02-27T00:01:00.676Z [client] TMS intensity = 73
+2015-02-27T00:01:03.613 - 2015-02-27T00:01:03.175Z [client] Positive answer received
+2015-02-27T00:02:03.632 - 2015-02-27T00:02:03.207Z [client] The file being used is: /20Questions/Questions-Dwelling-01.csv
+2015-02-27T00:02:03.637 - 2015-02-27T00:02:03.208Z [client] Answer is Cabin
+2015-02-27T00:02:07.147 - 2015-02-27T00:02:06.727Z [client] Asking question: Onsite laundry?
+Trial #4
+2015-02-27T00:02:28.340 - 2015-02-27T00:02:27.904Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:02:30.667 - 2015-02-27T00:02:30.236Z [client] TMS intensity = 41
+2015-02-27T00:02:40.407 - 2015-02-27T00:02:39.969Z [client] Negative answer received
+2015-02-27T00:02:43.433 - 2015-02-27T00:02:42.996Z [client] Asking question: Kitchen?
+Trial #5
+Chose closest target
+2015-02-27T00:03:06.648 - 2015-02-27T00:03:06.222Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:03:08.964 - 2015-02-27T00:03:08.550Z [client] TMS intensity = 39
+2015-02-27T00:03:13.930 - 2015-02-27T00:03:13.503Z [client] Negative answer received
+2015-02-27T00:03:21.065 - 2015-02-27T00:03:20.638Z [client] Asking question: Spacious?
+Trial #6
+Chose closest target
+2015-02-27T00:03:44.224 - 2015-02-27T00:03:43.792Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:03:46.550 - 2015-02-27T00:03:46.120Z [client] TMS intensity = 41
+2015-02-27T00:03:51.951 - 2015-02-27T00:03:51.523Z [client] Negative answer received
+2015-02-27T00:04:38.962 - 2015-02-27T00:04:38.537Z [client] The file being used is: /20Questions/Questions-Flavor-01.csv
+2015-02-27T00:04:38.972 - 2015-02-27T00:04:38.539Z [client] Answer is Vinegar
+2015-02-27T00:04:43.662 - 2015-02-27T00:04:43.231Z [client] Asking question: Sweet?
+Trial #7
+2015-02-27T00:04:54.585 - 2015-02-27T00:04:54.156Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:04:56.915 - 2015-02-27T00:04:56.484Z [client] TMS intensity = 41
+2015-02-27T00:05:15.211 - 2015-02-27T00:05:14.775Z [client] Negative answer received
+2015-02-27T00:05:18.968 - 2015-02-27T00:05:18.537Z [client] Asking question: Liquid?
+Trial #8
+Chose closest target
+2015-02-27T00:05:42.136 - 2015-02-27T00:05:41.709Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:05:44.466 - 2015-02-27T00:05:44.039Z [client] TMS intensity = 73
+2015-02-27T00:05:48.295 - 2015-02-27T00:05:47.865Z [client] Positive answer received
+2015-02-27T00:05:51.495 - 2015-02-27T00:05:51.069Z [client] Asking question: Can be red?
+Trial #9
+Chose closest target
+2015-02-27T00:06:14.628 - 2015-02-27T00:06:14.200Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:06:16.951 - 2015-02-27T00:06:16.529Z [client] TMS intensity = 39
+2015-02-27T00:06:20.981 - 2015-02-27T00:06:20.559Z [client] Negative answer received
+2015-02-27T00:07:16.304 - 2015-02-27T00:07:15.877Z [client] The file being used is: /20Questions/Questions-City-01.csv
+2015-02-27T00:07:16.314 - 2015-02-27T00:07:15.879Z [client] Answer is Boulder
+2015-02-27T00:07:20.985 - 2015-02-27T00:07:20.554Z [client] Asking question: West Coast?
+Trial #10
+2015-02-27T00:07:33.450 - 2015-02-27T00:07:33.027Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:07:35.781 - 2015-02-27T00:07:35.359Z [client] TMS intensity = 73
+2015-02-27T00:07:51.983 - 2015-02-27T00:07:51.554Z [client] Negative answer received
+2015-02-27T00:07:54.706 - 2015-02-27T00:07:54.282Z [client] Asking question: Has a football team?
+Trial #11
+Chose closest target
+2015-02-27T00:08:17.913 - 2015-02-27T00:08:17.486Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:08:20.244 - 2015-02-27T00:08:19.816Z [client] TMS intensity = 41
+2015-02-27T00:08:24.765 - 2015-02-27T00:08:24.335Z [client] Negative answer received
+2015-02-27T00:08:28.386 - 2015-02-27T00:08:27.962Z [client] Asking question: Popular destination spot?
+Trial #12
+Chose closest target
+2015-02-27T00:08:51.519 - 2015-02-27T00:08:51.094Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:08:53.850 - 2015-02-27T00:08:53.426Z [client] TMS intensity = 71
+2015-02-27T00:08:58.137 - 2015-02-27T00:08:57.713Z [client] Negative answer received
+2015-02-27T00:10:08.302 - 2015-02-27T00:10:07.872Z [client] The file being used is: /20Questions/Questions-Animal-02.csv
+2015-02-27T00:10:08.302 - 2015-02-27T00:10:07.874Z [client] Answer is Salmon
+2015-02-27T00:10:13.443 - 2015-02-27T00:10:13.017Z [client] Asking question: Is it edible?
+Trial #13
+Chose closest target
+2015-02-27T00:10:36.643 - 2015-02-27T00:10:36.218Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:10:38.973 - 2015-02-27T00:10:38.548Z [client] TMS intensity = 73
+2015-02-27T00:10:42.685 - 2015-02-27T00:10:42.254Z [client] Positive answer received
+2015-02-27T00:10:47.157 - 2015-02-27T00:10:46.733Z [client] Asking question: Does it live in the water?
+Trial #14
+Chose closest target
+2015-02-27T00:11:10.393 - 2015-02-27T00:11:09.964Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:11:12.724 - 2015-02-27T00:11:12.292Z [client] TMS intensity = 73
+2015-02-27T00:11:15.765 - 2015-02-27T00:11:15.338Z [client] Positive answer received
+2015-02-27T00:11:18.860 - 2015-02-27T00:11:18.428Z [client] Asking question: Does it have a tail?
+Trial #15
+Chose closest target
+2015-02-27T00:11:42.113 - 2015-02-27T00:11:41.687Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:11:44.445 - 2015-02-27T00:11:44.016Z [client] TMS intensity = 73
+2015-02-27T00:11:48.065 - 2015-02-27T00:11:47.634Z [client] Positive answer received
+2015-02-27T00:12:42.987 - 2015-02-27T00:12:42.569Z [client] The file being used is: /20Questions/Questions-Object-01.csv
+2015-02-27T00:12:42.990 - 2015-02-27T00:12:42.570Z [client] Answer is Baseball
+2015-02-27T00:12:48.562 - 2015-02-27T00:12:48.127Z [client] Asking question: Does it float?
+Trial #16
+Chose closest target
+2015-02-27T00:13:11.661 - 2015-02-27T00:13:11.225Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:13:13.981 - 2015-02-27T00:13:13.555Z [client] TMS intensity = 73
+2015-02-27T00:13:16.831 - 2015-02-27T00:13:16.392Z [client] Positive answer received
+2015-02-27T00:13:20.489 - 2015-02-27T00:13:20.059Z [client] Asking question: Is it man-made?
+Trial #17
+Chose closest target
+2015-02-27T00:13:43.627 - 2015-02-27T00:13:43.193Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:13:45.949 - 2015-02-27T00:13:45.521Z [client] TMS intensity = 39
+2015-02-27T00:13:50.612 - 2015-02-27T00:13:50.180Z [client] Negative answer received
+2015-02-27T00:13:53.662 - 2015-02-27T00:13:53.231Z [client] Asking question: Does it fit in a shoebox?
+Trial #18
+Chose closest target
+2015-02-27T00:14:16.870 - 2015-02-27T00:14:16.438Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:14:19.200 - 2015-02-27T00:14:18.768Z [client] TMS intensity = 69
+2015-02-27T00:14:22.241 - 2015-02-27T00:14:21.818Z [client] Positive answer received
+2015-02-27T00:15:15.936 - 2015-02-27T00:15:15.516Z [client] The file being used is: /20Questions/Questions-Food-01.csv
+2015-02-27T00:15:15.948 - 2015-02-27T00:15:15.517Z [client] Answer is Beer
+2015-02-27T00:15:20.063 - 2015-02-27T00:15:19.650Z [client] Asking question: Is it sweet?
+Trial #19
+2015-02-27T00:15:40.128 - 2015-02-27T00:15:39.705Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:15:42.459 - 2015-02-27T00:15:42.034Z [client] TMS intensity = 41
+2015-02-27T00:15:51.134 - 2015-02-27T00:15:50.700Z [client] Negative answer received
+2015-02-27T00:15:53.494 - 2015-02-27T00:15:53.068Z [client] Asking question: Is it served cold?
+Trial #20
+Chose closest target
+2015-02-27T00:16:16.643 - 2015-02-27T00:16:16.229Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:16:18.983 - 2015-02-27T00:16:18.557Z [client] TMS intensity = 39
+2015-02-27T00:16:23.677 - 2015-02-27T00:16:23.248Z [client] Negative answer received
+2015-02-27T00:16:27.882 - 2015-02-27T00:16:27.454Z [client] Asking question: Is it liquid?
+Trial #21
+Chose closest target
+2015-02-27T00:16:51.199 - 2015-02-27T00:16:50.786Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:16:53.543 - 2015-02-27T00:16:53.115Z [client] TMS intensity = 71
+2015-02-27T00:16:57.810 - 2015-02-27T00:16:57.384Z [client] Negative answer received
+2015-02-27T00:27:45.457 - 2015-02-27T00:27:44.961Z [client] The file being used is: /20Questions/Questions-Occupation-01.csv
+2015-02-27T00:27:45.467 - 2015-02-27T00:27:44.967Z [client] Answer is Nurse
+2015-02-27T00:27:49.470 - 2015-02-27T00:27:48.971Z [client] Asking question: Uniform required?
+Trial #1
+Chose closest target
+2015-02-27T00:28:12.603 - 2015-02-27T00:28:12.107Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:28:15.456 - 2015-02-27T00:28:14.957Z [client] TMS intensity = 71
+2015-02-27T00:28:18.819 - 2015-02-27T00:28:18.325Z [client] Negative answer received
+2015-02-27T00:28:22.189 - 2015-02-27T00:28:21.694Z [client] Asking question: Collee degree needed?
+Trial #2
+Chose closest target
+2015-02-27T00:28:45.354 - 2015-02-27T00:28:44.872Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:28:47.695 - 2015-02-27T00:28:47.202Z [client] TMS intensity = 69
+2015-02-27T00:28:51.731 - 2015-02-27T00:28:51.247Z [client] Negative answer received
+2015-02-27T00:28:55.176 - 2015-02-27T00:28:54.684Z [client] Asking question: Works in hospital?
+Trial #3
+Chose closest target
+2015-02-27T00:29:18.356 - 2015-02-27T00:29:17.870Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:29:20.699 - 2015-02-27T00:29:20.210Z [client] TMS intensity = 71
+2015-02-27T00:29:24.648 - 2015-02-27T00:29:24.150Z [client] Negative answer received
+2015-02-27T00:30:16.497 - 2015-02-27T00:30:16.005Z [client] The file being used is: /20Questions/Questions-Vehicle-01.csv
+2015-02-27T00:30:16.497 - 2015-02-27T00:30:16.007Z [client] Answer is Unicycle
+2015-02-27T00:30:21.131 - 2015-02-27T00:30:20.645Z [client] Asking question: Accomodates more than 1 person?
+Trial #4
+Chose closest target
+2015-02-27T00:30:44.452 - 2015-02-27T00:30:43.963Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:30:46.782 - 2015-02-27T00:30:46.296Z [client] TMS intensity = 43
+2015-02-27T00:30:50.692 - 2015-02-27T00:30:50.201Z [client] Negative answer received
+2015-02-27T00:30:54.692 - 2015-02-27T00:30:54.199Z [client] Asking question: 4 wheels?
+Trial #5
+2015-02-27T00:31:16.949 - 2015-02-27T00:31:16.456Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:31:19.289 - 2015-02-27T00:31:18.793Z [client] TMS intensity = 43
+2015-02-27T00:31:24.539 - 2015-02-27T00:31:24.047Z [client] Negative answer received
+2015-02-27T00:31:27.410 - 2015-02-27T00:31:26.919Z [client] Asking question: Engine?
+Trial #6
+Chose closest target
+2015-02-27T00:31:50.693 - 2015-02-27T00:31:50.200Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:31:53.033 - 2015-02-27T00:31:52.542Z [client] TMS intensity = 43
+2015-02-27T00:31:56.633 - 2015-02-27T00:31:56.137Z [client] Negative answer received
+2015-02-27T00:32:54.146 - 2015-02-27T00:32:53.654Z [client] The file being used is: /20Questions/Questions-Furniture-01.csv
+2015-02-27T00:32:54.146 - 2015-02-27T00:32:53.656Z [client] Answer is Recliner
+2015-02-27T00:32:57.228 - 2015-02-27T00:32:56.743Z [client] Asking question: Sit on?
+Trial #7
+Chose closest target
+2015-02-27T00:33:20.315 - 2015-02-27T00:33:19.820Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:33:22.655 - 2015-02-27T00:33:22.161Z [client] TMS intensity = 71
+2015-02-27T00:33:25.807 - 2015-02-27T00:33:25.309Z [client] Positive answer received
+2015-02-27T00:33:30.348 - 2015-02-27T00:33:29.859Z [client] Asking question: Likely multi-person use at once?
+Trial #8
+Chose closest target
+2015-02-27T00:33:53.547 - 2015-02-27T00:33:53.067Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:33:55.876 - 2015-02-27T00:33:55.395Z [client] TMS intensity = 39
+2015-02-27T00:34:00.827 - 2015-02-27T00:34:00.347Z [client] Negative answer received
+2015-02-27T00:34:03.569 - 2015-02-27T00:34:03.079Z [client] Asking question: Fabric?
+Trial #9
+Chose closest target
+2015-02-27T00:34:26.800 - 2015-02-27T00:34:26.310Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:34:29.130 - 2015-02-27T00:34:28.640Z [client] TMS intensity = 71
+2015-02-27T00:34:31.730 - 2015-02-27T00:34:31.236Z [client] Positive answer received
+2015-02-27T00:35:39.410 - 2015-02-27T00:35:38.921Z [client] The file being used is: /20Questions/Questions-Object-02.csv
+2015-02-27T00:35:39.420 - 2015-02-27T00:35:38.923Z [client] Answer is Snorkel
+2015-02-27T00:35:43.162 - 2015-02-27T00:35:42.668Z [client] Asking question: Is it a vehicle?
+Trial #10
+Chose closest target
+2015-02-27T00:36:06.451 - 2015-02-27T00:36:05.955Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:36:08.781 - 2015-02-27T00:36:08.293Z [client] TMS intensity = 43
+2015-02-27T00:36:12.921 - 2015-02-27T00:36:12.420Z [client] Negative answer received
+2015-02-27T00:36:16.341 - 2015-02-27T00:36:15.850Z [client] Asking question: Does it float?
+Trial #11
+Chose closest target
+2015-02-27T00:36:39.437 - 2015-02-27T00:36:38.942Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:36:41.761 - 2015-02-27T00:36:41.272Z [client] TMS intensity = 73
+2015-02-27T00:36:45.591 - 2015-02-27T00:36:45.099Z [client] Negative answer received
+2015-02-27T00:36:48.801 - 2015-02-27T00:36:48.304Z [client] Asking question: Does it use power?
+Trial #12
+Chose closest target
+2015-02-27T00:37:12.138 - 2015-02-27T00:37:11.660Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:37:14.460 - 2015-02-27T00:37:13.988Z [client] TMS intensity = 43
+2015-02-27T00:37:18.317 - 2015-02-27T00:37:17.830Z [client] Negative answer received
+2015-02-27T00:38:20.872 - 2015-02-27T00:38:20.398Z [client] The file being used is: /20Questions/Questions-City-01.csv
+2015-02-27T00:38:20.875 - 2015-02-27T00:38:20.399Z [client] Answer is New York
+2015-02-27T00:38:24.366 - 2015-02-27T00:38:23.879Z [client] Asking question: Popular destination spot?
+Trial #13
+Chose closest target
+2015-02-27T00:38:47.424 - 2015-02-27T00:38:46.958Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:38:49.778 - 2015-02-27T00:38:49.295Z [client] TMS intensity = 71
+2015-02-27T00:38:54.519 - 2015-02-27T00:38:54.032Z [client] Positive answer received
+2015-02-27T00:38:57.146 - 2015-02-27T00:38:56.665Z [client] Asking question: West Coast?
+Trial #14
+Chose closest target
+2015-02-27T00:39:20.416 - 2015-02-27T00:39:19.950Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:39:22.758 - 2015-02-27T00:39:22.282Z [client] TMS intensity = 39
+2015-02-27T00:39:26.561 - 2015-02-27T00:39:26.078Z [client] Negative answer received
+2015-02-27T00:39:29.342 - 2015-02-27T00:39:28.872Z [client] Asking question: Has a football team?
+Trial #15
+Chose closest target
+2015-02-27T00:39:52.431 - 2015-02-27T00:39:51.958Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:39:54.758 - 2015-02-27T00:39:54.285Z [client] TMS intensity = 69
+2015-02-27T00:39:57.454 - 2015-02-27T00:39:56.979Z [client] Positive answer received
+2015-02-27T00:40:41.563 - 2015-02-27T00:40:41.088Z [client] The file being used is: /20Questions/Questions-Animal-01.csv
+2015-02-27T00:40:41.573 - 2015-02-27T00:40:41.095Z [client] Answer is Sugar glider
+2015-02-27T00:40:45.287 - 2015-02-27T00:40:44.812Z [client] Asking question: Is it a mammal?
+Trial #16
+Chose closest target
+2015-02-27T00:41:08.422 - 2015-02-27T00:41:07.952Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:41:10.754 - 2015-02-27T00:41:10.282Z [client] TMS intensity = 71
+2015-02-27T00:41:16.385 - 2015-02-27T00:41:15.909Z [client] Negative answer received
+2015-02-27T00:41:21.216 - 2015-02-27T00:41:20.745Z [client] Asking question: Is it a pet?
+Trial #17
+Chose closest target
+2015-02-27T00:41:44.429 - 2015-02-27T00:41:43.979Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:41:46.774 - 2015-02-27T00:41:46.314Z [client] TMS intensity = 73
+2015-02-27T00:41:49.513 - 2015-02-27T00:41:49.062Z [client] Positive answer received
+2015-02-27T00:41:53.473 - 2015-02-27T00:41:53.014Z [client] Asking question: Can it fly?
+Trial #18
+Chose closest target
+2015-02-27T00:42:16.681 - 2015-02-27T00:42:16.226Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:42:19.021 - 2015-02-27T00:42:18.559Z [client] TMS intensity = 69
+2015-02-27T00:42:22.218 - 2015-02-27T00:42:21.771Z [client] Positive answer received
+2015-02-27T00:43:20.738 - 2015-02-27T00:43:20.290Z [client] The file being used is: /20Questions/Questions-Vegetable-01.csv
+2015-02-27T00:43:20.742 - 2015-02-27T00:43:20.292Z [client] Answer is Cucumber
+2015-02-27T00:43:23.764 - 2015-02-27T00:43:23.317Z [client] Asking question: Green?
+Trial #19
+Chose closest target
+2015-02-27T00:43:46.921 - 2015-02-27T00:43:46.469Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:43:49.252 - 2015-02-27T00:43:48.798Z [client] TMS intensity = 71
+2015-02-27T00:43:53.248 - 2015-02-27T00:43:52.787Z [client] Negative answer received
+2015-02-27T00:43:56.438 - 2015-02-27T00:43:55.979Z [client] Asking question: Grows on a vine?
+Trial #20
+Chose closest target
+2015-02-27T00:44:19.650 - 2015-02-27T00:44:19.197Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:44:21.980 - 2015-02-27T00:44:21.525Z [client] TMS intensity = 71
+2015-02-27T00:44:26.120 - 2015-02-27T00:44:25.656Z [client] Negative answer received
+2015-02-27T00:44:28.503 - 2015-02-27T00:44:28.042Z [client] Asking question: Edible skin?
+Trial #21
+Chose closest target
+2015-02-27T00:44:51.625 - 2015-02-27T00:44:51.171Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:44:53.955 - 2015-02-27T00:44:53.500Z [client] TMS intensity = 73
+2015-02-27T00:44:57.928 - 2015-02-27T00:44:57.467Z [client] Negative answer received
+2015-02-27T00:45:49.782 - 2015-02-27T00:45:49.322Z [client] The file being used is: /20Questions/Questions-Fruit-01.csv
+2015-02-27T00:45:49.792 - 2015-02-27T00:45:49.323Z [client] Answer is Blueberry
+2015-02-27T00:45:52.666 - 2015-02-27T00:45:52.207Z [client] Asking question: Berry?
+Trial #22
+Chose closest target
+2015-02-27T00:46:15.748 - 2015-02-27T00:46:15.310Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:46:18.083 - 2015-02-27T00:46:17.645Z [client] TMS intensity = 71
+2015-02-27T00:46:22.099 - 2015-02-27T00:46:21.648Z [client] Negative answer received
+2015-02-27T00:46:24.463 - 2015-02-27T00:46:24.017Z [client] Asking question: Red?
+Trial #23
+Chose closest target
+2015-02-27T00:46:47.737 - 2015-02-27T00:46:47.299Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:46:50.070 - 2015-02-27T00:46:49.633Z [client] TMS intensity = 39
+2015-02-27T00:46:53.524 - 2015-02-27T00:46:53.083Z [client] Negative answer received
+2015-02-27T00:46:56.400 - 2015-02-27T00:46:55.963Z [client] Asking question: Smooth?
+Trial #24
+Chose closest target
+2015-02-27T00:47:19.743 - 2015-02-27T00:47:19.288Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:47:22.070 - 2015-02-27T00:47:21.616Z [client] TMS intensity = 71
+2015-02-27T00:47:25.511 - 2015-02-27T00:47:25.059Z [client] Negative answer received
+2015-02-27T00:48:21.873 - 2015-02-27T00:48:21.441Z [client] The file being used is: /20Questions/Questions-Family-01.csv
+2015-02-27T00:48:21.895 - 2015-02-27T00:48:21.442Z [client] Answer is Uncle
+2015-02-27T00:48:24.806 - 2015-02-27T00:48:24.365Z [client] Asking question: Likely older than you?
+Trial #25
+Chose closest target
+2015-02-27T00:48:47.932 - 2015-02-27T00:48:47.483Z [client] Positive signal detected, triggering TMS (high)
+2015-02-27T00:48:50.244 - 2015-02-27T00:48:49.812Z [client] TMS intensity = 71
+2015-02-27T00:48:53.777 - 2015-02-27T00:48:53.343Z [client] Positive answer received
+2015-02-27T00:48:56.358 - 2015-02-27T00:48:55.926Z [client] Asking question: Female?
+Trial #26
+Chose closest target
+2015-02-27T00:49:19.639 - 2015-02-27T00:49:19.203Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:49:21.992 - 2015-02-27T00:49:21.536Z [client] TMS intensity = 39
+2015-02-27T00:49:25.605 - 2015-02-27T00:49:25.175Z [client] Negative answer received
+2015-02-27T00:49:28.491 - 2015-02-27T00:49:28.047Z [client] Asking question: Immediate family?
+Trial #27
+Chose closest target
+2015-02-27T00:49:51.628 - 2015-02-27T00:49:51.201Z [client] Negative signal detected, triggering TMS (low)
+2015-02-27T00:49:53.961 - 2015-02-27T00:49:53.533Z [client] TMS intensity = 39
+2015-02-27T00:49:57.692 - 2015-02-27T00:49:57.254Z [client] Negative answer received
+Run 6 finished: 27 trial(s)
