@@ -56,6 +56,21 @@ ENDIF()
 IF( EXISTS "${PROJECT_SRC_DIR}/custom/CustomConfig.cmake" AND BUILD_CUSTOM )
   INCLUDE( "${PROJECT_SRC_DIR}/custom/CustomConfig.cmake" )
 ENDIF()
+
+############ new ########
+# Add custom signal processing module located in src/shared/modules/signalprocessing
+set(SIGNAL_PROCESSING_MODULES
+    ${PROJECT_SOURCE_ROOT}/src/shared/modules/signalprocessing/TestModSignalProcessing.cpp
+)
+
+# Add each module in SIGNAL_PROCESSING_MODULES as a library
+foreach(module ${SIGNAL_PROCESSING_MODULES})
+    get_filename_component(module_name ${module} NAME_WE)
+    add_library(${module_name} MODULE ${module})
+    target_link_libraries(${module_name} PRIVATE BCI2000CommonLibs)
+endforeach()
+############ new ########
+
 ADD_SUBDIRECTORY( ${PROJECT_SOURCE_ROOT}/build/cmake/frameworks "${PROJECT_BUILD_DIR}/frameworks" )
 ADD_SUBDIRECTORY( ${PROJECT_SOURCE_ROOT}/build/cmake/extlib "${PROJECT_BUILD_DIR}/extlib" )
 ADD_SUBDIRECTORY( ${PROJECT_SRC_DIR}/shared/utils/Expression/test "${PROJECT_BUILD_DIR}/shared/Expression" )
