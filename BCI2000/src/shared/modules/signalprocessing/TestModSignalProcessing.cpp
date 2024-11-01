@@ -1,19 +1,42 @@
 #include "TestModSignalProcessing.h"
-#include <H5Cpp.h>
+#include <fstream>
+#include <iostream>
 #include <vector>
 
+void convertSnirfToDat(const std::string& snirfFile, const std::string& datFile) {
+    // Open the .snirf file for reading
+    std::ifstream inputFile(snirfFile);
+    if (!inputFile.is_open()) {
+        std::cerr << "Error opening file: " << snirfFile << std::endl;
+        return;
+    }
+
+    // Open the .dat file for writing
+    std::ofstream outputFile(datFile);
+    if (!outputFile.is_open()) {
+        std::cerr << "Error opening file: " << datFile << std::endl;
+        return;
+    }
+
+    std::string line;
+    // Read each line of the .snirf file and write it to the .dat file
+    while (std::getline(inputFile, line)) {
+        // Write the line to the .dat file
+        outputFile << line << std::endl;
+    }
+
+    // Close the files
+    inputFile.close();
+    outputFile.close();
+}
+
 int main() {
-    H5::H5File file("path_to_file.snirf", H5F_ACC_RDONLY);
-    H5::DataSet dataset = file.openDataSet("/nirs/data1/dataTimeSeries");
+    // Define the .snirf file and .dat file names
+    std::string snirfFile = "sample_nirs_data.snirf";
+    std::string datFile = "sample_nirs_data.dat";       // Output .dat file name
 
-    // Retrieve dataset dimensions, create a buffer, and read data
-    H5::DataSpace dataspace = dataset.getSpace();
-    hsize_t dims[2];
-    dataspace.getSimpleExtentDims(dims, NULL);
-    std::vector<double> data(dims[0] * dims[1]);
-    dataset.read(data.data(), H5::PredType::NATIVE_DOUBLE);
+    convertSnirfToDat(snirfFile, datFile);
+    std::cout << "Conversion complete: " << datFile << " created." << std::endl;
 
-    // Save or process data here
-    file.close();
     return 0;
 }
