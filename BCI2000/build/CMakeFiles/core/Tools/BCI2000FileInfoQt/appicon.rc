@@ -1,0 +1,4 @@
+#pragma code_page(65001)
+1 ICON "C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/question-mark.ico"
+2 ICON "C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/signal-document.ico"
+3 ICON "C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/text-document.ico"

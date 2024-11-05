@@ -1,0 +1,9 @@
+﻿  Version.cpp
+  BlackrockGemini.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\BlackrockGemini\Release\BlackrockGemini.exe
+  			Deploying executable
+  copying files:
+  Cannot list dependencies, executable depends on modules that failed to load:
+   cbsdkx64.dll
+  Executable may fail to run when moved to a different machine.
+  Copying BlackrockGemini.exe ...
+  Done.

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/FFT.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/MATH.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/STATISTICS.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/Core.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/LibTiny.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/SigProcModule.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/SignalProcessing/Spectral/CMakeLists.txt

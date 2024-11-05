@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/3DAPI.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/FFMPEG.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/OPENGL.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/PORTAUDIO.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/QT.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/SAPI.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/SDL2.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/AppModule.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/AppModuleLib/AppFiles.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/AppModuleLib/CMakeLists.txt
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/Core.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/LibTiny.cmake

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\BootstrapCustomProjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\ADC.prm.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\CMakeLists-Application.txt.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\CMakeLists-HyperscanningApplication.txt.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\CMakeLists-SignalProcessing.txt.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\CMakeLists-SignalSource.txt.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\CursorTask_ADC.bat.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\P3Speller_ADC.bat.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\PipeDefinition.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\StimulusPresentation_ADC.bat.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateApplication.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateApplication.h.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateBufferedADC.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateBufferedADC.h.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateFilter.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateFilter.h.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateHyperscanningApplication.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateHyperscanningApplication.h.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateIncludeExtension.cmake.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateLogger.cpp.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\TemplateLogger.h.in.res.cpp">
+      <Filter>Generated\Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\buildenv.h">
+      <Filter>Header Files\build\buildutils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\ADC.prm.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-Application.txt.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-HyperscanningApplication.txt.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalProcessing.txt.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalSource.txt.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CursorTask_ADC.bat.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\P3Speller_ADC.bat.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\PipeDefinition.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\StimulusPresentation_ADC.bat.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.h.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.h.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.h.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.h.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateIncludeExtension.cmake.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.cpp.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.h.in">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\ADC.prm.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\CMakeLists-Application.txt.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\CMakeLists-HyperscanningApplication.txt.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\CMakeLists-SignalProcessing.txt.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\CMakeLists-SignalSource.txt.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\CursorTask_ADC.bat.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\P3Speller_ADC.bat.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\PipeDefinition.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\StimulusPresentation_ADC.bat.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateApplication.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateApplication.h.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateBufferedADC.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateBufferedADC.h.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateFilter.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateFilter.h.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateHyperscanningApplication.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateHyperscanningApplication.h.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateIncludeExtension.cmake.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateLogger.cpp.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\7ce2c374b26c8bc0380ec9c46b03e8c6\TemplateLogger.h.in.res.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{382B5F73-3266-3E21-A408-A10057CF6890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\build">
+      <UniqueIdentifier>{6A93D741-7CCB-3DC3-AB51-B09C7DE71F27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\build\buildutils">
+      <UniqueIdentifier>{47612687-2EA2-373D-AAB2-FEB5D6FBF4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{F5AD93F4-6C7D-37D1-999B-CF2FB44F92BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

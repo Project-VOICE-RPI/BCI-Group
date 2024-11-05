@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B3265E5-09C8-3AD4-8272-16D075A3D6E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>actiCHampPlus</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">actiCHampPlus.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">actiCHampPlus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">actiCHampPlus.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">actiCHampPlus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">actiCHampPlus.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">actiCHampPlus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;TARGET_NAME="actiCHampPlus";TARGET_FILE_NAME="actiCHampPlus.exe";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION="BCI2000 actiCHampPlus Signal source module";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;TARGET_NAME=\"actiCHampPlus\";TARGET_FILE_NAME=\"actiCHampPlus.exe\";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION=\"BCI2000 actiCHampPlus Signal source module\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Release/actiCHampPlus.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Release/actiCHampPlus.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\AmplifierSDK.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\actiCHampLib.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\ActiChamp_x64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\..\frameworks\SigSrcModuleLib\Release\BCI2000FrameworkSigSrcModule.lib;..\..\..\frameworks\CoreLib\DynamicCrt\Release\BCI2000FrameworkCore_DynamicCrt.lib;..\..\..\frameworks\LibTiny\DynamicCrt\Release\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /include:SigSrcRegistry</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Release/actiCHampPlus.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Release/actiCHampPlus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;TARGET_NAME="actiCHampPlus";TARGET_FILE_NAME="actiCHampPlus.exe";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION="BCI2000 actiCHampPlus Signal source module";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;TARGET_NAME=\"actiCHampPlus\";TARGET_FILE_NAME=\"actiCHampPlus.exe\";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION=\"BCI2000 actiCHampPlus Signal source module\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/RelWithDebInfo/actiCHampPlus.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/RelWithDebInfo/actiCHampPlus.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\AmplifierSDK.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\actiCHampLib.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\ActiChamp_x64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\..\frameworks\SigSrcModuleLib\RelWithDebInfo\BCI2000FrameworkSigSrcModule.lib;..\..\..\frameworks\CoreLib\DynamicCrt\RelWithDebInfo\BCI2000FrameworkCore_DynamicCrt.lib;..\..\..\frameworks\LibTiny\DynamicCrt\RelWithDebInfo\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /include:SigSrcRegistry</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/RelWithDebInfo/actiCHampPlus.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/RelWithDebInfo/actiCHampPlus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;TARGET_NAME="actiCHampPlus";TARGET_FILE_NAME="actiCHampPlus.exe";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION="BCI2000 actiCHampPlus Signal source module";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;TARGET_NAME=\"actiCHampPlus\";TARGET_FILE_NAME=\"actiCHampPlus.exe\";TARGET_IS_DYLIB=0;TARGET_DESCRIPTION=\"BCI2000 actiCHampPlus Signal source module\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;IS_FIRST_MODULE;MODTYPE=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination			</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Debug/actiCHampPlus.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Debug/actiCHampPlus.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\AmplifierSDK.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\actiCHampLib.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\dylib\x64\ActiChamp_x64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\..\frameworks\SigSrcModuleLib\Debug\BCI2000FrameworkSigSrcModule.lib;..\..\..\frameworks\CoreLib\DynamicCrt\Debug\BCI2000FrameworkCore_DynamicCrt.lib;..\..\..\frameworks\LibTiny\DynamicCrt\Debug\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /include:SigSrcRegistry</AdditionalOptions>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Debug/actiCHampPlus.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/Debug/actiCHampPlus.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/contrib/SignalSource/actiCHampPlus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigSrcModule.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/contrib/SignalSource/actiCHampPlus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigSrcModule.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/contrib/SignalSource/actiCHampPlus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/contrib/SignalSource/actiCHampPlus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigSrcModule.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\actiCHampPlusADC.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\actiCHampPlusADC.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\AmplifierSDK.imports.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\AmplifierSDK.imports.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\AmplifierSDK.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\Amplifier_LIB.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\lib\RawDataHandlerExample.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\actiCHampPlus\SDK.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\CorePCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreMain.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreModule.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreModule.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream_module.cpp" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus_\Resources.inc">
+    </None>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\signal-screen.ico">
+    </None>
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\appicon.rc" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cpp" />
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.rc" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\BCI2000FrameworkCore_DynamicCrt.vcxproj">
+      <Project>{2D6049E0-FB95-3B29-8F62-1C8C8F36C8D5}</Project>
+      <Name>BCI2000FrameworkCore_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib\BCI2000FrameworkSigSrcModule.vcxproj">
+      <Project>{2CBDC45A-9CDB-3596-966E-BBEF2756AE77}</Project>
+      <Name>BCI2000FrameworkSigSrcModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\DynamicCrt\LibTiny_DynamicCrt.vcxproj">
+      <Project>{A8E9D36A-4797-39C9-98F6-9C6B12B43593}</Project>
+      <Name>LibTiny_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\VersionCheck.vcxproj">
+      <Project>{0C57AFBD-0BB3-3F9E-957A-AFA9204444B3}</Project>
+      <Name>VersionCheck</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\SignalGenerator\icon-signal-screen.vcxproj">
+      <Project>{688B6CD4-DC70-382D-9B07-1CE3261555EA}</Project>
+      <Name>icon-signal-screen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

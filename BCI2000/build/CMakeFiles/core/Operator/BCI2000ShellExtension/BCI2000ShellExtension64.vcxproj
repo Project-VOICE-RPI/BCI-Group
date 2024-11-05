@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F4D7976-061A-3C52-8A20-A29BC6D251F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BCI2000ShellExtension64</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BCI2000ShellExtension64.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BCI2000ShellExtension64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BCI2000ShellExtension64.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BCI2000ShellExtension64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BCI2000ShellExtension64.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BCI2000ShellExtension64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;TARGET_NAME="BCI2000ShellExtension64";TARGET_FILE_NAME="BCI2000ShellExtension64.dll";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION="BCI2000ShellExtension";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Release";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;TARGET_NAME=\"BCI2000ShellExtension64\";TARGET_FILE_NAME=\"BCI2000ShellExtension64.dll\";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION=\"BCI2000ShellExtension\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Release\";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Release/BCI2000ShellExtension64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Release/BCI2000ShellExtension64.dll &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\InstallShellExtension.cmd C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;shlwapi.lib;..\..\..\frameworks\CoreLib\StaticCrt\Release\BCI2000FrameworkCore_StaticCrt.lib;..\..\..\frameworks\LibTiny\StaticCrt\Release\LibTiny_StaticCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt;msvcrtd;msvcprt;msvcprtd;msvcrt;msvcrtd;msvcprt;msvcprtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Release/BCI2000ShellExtension64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/com/ComModule.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Release/BCI2000ShellExtension64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;TARGET_NAME="BCI2000ShellExtension64";TARGET_FILE_NAME="BCI2000ShellExtension64.dll";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION="BCI2000ShellExtension";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="RelWithDebInfo";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;TARGET_NAME=\"BCI2000ShellExtension64\";TARGET_FILE_NAME=\"BCI2000ShellExtension64.dll\";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION=\"BCI2000ShellExtension\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"RelWithDebInfo\";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/RelWithDebInfo/BCI2000ShellExtension64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/RelWithDebInfo/BCI2000ShellExtension64.dll &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\InstallShellExtension.cmd C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;shlwapi.lib;..\..\..\frameworks\CoreLib\StaticCrt\RelWithDebInfo\BCI2000FrameworkCore_StaticCrt.lib;..\..\..\frameworks\LibTiny\StaticCrt\RelWithDebInfo\LibTiny_StaticCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt;msvcrtd;msvcprt;msvcprtd;msvcrt;msvcrtd;msvcprt;msvcprtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/RelWithDebInfo/BCI2000ShellExtension64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/com/ComModule.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/RelWithDebInfo/BCI2000ShellExtension64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;TARGET_NAME="BCI2000ShellExtension64";TARGET_FILE_NAME="BCI2000ShellExtension64.dll";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION="BCI2000ShellExtension";UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Debug";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;TARGET_NAME=\"BCI2000ShellExtension64\";TARGET_FILE_NAME=\"BCI2000ShellExtension64.dll\";TARGET_IS_DYLIB=1;TARGET_DESCRIPTION=\"BCI2000ShellExtension\";UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Debug\";BCI2000ShellExtension64_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	Copy to destination	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Debug/BCI2000ShellExtension64.dll C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Debug/BCI2000ShellExtension64.dll &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\InstallShellExtension.cmd C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//prog/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;shlwapi.lib;..\..\..\frameworks\CoreLib\StaticCrt\Debug\BCI2000FrameworkCore_StaticCrt.lib;..\..\..\frameworks\LibTiny\StaticCrt\Debug\LibTiny_StaticCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt;msvcrtd;msvcprt;msvcprtd;msvcrt;msvcrtd;msvcprt;msvcprtd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Debug/BCI2000ShellExtension64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/com/ComModule.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/Debug/BCI2000ShellExtension64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/Operator/BCI2000ShellExtension/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\COMMODULE.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/Operator/BCI2000ShellExtension/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\COMMODULE.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/Operator/BCI2000ShellExtension/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000ShellExtension/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\COMMODULE.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension.cpp" />
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension.rc" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\ContextMenuExtension.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\ContextMenuExtension.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\QueryInfoExtension.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\QueryInfoExtension.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\ExtractIconExtension.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\BCI2000ShellExtension\ExtractIconExtension.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream_comdll.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\CorePCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComModule.def" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComModule.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComModule.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComClassFactory.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComClassFactory.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComRegistrar.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComRegistrar.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComStrings.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComStrings.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComCoClass.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\com\ComPtr.h" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64_\Resources.inc">
+    </None>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\puzzlepiece.ico">
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\signal-document.ico">
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\text-document.ico">
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\generic-document.ico">
+    </None>
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\appicon.rc" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cpp" />
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\StaticCrt\BCI2000FrameworkCore_StaticCrt.vcxproj">
+      <Project>{12DBE2A7-09E5-3185-9F32-1E310A619C36}</Project>
+      <Name>BCI2000FrameworkCore_StaticCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\StaticCrt\LibTiny_StaticCrt.vcxproj">
+      <Project>{51886313-F378-3E20-A8FD-2467C6174324}</Project>
+      <Name>LibTiny_StaticCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\VersionCheck.vcxproj">
+      <Project>{0C57AFBD-0BB3-3F9E-957A-AFA9204444B3}</Project>
+      <Name>VersionCheck</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\icon-generic-document.vcxproj">
+      <Project>{C89323CD-E588-3B61-A08B-A53BA7A2840B}</Project>
+      <Name>icon-generic-document</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Expression\icon-puzzlepiece.vcxproj">
+      <Project>{5A5E2D98-D5B4-3B4D-9431-5B51D687AD3C}</Project>
+      <Name>icon-puzzlepiece</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\icon-signal-document.vcxproj">
+      <Project>{5CACE677-86AF-3C67-81FE-AC083A054241}</Project>
+      <Name>icon-signal-document</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\icon-text-document.vcxproj">
+      <Project>{D8ECFDBA-3CF4-3179-BE0F-31A6906A042E}</Project>
+      <Name>icon-text-document</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

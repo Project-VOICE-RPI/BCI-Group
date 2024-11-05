@@ -1,0 +1,52 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\C11132FEF0864991362932A723935EA6\EXCLAMATION-MARK256.PNG.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=exclamation-mark -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\85E994F9AB4E4AA9DEE8C47AAF7A0644\ICON-EXCLAMATION-MARK.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark256.png exclamation-mark16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp exclamation-mark16.png > exclamation-mark16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark256.png exclamation-mark32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp exclamation-mark32.png > exclamation-mark32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark256.png exclamation-mark48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp exclamation-mark48.png > exclamation-mark48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico exclamation-mark16.bmp exclamation-mark32.bmp exclamation-mark48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark256.png > C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/exclamation-mark.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove exclamation-mark16.png exclamation-mark32.png exclamation-mark48.png exclamation-mark16.bmp exclamation-mark32.bmp exclamation-mark48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\SRC\CORE\OPERATOR\MESSAGEBOX\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/MessageBox/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

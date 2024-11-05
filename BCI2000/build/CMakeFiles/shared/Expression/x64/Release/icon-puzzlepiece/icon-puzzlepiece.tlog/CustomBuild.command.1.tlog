@@ -1,0 +1,52 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\C11132FEF0864991362932A723935EA6\PUZZLEPIECE256.PNG.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=puzzlepiece -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\AC960698DC0808CF2203B195223DD687\ICON-PUZZLEPIECE.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece256.png puzzlepiece16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp puzzlepiece16.png > puzzlepiece16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece256.png puzzlepiece32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp puzzlepiece32.png > puzzlepiece32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece256.png puzzlepiece48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp puzzlepiece48.png > puzzlepiece48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico puzzlepiece16.bmp puzzlepiece32.bmp puzzlepiece48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece256.png > C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/puzzlepiece.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove puzzlepiece16.png puzzlepiece32.png puzzlepiece48.png puzzlepiece16.bmp puzzlepiece32.bmp puzzlepiece48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\SRC\SHARED\UTILS\EXPRESSION\TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/shared/Expression/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66052A4D-1C56-3F2A-B49C-8C79E0A47865}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BCI2000FrameworkSigProcModule</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BCI2000FrameworkSigProcModule.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BCI2000FrameworkSigProcModule</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BCI2000FrameworkSigProcModule.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BCI2000FrameworkSigProcModule</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BCI2000FrameworkSigProcModule.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BCI2000FrameworkSigProcModule</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>PCHIncludes.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;PRECOMPILED_HEADERS=1;REGISTRY_NAME=SigProcRegistry;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:ON USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\statistics;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\b96cc0328b09b2461f68486b5a206286\SigProcRegistry.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating SigProcRegistry.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "// Generated file -- do not edit" &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SourceDecimationFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpatialFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRFilterBase.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRBandpass.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ThreadedFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/WindowingFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Spectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FFTSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpectralEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/P3TemporalFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LinearClassifier.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LPFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ExpressionFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Normalizer.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FrequencyEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/AverageDisplay.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/RandomFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/utils/Multithreading.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CorePCH.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\extract_registry.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CorePCH.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\SigProcRegistry.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating SigProcRegistry.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "// Generated file -- do not edit" &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SourceDecimationFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpatialFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRFilterBase.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRBandpass.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ThreadedFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/WindowingFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Spectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FFTSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpectralEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/P3TemporalFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LinearClassifier.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LPFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ExpressionFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Normalizer.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FrequencyEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/AverageDisplay.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/RandomFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/utils/Multithreading.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CorePCH.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\extract_registry.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CorePCH.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\SigProcRegistry.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating SigProcRegistry.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "// Generated file -- do not edit" &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SourceDecimationFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpatialFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRFilterBase.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRBandpass.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ThreadedFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/WindowingFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Spectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FFTSpectrum.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpectralEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/P3TemporalFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LinearClassifier.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LPFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ExpressionFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Normalizer.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FrequencyEstimator.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/AverageDisplay.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/RandomFilter.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/utils/Multithreading.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry &lt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CorePCH.cpp &gt;&gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\extract_registry.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CorePCH.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\SigProcRegistry.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/SigProcModuleLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\FFT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\MATH.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\STATISTICS.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModule.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib\SigProcFiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/SigProcModuleLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\FFT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\MATH.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\STATISTICS.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModule.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib\SigProcFiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/SigProcModuleLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\FFT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\MATH.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\STATISTICS.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModule.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib\SigProcFiles.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CorePCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PCHIncludes.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/$(TargetName)_Core.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\Inventory.inc">
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\SigProcRegistry.inc">
+    </None>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\FilterDesign.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\FilterDesign.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\Detrend.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\IIRFilter.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\LinearPredictor.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\MEMPredictor.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\Polynomials.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\TransferSpectrum.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\FFTLibWrap.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\FFTLibWrap.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include\fftw3.imports.cpp" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_\Resources.inc">
+    </None>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\extract_registry.vcxproj">
+      <Project>{D1BC1BC6-819B-3B16-930C-BD0981C11188}</Project>
+      <Name>extract_registry</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

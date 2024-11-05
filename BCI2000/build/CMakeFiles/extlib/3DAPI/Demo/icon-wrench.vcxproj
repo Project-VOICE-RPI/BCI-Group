@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B3EFCE5-4301-35AA-A930-39F4010C6576}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>icon-wrench</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\opengl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\opengl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI\Demo;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\opengl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\c11132fef0864991362932a723935ea6\wrench256.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../icons/wrench256.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=wrench -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\combine_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\MakeIcon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../icons/wrench256.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=wrench -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\combine_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\MakeIcon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../icons/wrench256.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=wrench -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\combine_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\MakeIcon.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\4333abb8c38f8078a14b7e33242cb0ae\icon-wrench.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench16.png &gt; wrench16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench32.png &gt; wrench32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench48.png &gt; wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico wrench16.bmp wrench32.bmp wrench48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove wrench16.png wrench32.png wrench48.png wrench16.bmp wrench32.bmp wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\make_win32ico.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\png2bmp.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\icon-wrench</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench16.png &gt; wrench16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench32.png &gt; wrench32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench48.png &gt; wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico wrench16.bmp wrench32.bmp wrench48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove wrench16.png wrench32.png wrench48.png wrench16.bmp wrench32.bmp wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\make_win32ico.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\png2bmp.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\icon-wrench</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench16.png &gt; wrench16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench32.png &gt; wrench32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png wrench48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp wrench48.png &gt; wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico wrench16.bmp wrench32.bmp wrench48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench256.png &gt; C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/wrench.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove wrench16.png wrench32.png wrench48.png wrench16.bmp wrench32.bmp wrench48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\make_win32ico.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\transform_png.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\png2bmp.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\wrench256.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\icon-wrench</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\3DAPI\Demo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/3DAPI/Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/extlib/3DAPI/Demo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\3DAPI.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\OPENGL.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\QT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/3DAPI/Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/extlib/3DAPI/Demo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\3DAPI.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\OPENGL.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\QT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/extlib/3DAPI/Demo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/extlib/3DAPI/Demo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\3DAPI.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\OPENGL.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\extlib\QT.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\extlib\3DAPI\Demo\CMakeFiles\icon-wrench">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\combine_png.vcxproj">
+      <Project>{81164302-F61E-3CF0-9552-34373BA51F3A}</Project>
+      <Name>combine_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\make_win32ico.vcxproj">
+      <Project>{AB99CBEA-2F57-3929-BF44-AD72A51D3AD5}</Project>
+      <Name>make_win32ico</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\png2bmp.vcxproj">
+      <Project>{FB273E1A-0AF5-3479-B8FB-920627381EB5}</Project>
+      <Name>png2bmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\transform_png.vcxproj">
+      <Project>{C152C9CB-566C-3C1E-9DF4-24C19BB521FF}</Project>
+      <Name>transform_png</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

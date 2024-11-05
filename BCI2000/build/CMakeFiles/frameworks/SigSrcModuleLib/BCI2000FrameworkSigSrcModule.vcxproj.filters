@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\FileWriterBase.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\FileSplittingCondition.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\GenericFileWriter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\GenericOutputFormat.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\NullFileWriter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000FileWriter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000OutputFormat.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFHeader.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFFileWriter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFOutputBase.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFOutputFormat.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDF.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDFFileWriter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDFOutputFormat.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\BufferedADC.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\AlignmentFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\DataIOFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\TransmissionFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\EventLink.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\JoystickLogger.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\KeyLogger.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib\CorePCH.cpp">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\FileWriterBase.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\FileSplittingCondition.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\GenericFileWriter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\GenericOutputFormat.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\NullFileWriter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000FileWriter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000OutputFormat.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFHeader.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFFileWriter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFOutputBase.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\EDFOutputFormat.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDF.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDFFileWriter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\edf_gdf\GDFOutputFormat.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\edf_gdf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\BufferedADC.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\GenericADC.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\AlignmentFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\DataIOFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\TransmissionFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\EventLink.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\JoystickLogger.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalsource\logging\KeyLogger.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalsource\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\978d99eefab59a1af40f188332cd02a1\SigSrcRegistry.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigSrcModuleLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\Inventory.inc">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib\SigSrcRegistry.inc">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib\BCI2000FrameworkSigSrcModule_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{382B5F73-3266-3E21-A408-A10057CF6890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\BCI2000 Framework">
+      <UniqueIdentifier>{140CAD30-91AF-3BED-A355-3FFD817E77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\fileio">
+      <UniqueIdentifier>{B6FAD7A7-D705-3970-B4D7-702791DAAEDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\fileio\dat">
+      <UniqueIdentifier>{9B3FCDD4-B134-3B0D-B441-F6E9507F78AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\fileio\edf_gdf">
+      <UniqueIdentifier>{CE758350-00AD-3942-B9FF-EB25D14885B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{FD0C3690-2BA4-38A9-824F-A0F9714EF028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules\signalsource">
+      <UniqueIdentifier>{74968C5A-B8F6-385D-855D-C8D8D93C9C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules\signalsource\logging">
+      <UniqueIdentifier>{36A7330B-35BA-3F1C-A0D3-3296EE15B208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{E7C8F08E-67DC-32C7-8FE9-24A45AE831C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\fileio">
+      <UniqueIdentifier>{173C3E00-EE77-3DC0-82EF-EB875FD4A093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\fileio\dat">
+      <UniqueIdentifier>{4DAC9BD5-CFE3-3D86-A8A5-A7E0D8FE67DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\fileio\edf_gdf">
+      <UniqueIdentifier>{A51ECA4D-2E2F-3E8F-A014-C77E78645050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{164C7CD3-7852-38CB-BDC5-CB6414463542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules\signalsource">
+      <UniqueIdentifier>{A4AA08FF-C4A9-3ACF-9A07-920DED49225B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules\signalsource\logging">
+      <UniqueIdentifier>{71F9061A-EFA0-3FCF-9EBF-B76311C1324A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{C3BFB28C-FACD-3387-9957-B59BABC8EA91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

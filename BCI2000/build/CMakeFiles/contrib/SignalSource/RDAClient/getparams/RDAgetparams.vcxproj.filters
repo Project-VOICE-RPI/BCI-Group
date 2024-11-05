@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\RDAClient\getparams\RDAgetparams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\RDAClient\RDAProtocol.cpp">
+      <Filter>Source Files\BCI2000 Contrib\SignalSource\RDAClient</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream_tool.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\bcistream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\RDAClient\getparams\CorePCH.cpp">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cpp">
+      <Filter>Generated\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat\WinMain.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\compat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\RDAClient\RDAProtocol.h">
+      <Filter>Header Files\BCI2000 Contrib\SignalSource\RDAClient</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\RDAClient\getparams\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\RDAClient\getparams\RDAgetparams_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.rc">
+      <Filter>Generated\Version</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\BCI2000 Framework">
+      <UniqueIdentifier>{140CAD30-91AF-3BED-A355-3FFD817E77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Version">
+      <UniqueIdentifier>{E40AE0E1-A198-366D-85E3-34589AFF1BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Contrib">
+      <UniqueIdentifier>{192F9B1F-2094-3E20-9EA5-59159657F439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Contrib\SignalSource">
+      <UniqueIdentifier>{501D7609-EFF8-3074-BAB5-5F645ED6E874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Contrib\SignalSource\RDAClient">
+      <UniqueIdentifier>{E6A489AD-7E63-30EE-8032-8BED2C5D88B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Contrib">
+      <UniqueIdentifier>{DEAF2CEE-490D-3CDA-9979-A0149C982B66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Contrib\SignalSource">
+      <UniqueIdentifier>{7B75D8C5-71A2-3C8A-B31E-53A5DB643D5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Contrib\SignalSource\RDAClient">
+      <UniqueIdentifier>{1FFCEE5F-9ABC-3AE0-8B60-A6F131BE142A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\bcistream">
+      <UniqueIdentifier>{7CEB30B3-6553-319A-BAD8-CC501BB2AC1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\compat">
+      <UniqueIdentifier>{13D9B97F-507B-33FD-B2DE-3A9D914561DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

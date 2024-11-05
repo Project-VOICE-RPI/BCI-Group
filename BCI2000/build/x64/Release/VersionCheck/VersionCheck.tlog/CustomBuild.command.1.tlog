@@ -1,0 +1,20 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\40775D2B3EF9673D1A1120936BC23917\VERSIONCHECK.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DPROJECT_NAME=BCI2000 -DPROJECT_TIMESPAN=2000-2024 -DLATEST_RELEASE=3.6 -DPROJECT_SOURCE_ROOT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/ -DCMAKE_BINARY_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -DVERSION_CHECK=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/VersionCheck -DTEMPLATE_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/config -DBUILD_MINIMIZE_REBUILDS=OFF -DBUILD_LOCAL_VERSION=0.0 -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeVersionInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

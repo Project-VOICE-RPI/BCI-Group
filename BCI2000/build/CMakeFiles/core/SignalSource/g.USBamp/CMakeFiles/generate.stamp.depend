@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/Core.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/LibTiny.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/SigSrcModule.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/SignalSource/g.USBamp/CMakeLists.txt

@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79EA16A4-FFA7-3F96-888D-2ABE256A1F8A}|CMakeFiles\\custom\\VeryNiceSignalProcessing\\VeryNiceSignalProcessing.vcxproj|C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\VeryNiceFilter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EA16A4-FFA7-3F96-888D-2ABE256A1F8A}|CMakeFiles\\custom\\VeryNiceSignalProcessing\\VeryNiceSignalProcessing.vcxproj|C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\PipeDefinition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PipeDefinition.cpp",
+              "DocumentMoniker": "C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\PipeDefinition.cpp",
+              "RelativeDocumentMoniker": "..\\src\\custom\\VeryNiceSignalProcessing\\PipeDefinition.cpp",
+              "ToolTip": "C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\PipeDefinition.cpp",
+              "RelativeToolTip": "..\\src\\custom\\VeryNiceSignalProcessing\\PipeDefinition.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-05T21:46:41.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VeryNiceFilter.cpp",
+              "DocumentMoniker": "C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\VeryNiceFilter.cpp",
+              "RelativeDocumentMoniker": "..\\src\\custom\\VeryNiceSignalProcessing\\VeryNiceFilter.cpp",
+              "ToolTip": "C:\\Users\\kotlab\\Documents\\GitHub\\BCI-Group\\BCI2000\\src\\custom\\VeryNiceSignalProcessing\\VeryNiceFilter.cpp",
+              "RelativeToolTip": "..\\src\\custom\\VeryNiceSignalProcessing\\VeryNiceFilter.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-05T21:42:23.674Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

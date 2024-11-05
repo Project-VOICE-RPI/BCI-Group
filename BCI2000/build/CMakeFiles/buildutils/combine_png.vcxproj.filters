@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\combine_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\lodepng\lodepng.cpp">
+      <Filter>Source Files\External Libraries\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\lodepng\lodepng.h">
+      <Filter>Header Files\External Libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\combine_png_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries">
+      <UniqueIdentifier>{64E4960A-AC33-3711-83B4-F8A024135BE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\lodepng">
+      <UniqueIdentifier>{AA9E1191-C963-3F32-BA99-A17A88D7C231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries">
+      <UniqueIdentifier>{53EDFFDB-4B81-34DB-86AB-608C41797C7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries\lodepng">
+      <UniqueIdentifier>{177224EA-068E-3AE9-81CB-9F284BA02CFC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

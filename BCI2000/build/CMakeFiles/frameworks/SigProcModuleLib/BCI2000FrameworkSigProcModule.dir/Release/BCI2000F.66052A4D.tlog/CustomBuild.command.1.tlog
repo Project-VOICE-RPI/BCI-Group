@@ -1,0 +1,66 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\B96CC0328B09B2461F68486B5A206286\SIGPROCREGISTRY.INC.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "// Generated file -- do not edit" > C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SourceDecimationFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpatialFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRFilterBase.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/IIRBandpass.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ThreadedFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/WindowingFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Spectrum.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARSpectrum.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FFTSpectrum.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/SpectralEstimator.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ARFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/P3TemporalFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LinearClassifier.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/LPFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/ExpressionFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/Normalizer.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/FrequencyEstimator.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/AverageDisplay.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalprocessing/RandomFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/utils/Multithreading.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CorePCH.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/SigProcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKE\FRAMEWORKS\SIGPROCMODULELIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigProcModuleLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

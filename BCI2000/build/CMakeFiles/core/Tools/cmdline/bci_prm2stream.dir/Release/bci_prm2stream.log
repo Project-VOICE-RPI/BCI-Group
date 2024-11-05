@@ -1,0 +1,8 @@
+﻿  Version.cpp
+  bci_prm2stream.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\Release\bci_prm2stream.exe
+  	Deploying executable
+  copying files:
+  The process cannot access the file because it is being used by another process.
+  The system cannot find the file C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\Release\.depends.
+  Copying bci_prm2stream.exe ...
+  Done.

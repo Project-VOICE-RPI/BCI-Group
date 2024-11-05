@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Broadcaster.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Waitable.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WaitableEvent.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\TinySemaphore.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WaitableImplementation.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Thread.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ReusableThread.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ThreadUtils.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ChildProcess.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ProcessUtils.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FilePath.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FileUtils.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\DylibImports.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SysError.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SharedMemory.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\StringUtils.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\EscapedString.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ClassName.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WildcardMatch.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\EnvVariable.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\TimeUtils.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Clock.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\IOObjects.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Streambuf.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SockStream.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SelfPipe.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\MemoryBuffer.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FdObject.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Sockets.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Files.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FileMapping.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ExceptionCatcher.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Exception.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Debugging.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\LCRandomGenerator.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\BinaryData.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Ratio.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat\msvc_stdlib.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\PEHeader.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Uncopyable.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Lockable.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Runnable.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ObjectPool.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\LazyArray.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Broadcaster.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SynchronizedObject.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SynchronizedQueue.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SelfPipeQueue.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Waitable.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WaitableEvent.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\TinySemaphore.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WaitableImplementation.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Thread.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ReusableThread.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ThreadUtils.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ChildProcess.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ProcessUtils.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FilePath.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FileUtils.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\DylibImports.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SysError.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SharedMemory.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SharedMemoryMap.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\StringUtils.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\EscapedString.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ClassName.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\WildcardMatch.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\EnvVariable.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\TimeUtils.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Clock.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\StopWatch.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\IOObjects.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Streambuf.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SockStream.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\SelfPipe.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\MemoryBuffer.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FdObject.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Sockets.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Files.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\FileMapping.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\NullStream.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\ExceptionCatcher.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Exception.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Debugging.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\LCRandomGenerator.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Uuid.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\BinaryData.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Numeric.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\Ratio.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\IndentingOStreambuf.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib\PEHeader.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny\DynamicCrt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\DynamicCrt\LibTiny_DynamicCrt_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils\Lib">
+      <UniqueIdentifier>{7857ED40-60BC-3F1D-BAE8-1F199AC05D5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\compat">
+      <UniqueIdentifier>{13D9B97F-507B-33FD-B2DE-3A9D914561DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{C3BFB28C-FACD-3387-9957-B59BABC8EA91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils\Lib">
+      <UniqueIdentifier>{695B0464-9CBF-3E88-9079-283615459740}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

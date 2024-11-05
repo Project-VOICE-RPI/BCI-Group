@@ -1,0 +1,10 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\40775D2B3EF9673D1A1120936BC23917\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/BCI2000.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

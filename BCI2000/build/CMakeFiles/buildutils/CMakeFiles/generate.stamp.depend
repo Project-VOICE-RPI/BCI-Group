@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/CMakeLists.txt
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/buildenv.h.in
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/deploy_app.bat
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/COM.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/Core.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/LibTiny.cmake

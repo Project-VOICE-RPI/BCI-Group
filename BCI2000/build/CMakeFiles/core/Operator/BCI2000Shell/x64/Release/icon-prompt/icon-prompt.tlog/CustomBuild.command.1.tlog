@@ -1,0 +1,52 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\C11132FEF0864991362932A723935EA6\PROMPT256.PNG.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDUTILS_DIR=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils -DPROJECT_ICON_TEMPLATE=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/shared/gui/images/brain-outline -DSTYLE= -DICON=prompt -DOUTPUT=C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt256.png -P C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/MakeIcon.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\056F5C4E5A9C090AB8F5A7FAA08BB444\ICON-PROMPT.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=16 --height=16 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt256.png prompt16.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp prompt16.png > prompt16.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=32 --height=32 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt256.png prompt32.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp prompt32.png > prompt32.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\transform_png --width=48 --height=48 C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt256.png prompt48.png
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\png2bmp prompt48.png > prompt48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\make_win32ico prompt16.bmp prompt32.bmp prompt48.bmp C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt256.png > C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/icons/prompt.ico
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove prompt16.png prompt32.png prompt48.png prompt16.bmp prompt32.bmp prompt48.bmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\SRC\CORE\OPERATOR\BCI2000SHELL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000Shell/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

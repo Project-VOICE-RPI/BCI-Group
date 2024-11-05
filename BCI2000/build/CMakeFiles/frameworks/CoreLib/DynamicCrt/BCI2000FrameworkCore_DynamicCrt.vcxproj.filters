@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\VersionInfo.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\config</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\LogFile.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\RandomGenerator.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\MeasurementUnits.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\PrecisionTime.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\IndexList.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\EventQueue.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\AsyncIODevice.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Directory.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ArithmeticExpression.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\Expression.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ExpressionNodes.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ExpressionParser.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\GenericFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\ChoiceCombination.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\FilterCombination.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\StandaloneFilters.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\VisualizationHook.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\SignalSharingHook.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\MessageChannel.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreConnection.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\BitmapImage.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Blob.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Tree.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Brackets.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\CfgID.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Color.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\EncodedString.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\GenericSignal.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\GenericVisualization.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\HierarchicalLabel.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Label.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\LabelIndex.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Param.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\ParamList.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\PhysicalUnit.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SignalProperties.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SignalType.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\State.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\StateList.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\StateVector.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Status.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SysCommand.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\VisID.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\VideoFrame.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\BCIEvent.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\Environment.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\ParamRef.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\StateRef.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\bcistream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\RunManager.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\RequiredParameters.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000FileReader.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\SerialStream.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\CorePCH.cpp">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\VersionInfo.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\LogFile.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\RandomGenerator.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\MeasurementUnits.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\PrecisionTime.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\IndexList.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\EventQueue.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\FPExceptMask.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\AsyncIODevice.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\SimpleStatistics.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Directory.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ArithmeticExpression.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\Expression.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ExpressionNodes.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression\ExpressionParser.hpp">
+      <Filter>Header Files\BCI2000 Framework\shared\utils\Expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\GenericFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\ChoiceCombination.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\FilterCombination.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\StandaloneFilters.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\IdentityFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\SubchainFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\SignalStream.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\VisualizationHook.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters\SignalSharingHook.h">
+      <Filter>Header Files\BCI2000 Framework\shared\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\NullMessageChannel.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\MessageChannel.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreConnection.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\BitmapImage.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Blob.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Tree.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Brackets.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\CfgID.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Color.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\EncodedString.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\GenericSignal.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\GenericVisualization.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\HierarchicalLabel.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Label.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\LabelIndex.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\MappedProperty.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Param.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\ParamList.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\PhysicalUnit.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SignalProperties.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SignalType.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\State.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\StateList.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\StateVector.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\Status.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\SysCommand.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\VisID.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\VideoFrame.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types\ProtocolVersion.h">
+      <Filter>Header Files\BCI2000 Framework\shared\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\BCIEvent.h">
+      <Filter>Header Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\Environment.h">
+      <Filter>Header Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\ParamRef.h">
+      <Filter>Header Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors\StateRef.h">
+      <Filter>Header Files\BCI2000 Framework\shared\accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream.h">
+      <Filter>Header Files\BCI2000 Framework\shared\bcistream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIException.h">
+      <Filter>Header Files\BCI2000 Framework\shared\bcistream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\RunManager.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\RequiredParameters.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat\BCI2000FileReader.h">
+      <Filter>Header Files\BCI2000 Framework\shared\fileio\dat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\FastConv.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\SerialStream.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\CoreLib\DynamicCrt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\BCI2000FrameworkCore_DynamicCrt_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\BCI2000 Framework">
+      <UniqueIdentifier>{140CAD30-91AF-3BED-A355-3FFD817E77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\math">
+      <UniqueIdentifier>{2F88B2D5-7E16-3E63-B84F-2F29085C0718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\accessors">
+      <UniqueIdentifier>{564EF474-EE61-3FA9-8A64-390C2C3911A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\bcistream">
+      <UniqueIdentifier>{BD57BA47-3F60-343C-A67F-0880429E240D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\fileio">
+      <UniqueIdentifier>{B6FAD7A7-D705-3970-B4D7-702791DAAEDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\fileio\dat">
+      <UniqueIdentifier>{9B3FCDD4-B134-3B0D-B441-F6E9507F78AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\filters">
+      <UniqueIdentifier>{70AEA3CF-40D4-3CE7-9249-45D2A520FCBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{FD0C3690-2BA4-38A9-824F-A0F9714EF028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\types">
+      <UniqueIdentifier>{1DB571D2-3FB6-3870-BBAC-16158ACE5918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils\Expression">
+      <UniqueIdentifier>{99AE8E04-C404-3308-AA52-C10200D496E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\accessors">
+      <UniqueIdentifier>{DCC5FF67-63D0-30A1-A8BD-E15A90F6A1B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\bcistream">
+      <UniqueIdentifier>{7CEB30B3-6553-319A-BAD8-CC501BB2AC1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{E7C8F08E-67DC-32C7-8FE9-24A45AE831C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\fileio">
+      <UniqueIdentifier>{173C3E00-EE77-3DC0-82EF-EB875FD4A093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\fileio\dat">
+      <UniqueIdentifier>{4DAC9BD5-CFE3-3D86-A8A5-A7E0D8FE67DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\filters">
+      <UniqueIdentifier>{3FEAE08F-B2BE-3916-87DA-5737C7217452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{164C7CD3-7852-38CB-BDC5-CB6414463542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\types">
+      <UniqueIdentifier>{89B784D8-1397-39FD-B535-4B0F738FC0A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{C3BFB28C-FACD-3387-9957-B59BABC8EA91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils\Expression">
+      <UniqueIdentifier>{1507A505-104A-3E13-9707-E1CB0937F590}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿  Version.cpp
+  Blackrock.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Blackrock\Release\Blackrock.exe
+  			Deploying executable
+  copying files:
+  Cannot list dependencies, executable depends on modules that failed to load:
+   cbsdkx64.dll
+  Executable may fail to run when moved to a different machine.
+  Copying Blackrock.exe ...
+  Done.

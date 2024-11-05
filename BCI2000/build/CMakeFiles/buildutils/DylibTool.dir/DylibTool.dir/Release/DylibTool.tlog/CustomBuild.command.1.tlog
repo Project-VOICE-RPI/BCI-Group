@@ -1,0 +1,52 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\6C9AC2BB9CF436790F988F6E83B22188\IMPORTS.H.IN.RES.CPP.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\DylibTool.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource HeaderTemplate C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/DylibTool.dir/templates/imports.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/DYLIBT~1.DIR/DYLIBT~1/imports.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\6C9AC2BB9CF436790F988F6E83B22188\IMPORTS.CPP.IN.RES.CPP.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\DylibTool.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CppTemplate C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/DylibTool.dir/templates/imports.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/DYLIBT~1.DIR/DYLIBT~1/imports.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\6C9AC2BB9CF436790F988F6E83B22188\CDECL_IMPORTS.CPP.IN.RES.CPP.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\DylibTool.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CdeclTemplate C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/DylibTool.dir/templates/cdecl_imports.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/DYLIBT~1.DIR/DYLIBT~1/cdecl_imports.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\BUILDUTILS\DYLIBTOOL.DIR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/DylibTool.dir/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

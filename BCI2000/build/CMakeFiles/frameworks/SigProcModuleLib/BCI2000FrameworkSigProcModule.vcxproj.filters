@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\CorePCH.cpp">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\config</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\FilterDesign.cpp">
+      <Filter>Source Files\BCI2000 Framework\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\FFTLibWrap.cpp">
+      <Filter>Source Files\BCI2000 Framework\fftlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\fftw3\include\fftw3.imports.cpp">
+      <Filter>Source Files\BCI2000 Framework\fftlib\fftw3\include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SourceDecimationFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpatialFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRFilterBase.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\IIRBandpass.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ThreadedFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\WindowingFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Spectrum.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARSpectrum.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FFTSpectrum.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\SpectralEstimator.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ARFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\P3TemporalFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LinearClassifier.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\LPFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\ExpressionFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\Normalizer.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\FrequencyEstimator.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\AverageDisplay.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\signalprocessing\RandomFilter.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules\signalprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Multithreading.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\BCIRegistry.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\FilterDesign.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\Detrend.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\IIRFilter.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\LinearPredictor.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\MEMPredictor.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\Polynomials.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\math\TransferSpectrum.h">
+      <Filter>Header Files\BCI2000 Framework\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fftlib\FFTLibWrap.h">
+      <Filter>Header Files\BCI2000 Framework\fftlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\b96cc0328b09b2461f68486b5a206286\SigProcRegistry.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\SigProcModuleLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\Inventory.inc">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\SigProcRegistry.inc">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{382B5F73-3266-3E21-A408-A10057CF6890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\BCI2000 Framework">
+      <UniqueIdentifier>{140CAD30-91AF-3BED-A355-3FFD817E77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\fftlib">
+      <UniqueIdentifier>{5D227100-937E-3BB3-B321-8EEBBC84AA26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\math">
+      <UniqueIdentifier>{2F88B2D5-7E16-3E63-B84F-2F29085C0718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{FD0C3690-2BA4-38A9-824F-A0F9714EF028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules\signalprocessing">
+      <UniqueIdentifier>{57AD8656-D2BF-328A-82B0-AF1C975AC5FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\fftlib">
+      <UniqueIdentifier>{19886DA1-0B53-3914-8747-4A8B0F671ECB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\fftlib\fftw3">
+      <UniqueIdentifier>{8FC70313-7B4E-3159-8C48-18D4D91A4557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\fftlib\fftw3\include">
+      <UniqueIdentifier>{187E9AA3-77C0-3D37-8F38-B3A96EFDF40E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\math">
+      <UniqueIdentifier>{CAA77674-BC25-3A68-BE43-F94F2FCB2CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{E7C8F08E-67DC-32C7-8FE9-24A45AE831C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{164C7CD3-7852-38CB-BDC5-CB6414463542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules\signalprocessing">
+      <UniqueIdentifier>{24AD1277-28F8-33C9-8F28-CF4E870CD782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{C3BFB28C-FACD-3387-9957-B59BABC8EA91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

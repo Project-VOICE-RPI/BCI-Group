@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B3646ABE-7B97-3996-B267-E1FDA28924B1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\BuildEnv.sh.cmd.in;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeSystem.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddCoreMain.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddRegistryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddResourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddTargetMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildConfigurations.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildOptions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\HyperscanningApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\IncludeExtensionMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ModuleInventory.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetOutputDirectoryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupBCI2000Macros.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupExtlibDependencies.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalProcessingMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalSourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsCmdlineMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsFilterDllMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsGUIAppMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsSimulinkMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\Utils.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\Extensions\Extensions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\OperatorQt\ParameterGUI.CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\BuildEnv.sh.cmd.in;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeSystem.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddCoreMain.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddRegistryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddResourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddTargetMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildConfigurations.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildOptions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\HyperscanningApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\IncludeExtensionMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ModuleInventory.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetOutputDirectoryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupBCI2000Macros.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupExtlibDependencies.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalProcessingMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalSourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsCmdlineMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsFilterDllMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsGUIAppMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsSimulinkMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\Utils.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\Extensions\Extensions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\OperatorQt\ParameterGUI.CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\BuildEnv.sh.cmd.in;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\3.30.5\CMakeSystem.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddCoreMain.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddRegistryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddResourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\AddTargetMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildConfigurations.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\BuildOptions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\HyperscanningApplicationMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\IncludeExtensionMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ModuleInventory.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetOutputDirectoryMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupBCI2000Macros.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SetupExtlibDependencies.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalProcessingMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\SignalSourceMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsCmdlineMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsFilterDllMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsGUIAppMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\ToolsSimulinkMexfileMacro.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\Utils.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\Extensions\Extensions.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\core\Operator\OperatorQt\ParameterGUI.CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\AR\ARSignalProcessing.vcxproj">
+      <Project>{292F2185-2104-33FB-B982-12A0A80500D2}</Project>
+      <Name>ARSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\AmpServerPro\AmpServerPro.vcxproj">
+      <Project>{8013BF09-F563-3C6A-A116-8E812FA4A998}</Project>
+      <Name>AmpServerPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\AppCopier.dir\AppCopier.vcxproj">
+      <Project>{AD597001-E7E5-3277-8112-D85D6F5AC2B0}</Project>
+      <Name>AppCopier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\B-Alert\BAlertSource.vcxproj">
+      <Project>{4692390E-249B-3AAA-9D63-159309FDDE13}</Project>
+      <Name>BAlertSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\BCI2000FrameworkCore_DynamicCrt.vcxproj">
+      <Project>{2D6049E0-FB95-3B29-8F62-1C8C8F36C8D5}</Project>
+      <Name>BCI2000FrameworkCore_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\StaticCrt\BCI2000FrameworkCore_StaticCrt.vcxproj">
+      <Project>{12DBE2A7-09E5-3185-9F32-1E310A619C36}</Project>
+      <Name>BCI2000FrameworkCore_StaticCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\BCI2000FrameworkSigProcModule.vcxproj">
+      <Project>{66052A4D-1C56-3F2A-B49C-8C79E0A47865}</Project>
+      <Name>BCI2000FrameworkSigProcModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib\BCI2000FrameworkSigSrcModule.vcxproj">
+      <Project>{2CBDC45A-9CDB-3596-966E-BBEF2756AE77}</Project>
+      <Name>BCI2000FrameworkSigSrcModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000Remote\BCI2000RemoteLib64.vcxproj">
+      <Project>{F98E4394-4B3B-3FD4-B22F-80E6BB67B2B0}</Project>
+      <Name>BCI2000RemoteLib64</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000Shell\BCI2000Shell.vcxproj">
+      <Project>{0CA304A1-6173-33B6-835A-81F3E3298E79}</Project>
+      <Name>BCI2000Shell</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000ShellExtension\BCI2000ShellExtension64.vcxproj">
+      <Project>{1F4D7976-061A-3C52-8A20-A29BC6D251F1}</Project>
+      <Name>BCI2000ShellExtension64</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\BioRadio\BioRadio.vcxproj">
+      <Project>{A4397C7B-7CF0-3DE8-9C00-15DFA86262F8}</Project>
+      <Name>BioRadio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Biosemi\Biosemi2.vcxproj">
+      <Project>{C5BD6A6A-E85D-3960-B39D-E86105272636}</Project>
+      <Name>Biosemi2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Blackrock\Blackrock.vcxproj">
+      <Project>{6CC9A493-69A3-3BD9-AC43-BC9F4E820071}</Project>
+      <Name>Blackrock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\BlackrockGemini\BlackrockGemini.vcxproj">
+      <Project>{7757C0EF-3458-3662-B40B-3DEF70676330}</Project>
+      <Name>BlackrockGemini</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Expression\Calculator.vcxproj">
+      <Project>{69286460-2426-327C-B960-4AC3E4747112}</Project>
+      <Name>Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\DASSource\DASSource.vcxproj">
+      <Project>{7E4C853C-1905-306F-9F2C-9E913248DF2F}</Project>
+      <Name>DASSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\DSISerial\DSISerial.vcxproj">
+      <Project>{4BB43445-AD62-3AD2-BFCA-F7B8DBF67AAC}</Project>
+      <Name>DSISerial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\Dummy\DummySignalProcessing.vcxproj">
+      <Project>{0868564D-19C5-373D-BDCB-31429C9D5A4D}</Project>
+      <Name>DummySignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\DylibTool.dir\DylibTool.vcxproj">
+      <Project>{90B237B2-D126-3DE4-8258-E038809E30E3}</Project>
+      <Name>DylibTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\EEGOSource\EEGO.vcxproj">
+      <Project>{295B39C3-BBC6-35AC-960D-346F2CC31661}</Project>
+      <Name>EEGO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Emotiv\Emotiv.vcxproj">
+      <Project>{FB15CD61-0DDC-3BF4-8FB9-FF2F27944BED}</Project>
+      <Name>Emotiv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\FFT\FFTSignalProcessing.vcxproj">
+      <Project>{5CC49345-FCED-33B2-A0A6-BEB92279E218}</Project>
+      <Name>FFTSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\FieldTripBufferSource.vcxproj">
+      <Project>{94690706-2FF1-3834-83E5-CEF42BA644C8}</Project>
+      <Name>FieldTripBufferSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FilePlayback\FilePlayback.vcxproj">
+      <Project>{8F6E2D42-E140-37BA-B722-1488F4B63494}</Project>
+      <Name>FilePlayback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FlexEEG\FlexEEG.vcxproj">
+      <Project>{35BCE261-FAF0-3DA8-8F81-FC7D13D37362}</Project>
+      <Name>FlexEEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Ripple\Grapevine.vcxproj">
+      <Project>{F87F4F14-BC32-3CA2-A1D0-D02672A25972}</Project>
+      <Name>Grapevine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\LSLSource\LSLSource.vcxproj">
+      <Project>{E94D07F9-8120-378F-AFFE-D6D4093DE0F9}</Project>
+      <Name>LSLSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\LabJackSource\LabJackADC.vcxproj">
+      <Project>{21AC4F97-D035-351B-839C-44BF44768330}</Project>
+      <Name>LabJackADC</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\DynamicCrt\LibTiny_DynamicCrt.vcxproj">
+      <Project>{A8E9D36A-4797-39C9-98F6-9C6B12B43593}</Project>
+      <Name>LibTiny_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\StaticCrt\LibTiny_StaticCrt.vcxproj">
+      <Project>{51886313-F378-3E20-A8FD-2467C6174324}</Project>
+      <Name>LibTiny_StaticCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\LibTiny\LibTiny_unit_tests.vcxproj">
+      <Project>{A07AAF5F-ABE2-382E-A55B-A254915C3DF9}</Project>
+      <Name>LibTiny_unit_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\LiveAmp\LiveAmpSource.vcxproj">
+      <Project>{34DC287B-9EEE-3962-9DBD-A8E2524AD765}</Project>
+      <Name>LiveAmpSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\Matlab\MatlabSignalProcessing.vcxproj">
+      <Project>{540EA6BE-8772-38C1-B9C1-1FE54B5501CE}</Project>
+      <Name>MatlabSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\MessageBox\MessageBox.vcxproj">
+      <Project>{6442B830-03A4-3716-AC2A-43C5F03CA15C}</Project>
+      <Name>MessageBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\MicroLeads\MicroLeads.vcxproj">
+      <Project>{26748E61-18BB-3666-A6D4-0EADC297EBC5}</Project>
+      <Name>MicroLeads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Micromed\Micromed.vcxproj">
+      <Project>{06862D29-BCDE-365A-A766-0A9D3ECE66ED}</Project>
+      <Name>Micromed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\ModularEEG\ModularEEG.vcxproj">
+      <Project>{C5CF2906-F361-3D8E-98AE-3F62A155A992}</Project>
+      <Name>ModularEEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NIDAQ-MX\NIDAQ_mx_Source.vcxproj">
+      <Project>{0287CAC5-9F37-309C-94AA-B0C2F3A5CF65}</Project>
+      <Name>NIDAQ_mx_Source</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuSenW\NeuSenW.vcxproj">
+      <Project>{0CB999D6-BA37-3BFD-B87F-D9F65BF25E66}</Project>
+      <Name>NeuSenW</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroOmega\NeuroOmegaADC.vcxproj">
+      <Project>{647D88FE-5C56-3C90-9AAD-2B5BC10E649C}</Project>
+      <Name>NeuroOmegaADC</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroSky\NeuroSky.vcxproj">
+      <Project>{03CBA45D-0611-337A-B8DC-26830CA19864}</Project>
+      <Name>NeuroSky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroSpark\NeuroSpark.vcxproj">
+      <Project>{C692CC3E-24FE-3188-9691-E077C52B9FB6}</Project>
+      <Name>NeuroSpark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroscanAccessSDK\NeuroscanAccess.vcxproj">
+      <Project>{4A50EE98-6EEE-30FB-8A6D-C03F8D847853}</Project>
+      <Name>NeuroscanAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Neuroscan\NeuroscanClient.vcxproj">
+      <Project>{B4F9FFF2-1E47-3B50-85F6-F531A85CB4D0}</Project>
+      <Name>NeuroscanClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter.vcxproj">
+      <Project>{55D6B22B-4AA5-3773-91C9-28EDC5D3F17E}</Project>
+      <Name>NewBCI2000Filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll.vcxproj">
+      <Project>{E1772010-6C74-3100-861B-A3865059EAF4}</Project>
+      <Name>NewBCI2000FilterDll</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool.vcxproj">
+      <Project>{0AA44DE7-E2EB-3E4E-8AF9-59AA3BF7B4A3}</Project>
+      <Name>NewBCI2000FilterTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger.vcxproj">
+      <Project>{E0560E98-D25C-3D1E-B947-D3741BD7C42C}</Project>
+      <Name>NewBCI2000Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module.vcxproj">
+      <Project>{566390E2-28BD-3442-B879-36AB63D27859}</Project>
+      <Name>NewBCI2000Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\OpenBCISource\OpenBCISource.vcxproj">
+      <Project>{40812BA1-CF2D-3A36-8F39-610E61B0563E}</Project>
+      <Name>OpenBCISource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\OpenBCI_Module\OpenBCI_Module.vcxproj">
+      <Project>{34DC54B2-1E4E-32BE-9B60-518F2BBD012F}</Project>
+      <Name>OpenBCI_Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\OperatorLib\OperatorLib.vcxproj">
+      <Project>{717ED494-C68A-3716-8D20-F35828123195}</Project>
+      <Name>OperatorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\P3\P3SignalProcessing.vcxproj">
+      <Project>{9CDC12A4-DC41-3902-9E6D-8BD21814E290}</Project>
+      <Name>P3SignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\RDAClient\RDAClient.vcxproj">
+      <Project>{193FD67C-1AF0-3B8E-936D-A0514BBD189F}</Project>
+      <Name>RDAClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\RDAClient\getparams\RDAgetparams.vcxproj">
+      <Project>{335DEB7D-471C-3C3B-935D-529BB80FB7D6}</Project>
+      <Name>RDAgetparams</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\SerialWidget\SerialWidget.vcxproj">
+      <Project>{25DA69EC-5651-333B-8B7F-8D8A3D2C5908}</Project>
+      <Name>SerialWidget</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\SignalGenerator\SignalGenerator.vcxproj">
+      <Project>{F5CBF6FA-1E86-3FD1-A056-2AC24FCF6204}</Project>
+      <Name>SignalGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\AppConnectorApplications\SimpleExample\SimpleExample.vcxproj">
+      <Project>{3FB0E307-D19B-3EC2-8B50-5EEE568B1232}</Project>
+      <Name>SimpleExample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\SoundcardSource\SoundcardSource.vcxproj">
+      <Project>{E5E4EB00-541A-3596-9F8E-04C9698839DC}</Project>
+      <Name>SoundcardSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\Spectral\SpectralSignalProcessing.vcxproj">
+      <Project>{B8F2CC73-B624-3771-ACA1-C303C7C3BE07}</Project>
+      <Name>SpectralSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\TMSi\TMSi.vcxproj">
+      <Project>{F471543A-E1CF-3359-A951-EDBEECD6AE68}</Project>
+      <Name>TMSi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\TuckerDavis\TuckerDavis.vcxproj">
+      <Project>{4ADF0A86-1871-3C3F-9DA4-9419A02F7460}</Project>
+      <Name>TuckerDavis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\custom\VeryNiceSignalProcessing\VeryNiceSignalProcessing.vcxproj">
+      <Project>{79EA16A4-FFA7-3F96-888D-2ABE256A1F8A}</Project>
+      <Name>VeryNiceSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalProcessing\VisualizationDemos\VisualizationContainerDemo\VisContainerDemoSignalProcessing.vcxproj">
+      <Project>{E18F0097-0D8A-3996-8A6B-747BDE717289}</Project>
+      <Name>VisContainerDemoSignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\actiCHampPlus.vcxproj">
+      <Project>{6B3265E5-09C8-3AD4-8272-16D075A3D6E9}</Project>
+      <Name>actiCHampPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHamp\actiCHampSource.vcxproj">
+      <Project>{F3D944D1-67EF-3659-8DB0-899F43E24E4D}</Project>
+      <Name>actiCHampSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_dat2stream.vcxproj">
+      <Project>{298F41A6-AB17-33BF-BD26-AEF5CDC0F723}</Project>
+      <Name>bci_dat2stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\bci_datadiff.vcxproj">
+      <Project>{B0A8A606-042E-3D3E-8441-2D33EEE919CC}</Project>
+      <Name>bci_datadiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_decimate.vcxproj">
+      <Project>{DD57EFC4-6FC0-30BE-B7E5-F53C0B2F9E78}</Project>
+      <Name>bci_decimate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_prm2stream.vcxproj">
+      <Project>{679486A5-6244-3A94-9F5E-669F7DE28211}</Project>
+      <Name>bci_prm2stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_stream2asc.vcxproj">
+      <Project>{BA0F94E4-4AEC-343E-AE77-013187BF1112}</Project>
+      <Name>bci_stream2asc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_stream2hybrid.vcxproj">
+      <Project>{E28267F0-E588-33BC-B7DA-5FEAE7324CDD}</Project>
+      <Name>bci_stream2hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_stream2mat.vcxproj">
+      <Project>{833F4DCC-C6AB-3F6E-958C-23404A826C7D}</Project>
+      <Name>bci_stream2mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_stream2prm.vcxproj">
+      <Project>{1814EE6E-4B30-3C31-9374-30E9BF771409}</Project>
+      <Name>bci_stream2prm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\bci_stream2table.vcxproj">
+      <Project>{62459A03-74C6-3A88-AC0C-428517159FBC}</Project>
+      <Name>bci_stream2table</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\clock_test.vcxproj">
+      <Project>{74354AC7-3E2E-3BFD-AF30-D1F5C6B2A3C5}</Project>
+      <Name>clock_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\combine_png.vcxproj">
+      <Project>{81164302-F61E-3CF0-9552-34373BA51F3A}</Project>
+      <Name>combine_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\copy_if_newer.vcxproj">
+      <Project>{66E6FCCD-AD23-3D6A-87BA-727BC00D0188}</Project>
+      <Name>copy_if_newer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\create_resource.vcxproj">
+      <Project>{008D5729-CF81-3F01-8C6B-572DE1B876A8}</Project>
+      <Name>create_resource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Neuroscan\ctfneurod\demoneurod.vcxproj">
+      <Project>{02E85434-B46A-3D0D-ABD7-2BA0BDD3D8AE}</Project>
+      <Name>demoneurod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\eegoRT\eegoRT.vcxproj">
+      <Project>{40E69100-AEC9-316A-8DB3-E089093CB44F}</Project>
+      <Name>eegoRT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\extract_registry.vcxproj">
+      <Project>{D1BC1BC6-819B-3B16-930C-BD0981C11188}</Project>
+      <Name>extract_registry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\fix_dat_headerlen.vcxproj">
+      <Project>{7B0E3A14-99B7-38F4-9AA1-C60CCB5E828E}</Project>
+      <Name>fix_dat_headerlen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.HIampSource\gHIampSource.vcxproj">
+      <Project>{F8B28462-D787-3BEF-B97F-D6AB46238BF8}</Project>
+      <Name>gHIampSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.HIampSource\getinfo\gHIampgetinfo.vcxproj">
+      <Project>{E5C9001A-8D79-3314-B028-8EA496ADE9DC}</Project>
+      <Name>gHIampgetinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.MOBIlab\gMOBIlab.vcxproj">
+      <Project>{19D28FB3-DC3B-3593-8FEF-1DEE2B767A4E}</Project>
+      <Name>gMOBIlab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.MOBIlabPlus\gMOBIlabPlus.vcxproj">
+      <Project>{D6ABD990-78C1-3102-AA9E-AB80B19FC563}</Project>
+      <Name>gMOBIlabPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.NautilusSource\gNautilusSource.vcxproj">
+      <Project>{8AA8793D-6623-3277-86D4-F57A5B7202E8}</Project>
+      <Name>gNautilusSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.USBamp\gUSBampSource.vcxproj">
+      <Project>{2E7645D9-4E81-32CB-862E-C1DB08DCFB4E}</Project>
+      <Name>gUSBampSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.USBamp\getinfo\gUSBampgetinfo.vcxproj">
+      <Project>{4A14DE45-2CC8-33C2-BC4F-59B209A721FA}</Project>
+      <Name>gUSBampgetinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.Unicorn\gUnicornADC.vcxproj">
+      <Project>{6A17A247-2406-34B2-9B5F-DAF009C741E6}</Project>
+      <Name>gUnicornADC</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\ioobjects_test.vcxproj">
+      <Project>{BF0DA61C-CD7F-3D35-A2DE-DE6C33FFF157}</Project>
+      <Name>ioobjects_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\list_dependencies.vcxproj">
+      <Project>{07DFCE93-56BC-3716-ACC2-4C9AB028AFF3}</Project>
+      <Name>list_dependencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\make_win32_shortcut.vcxproj">
+      <Project>{F4A4D4A9-2C75-3716-BBB0-7283A28CD8EB}</Project>
+      <Name>make_win32_shortcut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\make_win32ico.vcxproj">
+      <Project>{AB99CBEA-2F57-3929-BF44-AD72A51D3AD5}</Project>
+      <Name>make_win32ico</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\png2bmp.vcxproj">
+      <Project>{FB273E1A-0AF5-3479-B8FB-920627381EB5}</Project>
+      <Name>png2bmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\sockstream_test.vcxproj">
+      <Project>{3CA355AE-524D-39CE-8C80-DAFE7B7E2C76}</Project>
+      <Name>sockstream_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\transform_png.vcxproj">
+      <Project>{C152C9CB-566C-3C1E-9DF4-24C19BB521FF}</Project>
+      <Name>transform_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\wall_clock_test.vcxproj">
+      <Project>{96F5EF54-9F01-32BE-9327-A9FC44FDE95E}</Project>
+      <Name>wall_clock_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

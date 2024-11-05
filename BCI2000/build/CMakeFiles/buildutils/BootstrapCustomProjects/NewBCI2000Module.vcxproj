@@ -1,0 +1,1480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{566390E2-28BD-3442-B879-36AB63D27859}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NewBCI2000Module</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NewBCI2000Module.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NewBCI2000Module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NewBCI2000Module.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NewBCI2000Module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NewBCI2000Module.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NewBCI2000Module</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;_SECURE_SCL=0;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copy to destination</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Release/NewBCI2000Module.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Release/NewBCI2000Module.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\frameworks\CoreLib\DynamicCrt\Release\BCI2000FrameworkCore_DynamicCrt.lib;..\..\frameworks\LibTiny\DynamicCrt\Release\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Release/NewBCI2000Module.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Release/NewBCI2000Module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NDEBUG=1;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copy to destination</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/RelWithDebInfo/NewBCI2000Module.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/RelWithDebInfo/NewBCI2000Module.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\frameworks\CoreLib\DynamicCrt\RelWithDebInfo\BCI2000FrameworkCore_DynamicCrt.lib;..\..\frameworks\LibTiny\DynamicCrt\RelWithDebInfo\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/RelWithDebInfo/NewBCI2000Module.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/RelWithDebInfo/NewBCI2000Module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /J</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4800;4838</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;UTF8_SHIBBOLETH="ÜŤƑȢ";PROJECT_NAME="BCI2000";PROJECT_TIMESPAN="2000-2024";PROJECT_DOMAIN="bci2000.org";PROJECT_VERSION="3.6.8348.2517";WEBSEARCH_DOMAIN="www.google.com";BUILD_USER="kotlab@DESKTOP-Q28EPBK";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME="MSVC-19.41.34123.0-AMD64";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BCIDEBUG=1;DEBUG_BUILD=1;TINY_DEBUG=1;UTF8_SHIBBOLETH=\"ÜŤƑȢ\";PROJECT_NAME=\"BCI2000\";PROJECT_TIMESPAN=\"2000-2024\";PROJECT_DOMAIN=\"bci2000.org\";PROJECT_VERSION=\"3.6.8348.2517\";WEBSEARCH_DOMAIN=\"www.google.com\";BUILD_USER=\"kotlab@DESKTOP-Q28EPBK\";_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;TINY_DEBUG_LOCKS=0;COMPILER_NAME=\"MSVC-19.41.34123.0-AMD64\";HAVE_LIB_TINY;HAVE_CORELIB;BUILD_CONFIG=\" USE_OPENMP:ON USE_PRECOMPILED_HEADERS:OFF USE_ASSERTS_IN_RELEASE_BUILDS:OFF\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Lib;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\accessors;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\filters;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\types;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Expression;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Scripting;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\fileio\dat;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Filter_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterTool_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000FilterDll_;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Logger_;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copy to destination</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Debug/NewBCI2000Module.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build || "C:/Program Files/CMake/bin/cmake.exe" -E remove C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Debug/NewBCI2000Module.exe &amp;&amp; "C:/Program Files/CMake/bin/cmake.exe" -E touch_nocreate .notexist
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;avrt.lib;..\..\frameworks\CoreLib\DynamicCrt\Debug\BCI2000FrameworkCore_DynamicCrt.lib;..\..\frameworks\LibTiny\DynamicCrt\Debug\LibTiny_DynamicCrt.lib;ws2_32.lib;avrt.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Debug/NewBCI2000Module.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/Debug/NewBCI2000Module.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\ADC.prm.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/ADC.prm.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource ADC_prm_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/ADC.prm.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/ADC.prm.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\ADC.prm.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\ADC.prm.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/ADC.prm.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource ADC_prm_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/ADC.prm.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/ADC.prm.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\ADC.prm.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\ADC.prm.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/ADC.prm.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource ADC_prm_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/ADC.prm.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/ADC.prm.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\ADC.prm.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\ADC.prm.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\CMakeLists-Application.txt.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/CMakeLists-Application.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_Application_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-Application.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-Application.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-Application.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/CMakeLists-Application.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_Application_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-Application.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-Application.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-Application.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/CMakeLists-Application.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_Application_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-Application.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-Application.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-Application.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\CMakeLists-HyperscanningApplication.txt.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/CMakeLists-HyperscanningApplication.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_HyperscanningApplication_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-HyperscanningApplication.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-HyperscanningApplication.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-HyperscanningApplication.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-HyperscanningApplication.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/CMakeLists-HyperscanningApplication.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_HyperscanningApplication_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-HyperscanningApplication.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-HyperscanningApplication.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-HyperscanningApplication.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-HyperscanningApplication.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/CMakeLists-HyperscanningApplication.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_HyperscanningApplication_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-HyperscanningApplication.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-HyperscanningApplication.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-HyperscanningApplication.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-HyperscanningApplication.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\CMakeLists-SignalProcessing.txt.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/CMakeLists-SignalProcessing.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalProcessing_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalProcessing.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalProcessing.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalProcessing.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalProcessing.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/CMakeLists-SignalProcessing.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalProcessing_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalProcessing.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalProcessing.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalProcessing.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalProcessing.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/CMakeLists-SignalProcessing.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalProcessing_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalProcessing.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalProcessing.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalProcessing.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalProcessing.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\CMakeLists-SignalSource.txt.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/CMakeLists-SignalSource.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalSource_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalSource.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalSource.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalSource.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalSource.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/CMakeLists-SignalSource.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalSource_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalSource.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalSource.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalSource.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalSource.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/CMakeLists-SignalSource.txt.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalSource_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalSource.txt.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CMakeLists-SignalSource.txt.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalSource.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalSource.txt.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\CursorTask_ADC.bat.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/CursorTask_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CursorTask_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CursorTask_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CursorTask_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CursorTask_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CursorTask_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/CursorTask_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CursorTask_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CursorTask_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CursorTask_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CursorTask_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CursorTask_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/CursorTask_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CursorTask_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CursorTask_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/CursorTask_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CursorTask_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CursorTask_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\P3Speller_ADC.bat.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/P3Speller_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource P3Speller_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/P3Speller_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\P3Speller_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\P3Speller_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/P3Speller_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource P3Speller_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/P3Speller_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\P3Speller_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\P3Speller_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/P3Speller_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource P3Speller_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/P3Speller_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\P3Speller_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\P3Speller_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\PipeDefinition.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/PipeDefinition.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource PipeDefinition_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/PipeDefinition.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/PipeDefinition.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\PipeDefinition.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\PipeDefinition.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/PipeDefinition.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource PipeDefinition_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/PipeDefinition.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/PipeDefinition.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\PipeDefinition.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\PipeDefinition.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/PipeDefinition.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource PipeDefinition_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/PipeDefinition.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/PipeDefinition.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\PipeDefinition.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\PipeDefinition.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\StimulusPresentation_ADC.bat.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/StimulusPresentation_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource StimulusPresentation_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/StimulusPresentation_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/StimulusPresentation_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\StimulusPresentation_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\StimulusPresentation_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/StimulusPresentation_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource StimulusPresentation_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/StimulusPresentation_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/StimulusPresentation_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\StimulusPresentation_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\StimulusPresentation_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/StimulusPresentation_ADC.bat.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource StimulusPresentation_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/StimulusPresentation_ADC.bat.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/StimulusPresentation_ADC.bat.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\StimulusPresentation_ADC.bat.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\StimulusPresentation_ADC.bat.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateApplication.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateApplication.h.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateBufferedADC.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateBufferedADC.h.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateBufferedADC.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateBufferedADC.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateFilter.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateFilter.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateFilter.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateFilter.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateFilter.h.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateFilter.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateFilter.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateFilter.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateFilter.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateHyperscanningApplication.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateHyperscanningApplication.h.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateHyperscanningApplication.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateHyperscanningApplication.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateIncludeExtension.cmake.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateIncludeExtension.cmake.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateIncludeExtension_cmake_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateIncludeExtension.cmake.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateIncludeExtension.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateIncludeExtension.cmake.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateIncludeExtension.cmake.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateIncludeExtension_cmake_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateIncludeExtension.cmake.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateIncludeExtension.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateIncludeExtension.cmake.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateIncludeExtension.cmake.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateIncludeExtension_cmake_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateIncludeExtension.cmake.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateIncludeExtension.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateIncludeExtension.cmake.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateLogger.cpp.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateLogger.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateLogger.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateLogger.cpp.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.cpp.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.cpp.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.cpp.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\42f4b5a5748505e58058b7ee17c181e4\TemplateLogger.h.in.res.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating NewBCI2000Module_/TemplateLogger.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Release\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating NewBCI2000Module_/TemplateLogger.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\RelWithDebInfo\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating NewBCI2000Module_/TemplateLogger.h.in.res.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.h.in &gt; C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~1/TemplateLogger.h.in.res.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\Debug\create_resource.exe;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.h.in.res.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/buildutils/BootstrapCustomProjects/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\Core.cmake;C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\cmake\frameworks\LibTiny.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\BootstrapCustomProjects.cpp" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\buildenv.h" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\ADC.prm.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-Application.txt.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-HyperscanningApplication.txt.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalProcessing.txt.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CMakeLists-SignalSource.txt.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\CursorTask_ADC.bat.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\P3Speller_ADC.bat.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\PipeDefinition.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\StimulusPresentation_ADC.bat.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateApplication.h.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateBufferedADC.h.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateFilter.h.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateHyperscanningApplication.h.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateIncludeExtension.cmake.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.cpp.in.res.cpp" />
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\TemplateLogger.h.in.res.cpp" />
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\NewBCI2000Module_\Resources.inc">
+    </None>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\ADC.prm.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-Application.txt.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-HyperscanningApplication.txt.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalProcessing.txt.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CMakeLists-SignalSource.txt.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\CursorTask_ADC.bat.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\P3Speller_ADC.bat.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\PipeDefinition.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\StimulusPresentation_ADC.bat.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateApplication.h.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateBufferedADC.h.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateFilter.h.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateHyperscanningApplication.h.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateIncludeExtension.cmake.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.cpp.in" />
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\BootstrapCustomProjects\templates\TemplateLogger.h.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\ZERO_CHECK.vcxproj">
+      <Project>{995096D3-EE12-3296-BEE9-CF9D46852F20}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\BCI2000FrameworkCore_DynamicCrt.vcxproj">
+      <Project>{2D6049E0-FB95-3B29-8F62-1C8C8F36C8D5}</Project>
+      <Name>BCI2000FrameworkCore_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\LibTiny\DynamicCrt\LibTiny_DynamicCrt.vcxproj">
+      <Project>{A8E9D36A-4797-39C9-98F6-9C6B12B43593}</Project>
+      <Name>LibTiny_DynamicCrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\create_resource.vcxproj">
+      <Project>{008D5729-CF81-3F01-8C6B-572DE1B876A8}</Project>
+      <Name>create_resource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

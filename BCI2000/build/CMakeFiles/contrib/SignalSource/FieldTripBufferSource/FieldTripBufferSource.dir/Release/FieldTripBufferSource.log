@@ -1,0 +1,9 @@
+﻿  Version.cpp
+  FieldTripBufferSource.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\Release\FieldTripBufferSource.exe
+  	Deploying executable
+  copying files:
+  Cannot list dependencies, executable depends on modules that failed to load:
+   pthreadVC2.dll
+  Executable may fail to run when moved to a different machine.
+  Copying FieldTripBufferSource.exe ...
+  Done.

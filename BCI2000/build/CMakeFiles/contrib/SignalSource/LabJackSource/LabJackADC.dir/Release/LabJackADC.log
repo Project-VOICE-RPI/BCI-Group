@@ -1,0 +1,11 @@
+﻿  Version.cpp
+  LabJackADC.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\LabJackSource\Release\LabJackADC.exe
+  	Deploying executable
+  copying files:
+  Cannot list dependencies, executable depends on modules that failed to load:
+   LabJackM.dll
+  Executable may fail to run when moved to a different machine.
+  Copying LabJackADC.exe ...
+  Copying LabJack.LJM.dll ...
+  Copying LJUDDotNet.dll ...
+  Done.

@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/BuildEnv.sh.cmd.in
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/3.30.5/CMakeCCompiler.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/3.30.5/CMakeSystem.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/version/Version.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeLists.txt
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/AddCoreMain.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/AddRegistryMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/AddResourceMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/AddTargetMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ApplicationMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/BuildConfigurations.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/BuildOptions.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/HyperscanningApplicationMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/IncludeExtensionMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ModuleInventory.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/SetOutputDirectoryMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/SetupBCI2000Macros.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/SetupExtlibDependencies.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/SignalProcessingMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/SignalSourceMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ToolsCmdlineMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ToolsFilterDllMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ToolsGUIAppMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ToolsMexfileMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/ToolsSimulinkMexfileMacro.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/Utils.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/contrib/Extensions/Extensions.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/Operator/OperatorQt/ParameterGUI.CMakeLists.txt

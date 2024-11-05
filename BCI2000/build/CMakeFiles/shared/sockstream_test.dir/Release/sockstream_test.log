@@ -1,0 +1,8 @@
+﻿  Version.cpp
+  sockstream_test.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Release\sockstream_test.exe
+  	Deploying executable
+  copying files:
+  The process cannot access the file because it is being used by another process.
+  The system cannot find the file C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Release\.depends.
+  Copying sockstream_test.exe ...
+  Done.

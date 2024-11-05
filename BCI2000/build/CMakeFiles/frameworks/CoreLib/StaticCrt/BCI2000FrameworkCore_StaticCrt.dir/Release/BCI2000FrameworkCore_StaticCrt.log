@@ -1,0 +1,8 @@
+﻿  BCIEvent.cpp
+  StateVector.cpp
+  Status.cpp
+  SysCommand.cpp
+  VideoFrame.cpp
+  VisID.cpp
+  Generating Code...
+  BCI2000FrameworkCore_StaticCrt.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\StaticCrt\Release\BCI2000FrameworkCore_StaticCrt.lib

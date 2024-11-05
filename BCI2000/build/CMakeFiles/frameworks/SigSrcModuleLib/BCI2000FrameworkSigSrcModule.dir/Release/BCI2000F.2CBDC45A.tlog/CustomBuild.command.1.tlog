@@ -1,0 +1,72 @@
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKEFILES\978D99EEFAB59A1AF40F188332CD02A1\SIGSRCREGISTRY.INC.RULE
+setlocal
+cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigSrcModuleLib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "// Generated file -- do not edit" > C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/FileWriterBase.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/FileSplittingCondition.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/GenericFileWriter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/GenericOutputFormat.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/NullFileWriter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/dat/BCI2000FileWriter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/dat/BCI2000OutputFormat.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/EDFHeader.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/EDFFileWriter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/EDFOutputBase.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/EDFOutputFormat.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/GDF.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/GDFFileWriter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/fileio/edf_gdf/GDFOutputFormat.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/BufferedADC.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/GenericADC.h >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/AlignmentFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/DataIOFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/TransmissionFilter.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/logging/EventLink.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/utils/Multithreading.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/logging/JoystickLogger.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//src/shared/modules/signalsource/logging/KeyLogger.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\extract_registry < C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/CorePCH.cpp >> C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/SigSrcRegistry.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KOTLAB\DOCUMENTS\GITHUB\BCI-GROUP\BCI2000\BUILD\CMAKE\FRAMEWORKS\SIGSRCMODULELIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build -BC:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build --check-stamp-file C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/frameworks/SigSrcModuleLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

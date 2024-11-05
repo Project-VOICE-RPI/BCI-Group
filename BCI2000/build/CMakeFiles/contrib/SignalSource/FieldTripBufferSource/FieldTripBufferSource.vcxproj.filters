@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\FieldTripBufferSource\FieldTripBufferADC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\CorePCH.cpp">
+      <Filter>Generated\BCI2000 Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreMain.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreModule.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\bcistream\BCIStream_module.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\bcistream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\cleanup.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\clientrequest.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\dmarequest.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\endianutil.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\extern.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\printstruct.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\swapbytes.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\tcprequest.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\tcpserver.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\tcpsocket.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\util.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\win32\gettimeofday.c">
+      <Filter>Source Files\External Libraries\fieldtrip\buffer\src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.cpp">
+      <Filter>Generated\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\compat\WinMain.cpp">
+      <Filter>Source Files\BCI2000 Framework\shared\compat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\FieldTripBufferSource\FieldTripBufferADC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\modules\CoreModule.h">
+      <Filter>Header Files\BCI2000 Framework\shared\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\extern.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\swapbytes.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\win32\gettimeofday.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\buffer.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\compiler.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\message.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\platform.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\buffer\src\platform_includes.h">
+      <Filter>Header Files\External Libraries\fieldtrip\buffer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\pthreads-win32\include\pthread.h">
+      <Filter>Header Files\External Libraries\fieldtrip\pthreads-win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\pthreads-win32\include\sched.h">
+      <Filter>Header Files\External Libraries\fieldtrip\pthreads-win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\extlib\fieldtrip\pthreads-win32\include\semaphore.h">
+      <Filter>Header Files\External Libraries\fieldtrip\pthreads-win32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\utils\Resource.h">
+      <Filter>Header Files\BCI2000 Framework\shared\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\shared\config\Resources.h">
+      <Filter>Header Files\BCI2000 Framework\shared\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\FieldTripBufferSource\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\FieldTripBufferSource_\Resources.inc">
+      <Filter>Generated\Resources</Filter>
+    </None>
+    <None Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\icons\signal-screen.ico">
+      <Filter>Generated\AppIcon</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\appicon.rc">
+      <Filter>Generated\AppIcon</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\version\Version.rc">
+      <Filter>Generated\Version</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{203F8CAE-08B3-3597-88E2-C8D18F1A764D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\AppIcon">
+      <UniqueIdentifier>{C55704FF-63F0-3841-98EE-514C81D4BB28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\BCI2000 Framework">
+      <UniqueIdentifier>{140CAD30-91AF-3BED-A355-3FFD817E77DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Resources">
+      <UniqueIdentifier>{77B66BD8-D9D4-3DAC-B940-26C58A4C9E8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated\Version">
+      <UniqueIdentifier>{E40AE0E1-A198-366D-85E3-34589AFF1BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E0D7DE6-400B-3A0D-A2F7-71080404EFCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework">
+      <UniqueIdentifier>{4CDC223E-1BCA-3ED1-AB39-30343E663CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{23737A0E-B2AD-30B8-B854-C339B3450C3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\config">
+      <UniqueIdentifier>{47165B84-58EF-3835-8D6B-423145BAB61F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{FD0C3690-2BA4-38A9-824F-A0F9714EF028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BCI2000 Framework\shared\utils">
+      <UniqueIdentifier>{6F025942-BA2C-38C8-9BCE-2BDBC61A6171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries">
+      <UniqueIdentifier>{64E4960A-AC33-3711-83B4-F8A024135BE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip">
+      <UniqueIdentifier>{CD78853F-6B69-3E6C-B64D-850A0D67496B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip\buffer">
+      <UniqueIdentifier>{88D4074F-0C4C-3984-A6C5-E39E75220806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip\buffer\src">
+      <UniqueIdentifier>{59B97839-3EAB-3B14-89C0-5EF31043D6D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip\buffer\src\win32">
+      <UniqueIdentifier>{9485F0CB-664D-3AD5-919C-C02CCBDA840F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip\pthreads-win32">
+      <UniqueIdentifier>{4D51B1A7-ACDB-3199-87CB-998D1F4D0146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External Libraries\fieldtrip\pthreads-win32\include">
+      <UniqueIdentifier>{EBDAECED-2690-36C0-ADAA-70A953540A61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{824BD7DB-DC9B-34D1-9D28-14BB3C38C139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework">
+      <UniqueIdentifier>{DA8C0813-CD32-36C7-B1A9-12A6536BFBA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared">
+      <UniqueIdentifier>{A29AB006-DD59-3640-B110-7365160C11B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\bcistream">
+      <UniqueIdentifier>{7CEB30B3-6553-319A-BAD8-CC501BB2AC1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\compat">
+      <UniqueIdentifier>{13D9B97F-507B-33FD-B2DE-3A9D914561DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BCI2000 Framework\shared\modules">
+      <UniqueIdentifier>{164C7CD3-7852-38CB-BDC5-CB6414463542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries">
+      <UniqueIdentifier>{53EDFFDB-4B81-34DB-86AB-608C41797C7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries\fieldtrip">
+      <UniqueIdentifier>{B871A496-70E4-38B4-83B9-B6400C20E84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries\fieldtrip\buffer">
+      <UniqueIdentifier>{F135F3B2-7848-35A0-93BC-7A6A107AD064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries\fieldtrip\buffer\src">
+      <UniqueIdentifier>{EBB18845-5CF6-3D62-AFCF-C5A0D2D8A224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External Libraries\fieldtrip\buffer\src\win32">
+      <UniqueIdentifier>{3A6EA173-F5F4-30CA-AF10-C12FFC1F5DEC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

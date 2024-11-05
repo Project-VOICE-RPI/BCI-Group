@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/DELAUNATOR.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/EIGEN.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/FASTAPPROX.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/FFT.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/LIBSVM.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/MATH.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/QT.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/extlib/SWLDA.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/Core.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/cmake/frameworks/LibTiny.cmake
+C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/core/Tools/BCI2000Analysis/CMakeLists.txt
