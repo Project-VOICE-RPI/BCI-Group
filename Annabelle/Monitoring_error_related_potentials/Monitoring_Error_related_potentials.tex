@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+
+\title{Monitoring Error-related potentials Experiment Notes}
+\author{Annabelle Chan}
+\date{November 2024}
+
+\begin{document}
+\maketitle
+
+\section{Experiment Summary}
+6 participants are tasked to identifying whether a cursor on a screen are moving towards the right section on the screen (that will be signified by a colored square). During the experiment, an EEG scan will be ran as the participant accesses the situation.
+
+Each trial lasts approximately 2000 ms and participants have no control over the cursor. Since this experiment is used to monitor erroneous actions, there is about a 0.20 probability for the cursor to move in the wrong direction.
+
+Protocol events (cursor direction and target location) are stored in the EEG recoring. 
+\includegraphics[scale=1]{ProtocolEventTable}
+In consequence events '5' and '10' mark correct movements, while '6' and '9' mark erroneous movements.
+
+\section{Notes on Data}
+The data is in MATLAB variable format. There is experiment data from 6 participants. Each participant had two sessions with each session having 10 runs. Each run has corresponding raw eeg data (data\{i,j\}.eeg) (m samples x n channels) and recording metadata (data\{i,j\}.header). 
+
+The metadata includes the subject number (header.Subject), the session number (header.sample), the recording sampling rate (header.SampleRate), the electrode labels (header.Label), and the recording events (header.EVENT).
+
+\section{Notes on my experiment}
+I will be using the recording events and the raw eeg data. Each run will be counted as a data point (120). I will use the recording events to create output data (+1 for correct direction and -1 for incorrect direction), and I will use the raw eeg data as input data. I plan to make two features for the input data.
+\end{document}
