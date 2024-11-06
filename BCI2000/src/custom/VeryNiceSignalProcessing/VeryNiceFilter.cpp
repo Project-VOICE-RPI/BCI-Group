@@ -43,7 +43,7 @@ VeryNiceFilter::Publish()
  BEGIN_PARAMETER_DEFINITIONS
 
    "Filtering:VeryNiceFilter int EnableVeryNiceFilter= 0 0 0 1 // enable VeryNiceFilter? (boolean)",                       // These are just examples:
-   "Filtering:VeryNiceFilter float SomeParameter=  0.0 0.0 -1.0 1.0 // a useless VeryNiceFilter parameter",   //  change them, or remove them.
+   "Filtering:VeryNiceFilter float ScaleFactor =  2.0 0.0 0.0 10.0 // scaling factor for filter",   //  changed for scalefactor
 
  END_PARAMETER_DEFINITIONS
 
@@ -81,6 +81,11 @@ VeryNiceFilter::Preflight( const SignalProperties& Input, SignalProperties& Outp
   Output = Input; // this simply passes information through about SampleBlock dimensions, etc....
 
   // ... or alternatively, we could modify that info here:
+
+  //Check that scale factor is not negative
+  if (Parameter("ScaleFactor") < 0.0f) {
+      bcierr << "Scale Factor must be non-negative";
+  }
 
   // Let's imagine this filter has only one output, namely the amount of stuff detected in the signal:
   // Output.SetChannels( 1 );
@@ -122,24 +127,36 @@ VeryNiceFilter::StartRun()
 void
 VeryNiceFilter::Process( const GenericSignal& Input, GenericSignal& Output )
 {
-
-  // And now we're processing a single SampleBlock of data.
-  // Remember not to take too much CPU time here, or you will break the real-time constraint.
-
-  Output = Input; // Pass the signal through unmodified.
-                  // ( Obviously this will no longer fly if we modified the shape of the
-                  //   output SignalProperties during Preflight ).
-
-  // Or we could do it one value at a time:
-  /*
-  for( int ch = 0; ch < Output.Channels(); ch++ )
-  {
-    for( int el = 0; el < Output.Elements(); el++ )
-    {
-      Output( ch, el ) = some_function( Input );
+  //Check if filter enabled
+  if (Paramter("EnableVeryNiceFilter") == 1) {
+    float scalefactor = Parameter("ScaleFactor");
+    
+    //Apply scaling
+    for (int chan = 0; chan < Output.Channels(); chan++) {
+        for (int elem = 0; elem < Output.Elements(); elem++) {
+            Output(chan, elem) = Input(chan, elem) * scaleFactor;
+        }
     }
   }
-  */
+  else {
+      // And now we're processing a single SampleBlock of data.
+      // Remember not to take too much CPU time here, or you will break the real-time constraint.
+
+      Output = Input; // Pass the signal through unmodified.
+      // ( Obviously this will no longer fly if we modified the shape of the
+      //   output SignalProperties during Preflight ).
+
+    // Or we could do it one value at a time:
+    /*
+    for( int ch = 0; ch < Output.Channels(); ch++ )
+    {
+      for( int el = 0; el < Output.Elements(); el++ )
+      {
+        Output( ch, el ) = some_function( Input );
+      }
+    }
+    */
+  }
 }
 
 void
