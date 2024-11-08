@@ -1,31 +1,60 @@
 \documentclass{article}
 \usepackage{url} % For handling URLs
+\usepackage{hyperref} % For clickable links
+\usepackage{parskip} % For paragraph spacing
+
+\title{Plotting EEG Data in Python}
+\author{}
+\date{}
+
 \begin{document}
 
-\section{Visualizing EEG data in python}
-When we begin visualizing an EEG dataset, the first step is to look at a single trail. After inspection, we can look through all the recorded epochs to evaluate the quality of the dataset. The easiest way to visualize an EEG dataset is to use the plot() function using MNE, which plots epochs. The y axis shows the channel names while the x axis shows the epoch numbers. We can also see the ratio of each event type above the plot. \\
-We can also plot average epochs to focus on the average epoch response, ERPs. This technique is used widely in the EEG field of research as it gets rid of irrelevant responses to a given task. The average ERPs only contain activity that appears at consistent latencies and electrode locations across repetitions. There are many other things we can plot such as topographic information and channels those plots should give a general basis of the data set. \\
-MNE's .compute\_psd() method will produce a PSD plot that calculates the amplitude for different frequencies in the signal. It's similar to a histogram but shows how much power each frequency has across a continuous range. The PSD plot has: \\
-X-axis: Frequencies in Hz \\
-Y-axis: Amplitude for each frequency \\
-Seperate lines for each electrode that show frequency data across scalp regions. Color code indicate electrode positions. In a sample plot, you might notice:\\
-A 60 Hz spike, caused by electrical interference from power lines\\
-A 180 Hz spike, a harmonic (multiplicative) effect of the 60 Hz signal\\
-A 10 Hz spike in the alpha band, a normal brainwave frequency associated with relaxed wakefulness
+\maketitle
+
+\section{Visualizing EEG Data in Python}
+When starting to visualize an EEG dataset, the first step is to inspect a single trial. After this initial inspection, we can examine all recorded epochs to assess the dataset’s overall quality. 
+
+The easiest way to visualize an EEG dataset is by using MNE's \texttt{plot()} function, which plots epochs with:
+\begin{itemize}
+    \item \textbf{Y-axis}: Channel names.
+    \item \textbf{X-axis}: Epoch numbers.
+\end{itemize}
+Above the plot, the ratio of each event type can also be displayed.
+
+To analyze the average response, we can plot \textbf{average epochs} to focus on ERP (Event-Related Potential) responses. This technique is widely used in EEG research as it filters out irrelevant responses, leaving only activity that occurs consistently across repetitions, both in terms of latency and electrode location.
+
+Other visualizations include topographic maps and individual channel plots, which provide a comprehensive overview of the dataset.
+
+\subsection{Power Spectral Density (PSD) Plot}
+MNE's \texttt{.compute\_psd()} method generates a Power Spectral Density (PSD) plot, which calculates the amplitude of various frequencies in the signal. Similar to a histogram, the PSD plot shows how much power each frequency has across a continuous range. In a PSD plot:
+\begin{itemize}
+    \item \textbf{X-axis}: Frequencies in Hz.
+    \item \textbf{Y-axis}: Amplitude for each frequency.
+    \item Separate lines for each electrode illustrate frequency data across different scalp regions, with color coding indicating electrode positions.
+\end{itemize}
+
+In a typical EEG PSD plot, you might observe:
+\begin{itemize}
+    \item A \textbf{60 Hz spike}, often due to electrical interference from power lines.
+    \item A \textbf{180 Hz spike}, which is a harmonic effect of the 60 Hz signal.
+    \item A \textbf{10 Hz spike in the alpha band}, which is a common brainwave frequency associated with relaxed wakefulness.
+\end{itemize}
 
 \section{Time and Frequency Domains}
+For EEG data used in a P300 speller system, visualization in the \textbf{time domain} is ideal, as the P300 component appears as a distinct positive deflection around 300 ms after a stimulus. Typically, EEG data for P300 detection is filtered in the 1–30 Hz range, removing low-frequency drifts and high-frequency noise. This filter range covers delta, theta, alpha, and beta bands, which are associated with brain activity related to cognitive processing.
 
-For EEG data used in a P300 speller system, it is best viewed in the time domain, as P300 is an ERP that appears as a distinct positive deflection around 300 ms after a stimulus. For P300 detection, EEG is typically filtered in the 1–30 Hz range to remove low-frequency drifts and high-frequency noise. This filter range aligns with focusing on the delta, theta, alpha, and beta bands, which represent typical brain activity related to cognitive processing without excess noise. For optimal results, a bandpass filter around 0.1–30 Hz is recommended for P300 data. \\
-In addition, the EEG data should have a high enough sample rate to reliably capture the P300 and associated frequencies. According to the Nyquist theorem, the sample rate should be at least twice the frequency of interest. For example, since we are interested in 30 Hz, a minimum sample rate of 60 Hz is required, though 250–500 Hz is frequently used for greater accuracy. \\
-Fourier Transform (FFT) and Power Spectrum: Understanding power spectral density (PSD) can simplify assessing noise levels at various frequencies. For instance, a 60 Hz power line artifact might show up as a spike in the power spectrum, indicating a need for filtering or artifact removal. You can verify the effectiveness of filters and identify any residual noise that could interfere with P300 detection by using the Fast Fourier Transform (FFT) to examine the signal's frequency content. \\ \\ \\
+To optimally filter P300 data, a bandpass filter around 0.1–30 Hz is recommended.
 
+\subsection{Sampling Rate}
+To reliably capture the P300 component and relevant frequencies, a high sampling rate is essential. According to the Nyquist theorem, the sampling rate should be at least twice the frequency of interest. For example, for a maximum frequency of 30 Hz, the sampling rate should be at least 60 Hz, although 250–500 Hz is commonly used for greater accuracy.
 
+\subsection{Fourier Transform (FFT) and Power Spectrum}
+Understanding Power Spectral Density (PSD) aids in assessing noise levels across frequencies. For instance, a 60 Hz power line artifact might appear as a spike in the power spectrum, indicating a need for filtering or artifact removal. Using the Fast Fourier Transform (FFT), we can examine the frequency content of the signal to verify the effectiveness of filters and detect any residual noise that may interfere with P300 detection.
 
-
-
-
-Filtering EEG Data. Filtering EEG Data - Neural Data Science in Python. (n.d.). https://neuraldatascience.io/7-eeg/erp\_filtering.html \\
-Name, Y. A. (2021, January 13). Data Visualization. Tutorial \#2: Visualize EEG Data. https://neuro.inf.unibe.ch/AlgorithmsNeuroscience/Tutorial\_files/DataVisualization.html \\
-Filtering EEG Data. Filtering EEG Data - Neural Data Science in Python. (n.d.). https://neuraldatascience.io/7-eeg/erp\_filtering.html 
+\section{References}
+\begin{itemize}
+    \item Filtering EEG Data. \emph{Filtering EEG Data - Neural Data Science in Python}. (n.d.). Retrieved from \url{https://neuraldatascience.io/7-eeg/erp_filtering.html}
+    \item Name, Y. A. (2021, January 13). \emph{Data Visualization. Tutorial \#2: Visualize EEG Data}. Retrieved from \url{https://neuro.inf.unibe.ch/AlgorithmsNeuroscience/Tutorial_files/DataVisualization.html}
+\end{itemize}
 
 \end{document}

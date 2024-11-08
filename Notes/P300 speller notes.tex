@@ -1,26 +1,49 @@
 \documentclass{article}
 \usepackage{url} % For handling URLs
+\usepackage{hyperref} % For clickable links
+\usepackage{parskip} % For paragraph spacing
+
+\title{P300 Speller Notes}
+\author{}
+\date{}
+
 \begin{document}
-\section{Info on P300 speller}
-A P300 speller consists of 36 alpha-numeric characters in a 6x6 matrix, the user has to focus their attention on a character, then rows and columns will flash in a random sequence. There are many different variations to the P300 paradigm that try to improve the framework. In the classical variation, a sequence of 12 different flashes (6 rows and 6 columns) is called an iteration. These flashes are an oddball paradigm, so there are two different kinds of stimuli, target and non target, occurring at frequencies of 0.166 and 0.833 respectively. The target response which is more rare should elicit the P300 response, which in this case the target stimulus is the row/column containing the desired character. We need a classification algorithm to distinguish between these stimuli. In ERP-based BCIs, to perform a selection step, many iterations are needed to improve the SNR (signal to noise ratio). Machine learning and optimization can be used to improve the classification performance.\\
-\section{Links to EEG data for P300 speller brain-computer interfaces}
-\url{https://www.nature.com/articles/s41597-022-01509-w#ref-CR28} \\
-\url{https://www.bbci.de/competition/iii/desc_II.pdf} \\ \\
 
-\section{Data obtained from BCI competition III (Link 2)}
-The recorded data from the competition data set was converted into 4 .mat files, one training (85 characters), one test (100 characters) for each of the two subjects (A and B). All of the data is stored in single precision, and may need to be converted into double precision. For each file, the recorded 64 channel EEG signal is organized in one matrix (stored as signal). Note that because the subjects had to spell the actual words in each run, the character epochs are scrambled in the training and test sets to prevent identification of the correct test set characters by the participants. \\
-For each sample in the Signal matrix, associated events are coded using these variables: \\
-\textbf{Flashing}: 1 when row/column was intensified, 0 otherwise \\
-\textbf{StimulusCode}: 0 when no row/column is being intensified (matrix is blank), 1-6 for intensified columns and 7-12 for intensified rows \\
-\textbf{StimulusType}: 0 when no row/column is being intensified or intensified row/column doesn't contain desired character, 1 when intensified row/character contains the desired character. This variable creates easy access to labels in the training sets so it can seperate the responses that did contain the desired character from those that did not \\
-\textbf{TargetChar}: The correct character label for each character epoch in the training data \\ \\
+\maketitle
 
-\section{Steps to extract the signal waveforms associated with the intesification of a particular row/column}
-1. For one or more channels, collect a period of signal samples at the start of each intensification, so whenvever Flashing changes from 0 to 1 (Note: each character epoch of the data set starts at the first flash, i.e. Flashing = 1 for the first data sample in each epoch) \\
-2. Accumulate the signal samples in 12 seperate buffers, using the StimulusCode for the corresponding stimulus. For each character epoch, each buffer should contain the 15 sample periods - one for each intensification of the given row/column. \\
+\section{Info on P300 Speller}
+A P300 speller consists of 36 alphanumeric characters arranged in a 6x6 matrix. The user has to focus their attention on a character, and then rows and columns will flash in a random sequence. There are many different variations to the P300 paradigm that aim to improve this framework. In the classical variation, a sequence of 12 different flashes (6 rows and 6 columns) is called an iteration. These flashes form an oddball paradigm, with two different types of stimuli: target and non-target, occurring at frequencies of 0.166 and 0.833, respectively. The target response, which is more rare, should elicit the P300 response; in this case, the target stimulus is the row/column containing the desired character. 
 
+A classification algorithm is needed to distinguish between these stimuli. In ERP-based BCIs, many iterations are required to improve the SNR (signal-to-noise ratio) for accurate selection. Machine learning and optimization techniques can further improve classification performance.
 
+\section{Links to EEG Data for P300 Speller Brain-Computer Interfaces}
+\begin{itemize}
+    \item \url{https://www.nature.com/articles/s41597-022-01509-w#ref-CR28}
+    \item \url{https://www.bbci.de/competition/iii/desc_II.pdf}
+\end{itemize}
 
-Bianchi, L., Liti, C., Liuzzi, G. et al. Improving P300 Speller performance by means of optimization and machine learning. Ann Oper Res 312, 1221–1259 (2022). https://doi.org/10.1007/s10479-020-03921-0
+\section{Data Obtained from BCI Competition III (Link 2)}
+The recorded data from the competition dataset is organized into four \texttt{.mat} files: one training file (85 characters) and one test file (100 characters) for each of the two subjects (A and B). All data is stored in single precision and may need to be converted to double precision. For each file, the recorded 64-channel EEG signal is organized in a matrix (stored as \texttt{Signal}). 
+
+Note: Since the subjects had to spell actual words in each run, the character epochs are scrambled in the training and test sets to prevent identification of the correct test set characters by the participants.
+
+Each sample in the \texttt{Signal} matrix has associated event codes, defined by these variables:
+\begin{itemize}
+    \item \textbf{Flashing}: 1 when a row/column was intensified, 0 otherwise.
+    \item \textbf{StimulusCode}: 0 when no row/column is being intensified (matrix is blank), 1-6 for intensified columns, and 7-12 for intensified rows.
+    \item \textbf{StimulusType}: 0 when no row/column is being intensified or when the intensified row/column doesn't contain the desired character, and 1 when the intensified row/column contains the desired character. This variable provides labels in the training sets, separating responses that contained the desired character from those that did not.
+    \item \textbf{TargetChar}: The correct character label for each character epoch in the training data.
+\end{itemize}
+
+\section{Steps to Extract the Signal Waveforms Associated with the Intensification of a Particular Row/Column}
+\begin{enumerate}
+    \item For one or more channels, collect a period of signal samples at the start of each intensification, i.e., whenever \texttt{Flashing} changes from 0 to 1. (Note: each character epoch of the dataset starts at the first flash, so \texttt{Flashing} = 1 for the first data sample in each epoch.)
+    \item Accumulate the signal samples in 12 separate buffers, using the \texttt{StimulusCode} for the corresponding stimulus. For each character epoch, each buffer should contain the 15 sample periods, one for each intensification of the given row/column.
+\end{enumerate}
+
+\section{References}
+\begin{itemize}
+    \item Bianchi, L., Liti, C., Liuzzi, G., et al. Improving P300 Speller performance by means of optimization and machine learning. \emph{Annals of Operations Research, 312}, 1221–1259 (2022). \url{https://doi.org/10.1007/s10479-020-03921-0}
+\end{itemize}
 
 \end{document}

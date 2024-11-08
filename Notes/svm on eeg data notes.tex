@@ -1,11 +1,37 @@
 \documentclass{article}
 \usepackage{url} % For handling URLs
+\usepackage{hyperref} % For clickable links
+\usepackage{parskip} % For paragraph spacing
+
+\title{Support Vector Machines (SVMs)}
+\author{}
+\date{}
+
 \begin{document}
-Support vector machines\\
-Classifier learning can be seen as finding a curve that well separates two sets of points. We are trying to find an optimal curve out of infinitely many curves. It’s difficult to define optimal, because if we say that optimal is the curve that minimizes mistakes in the two sets, then it might not work as well on unseen data, which is known as overfitting. SVMs help avoid overfitting by finding the points in the dataset closest to the line separating the two classes; these are support vectors. Then the SVM will maximize the margin (distance) between the vectors and separation line. After it finds a line using the margins, it will create a formula, called the weight vector, that shows how important each feature is in deciding the classification. Then when you need to classify an object, it will plug its features into the weight vector and get a score, if the score is positive then its one class and negative will be the other. Before this training, it’s important that the different features are on a similar scale so the model is not biased by a feature with large numbers. This is done by subtracting the mean and dividing by the standard deviation.\\
 
+\maketitle
 
-Bernard Ng, Rebecca K. Reh, Sara Mostafavi, A practical guide to applying machine learning to infant EEG data, Developmental Cognitive Neuroscience, Volume 54,
-2022, 101096, ISSN 1878-9293, https://doi.org/10.1016/j.dcn.2022.101096.
+\section{Support Vector Machines (SVMs)}
+Classifier learning can be seen as finding a curve that best separates two sets of points. The goal is to find an \textbf{optimal curve} out of infinitely many possibilities. However, defining "optimal" is challenging. For example, if we define the optimal curve as the one that minimizes mistakes within the two sets, it may not generalize well to unseen data—a problem known as \textbf{overfitting}.
+
+Support Vector Machines (SVMs) address overfitting by focusing on the points in the dataset that are closest to the line separating the two classes; these points are called \textbf{support vectors}. SVMs maximize the \textbf{margin} (distance) between the support vectors and the separating line. After finding this line using the margins, the SVM creates a formula called the \textbf{weight vector}, which indicates the importance of each feature in deciding the classification.
+
+For classification, the features of an object are plugged into the weight vector to get a score:
+\begin{itemize}
+    \item A \textbf{positive score} indicates one class.
+    \item A \textbf{negative score} indicates the other class.
+\end{itemize}
+
+\subsection{Feature Scaling}
+Before training, it’s essential to ensure that different features are on a similar scale to prevent bias from features with large numbers. This is typically done by:
+\begin{enumerate}
+    \item Subtracting the mean of each feature.
+    \item Dividing by the standard deviation of each feature.
+\end{enumerate}
+
+\section{References}
+\begin{itemize}
+    \item Bernard Ng, Rebecca K. Reh, Sara Mostafavi, \emph{A Practical Guide to Applying Machine Learning to Infant EEG Data}, Developmental Cognitive Neuroscience, Volume 54, 2022, 101096, ISSN 1878-9293. \href{https://doi.org/10.1016/j.dcn.2022.101096}{https://doi.org/10.1016/j.dcn.2022.101096}
+\end{itemize}
 
 \end{document}

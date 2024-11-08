@@ -1,47 +1,78 @@
 \documentclass{article}
+\usepackage{amsmath} % For mathematical symbols
+\usepackage{graphicx} % For handling images
 \usepackage{url} % For handling URLs
+\usepackage{hyperref} % For clickable links
+\usepackage{parskip} % For paragraph spacing
+
+\title{Importing and Processing data with Python}
+\author{}
+\date{}
+
 \begin{document}
-\section{Importing EEG data}
-Libraries that are required for EEG data analysis in python: \\
-MNE (Machines for neural experiments): A python package for EEG data analysis that has many functions for data preprocessing, filtering, artifact removal, time-frequency analysis, and visualization. \\
-scipy: A scientific computing library which offers many numerical and scientific routines, these will load the matlab files necessary to analyze the data. \\
-numpy: Has everything for scientific computing in python, providing support for multi-dimensional arrays/matrices and many mathmatical functions. This is used for data manipulation and array operations. \\
-matplotlib: A popular python visualization library which is needed to create plots for EEG signals, spectrograms and more. \\ \\
 
-When loading EEG data from .mat file into python, the contents of the file will go into a dictionary-like object to hold each key-pair value in the EEG data. EEG data is usually organized as a multi-dimensional array with each representing channels, time samples, and trials using the shape attribute to show the size of each dimension. The way that this is formatted is shown as follows: \\
-number of channels = eeg.data.shape[0] \\
-number of time samples = eeg.data.shape[1] \\
-number of trials = eeg.data.shape[2] \\
+\maketitle
 
-Then we need a MNE data structure to enable analysis and visualization. Using the MNE library, we create a information object which will hold the channel names, sampling frequency, and channel types. \\
-Note: The sfreq variable should be changed depending on your sampling rate, in the BCI competiton III dataset, the sampling rate is 512 hz. 
+\section{Introduction}
+This guide outlines the essential Python libraries and steps for importing and processing EEG data, especially for applications involving ERP (Event-Related Potential) analysis. We will cover data import, filtering, and segmentation, using libraries such as MNE, SciPy, NumPy, and Matplotlib.
+
+\section{Required Libraries for EEG Data Analysis}
+The following libraries are commonly used in EEG data analysis:
+\begin{itemize}
+    \item \textbf{MNE (Machines for Neural Experiments)}: A Python package specifically for EEG data analysis, offering functions for preprocessing, filtering, artifact removal, time-frequency analysis, and visualization.
+    \item \textbf{SciPy}: Provides scientific routines and enables loading of MATLAB files for EEG data.
+    \item \textbf{NumPy}: Supports multi-dimensional arrays, matrices, and mathematical functions, essential for data manipulation.
+    \item \textbf{Matplotlib}: A visualization library used to plot EEG signals, spectrograms, and more.
+\end{itemize}
+
+\section{Importing EEG Data}
+When loading EEG data from a \texttt{.mat} file, the contents are stored in a dictionary-like object with keys representing different data segments. EEG data is usually organized as a multi-dimensional array with the shape attribute denoting the size of each dimension:
+\begin{align*}
+    \text{Number of channels} &= \texttt{eeg.data.shape[0]} \\
+    \text{Number of time samples} &= \texttt{eeg.data.shape[1]} \\
+    \text{Number of trials} &= \texttt{eeg.data.shape[2]}
+\end{align*}
+
+Using the MNE library, we create an \texttt{Info} object to store details like channel names, sampling frequency, and channel types. The sampling rate should be set according to the data, e.g., 512 Hz for BCI Competition III data.
 
 \section{Filtering EEG Data}
-EEG signals have many different frequencies, most coming in the range of 1-30Hz, where revelant activity happens in terms of EEG research. However there is a lot of unwanted noise picked up by an EEG which come in two forms, low and high frequency noise. Low frequency noise such as slow head movements or wire shifts occur in slow drifts on EEG data. High frequency noise like muscle movement or electromagnetic interference appears as a sharp change in the signal. Our job when filtering is to get rid of noise outside of the desired range. \\
-During recording its important to avoid aliasing which happens when high frequency noise isn't captured correctly due to a sampling rate being too low. This leads to misleading low frequency artifacts so we must avoid this by finding the highest frequency that is reliable, for a 500 hz sampling rate, about up to 167 hz is reliable. In ERP analysis, the best way to implement this is to use a low-pass filter to remove the high frequency range and a high-pass filter to eliminate the slow drifts. This setup is called a band-pass filter since it preserves a specific "band" of frequencies. \\
-Tip: Always filter first when preprocessing. Filtering needs to be applied before dividing the data into shorter segments to be used for ERP analysis. Since we need longer stretches of data to remove the low frequency parts accurately, we need to filter before anything else.\\
-We can use MNE's .filter() method with two parameters to filter EEG data in python. The first parameter is the low frequency cutoff, set around 0.1 Hz to remove slow drifts, the other parameter is a high frequency cutoff such as 30 Hz to remove high frequency noise. The command would look like this:\\
-raw\_filt = raw.copy().filter(low\_cut,high\_cut) Note: we use .copy() to avoid altering the original data \\
+EEG signals span a range of frequencies (typically 1-30 Hz for relevant activity), but also contain noise:
+\begin{itemize}
+    \item \textbf{Low-frequency noise}: Caused by slow movements or wire shifts.
+    \item \textbf{High-frequency noise}: Caused by muscle movements or electromagnetic interference.
+\end{itemize}
 
-\section{Visualizing EEG data in python}
-When we begin visualizing an EEG dataset, the first step is to look at a single trail. After inspection, we can look through all the recorded epochs to evaluate the quality of the dataset. The easiest way to visualize an EEG dataset is to use the plot() function using MNE, which plots epochs. The y axis shows the channel names while the x axis shows the epoch numbers. We can also see the ratio of each event type above the plot. \\
-We can also plot average epochs to focus on the average epoch response, ERPs. This technique is used widely in the EEG field of research as it gets rid of irrelevant responses to a given task. The average ERPs only contain activity that appears at consistent latencies and electrode locations across repititions. There are many other things we can plot such as topographic information and channels those plots should give a general basis of the data set. \\
-MNE's .compute\_psd() method will produce a PSD plot that calculates the amplitude for different frequencies in the signal. It's similar to a histogram but shows how much power each frequency has across a continuos range. The PSD plot has: \\
-X-axis: Frequencies in Hz \\
-Y-axis: Amplitude for each frequency \\
-Seperate lines for each electrode that show frequency data across scalp regions. Color code indicate electrode positions.\\
-In a sample plot, you might notice:\\
-A 60 Hz spike, caused by electrical interference from power lines\\
-A 180 Hz spike, a harmonic (multiplicative) effect of the 60 Hz signal\\
-A 10 Hz spike in the alpha band, a normal brainwave frequency associated with relaxed wakefulness \\ \\ \\
+To retain only the relevant band (1-30 Hz), we apply a band-pass filter:
+\begin{itemize}
+    \item \textbf{Low-pass filter}: Removes high-frequency noise.
+    \item \textbf{High-pass filter}: Removes slow drifts.
+\end{itemize}
 
+\textbf{Tip}: Always filter the data before segmenting into shorter epochs. Use MNE’s \texttt{.filter()} method as follows:
+\begin{verbatim}
+raw_filt = raw.copy().filter(low_cut, high_cut)
+\end{verbatim}
+where \texttt{low\_cut} is typically set to 0.1 Hz and \texttt{high\_cut} to 30 Hz.
 
+\section{Segmentation into ERP Epochs}
+After filtering, segment the EEG data into \textbf{epochs}, which are time-locked to specific events (e.g., stimuli or responses). The \texttt{events} array and an event dictionary (mapping codes to labels) are used to define these segments:
+\begin{verbatim}
+events, events_dict = mne.events_from_annotations(raw_filt)
+\end{verbatim}
+The \texttt{events} array has three columns: 
+\begin{itemize}
+    \item \textbf{First column}: Index of each event in the data.
+    \item \textbf{Second column}: Usually zero, ignored.
+    \item \textbf{Third column}: Event code as an integer.
+\end{itemize}
 
+\subsection{Event Dictionaries}
+MNE assigns unique integer values to each event code and stores this mapping in the event dictionary. This helps standardize event codes from different data sources.
 
-Neurotist. (2024, February 12). Importing MATLAB Files into Python: A Step-by-Step Guide for EEG Data Analysis with MNE. Medium. https://medium.com/@neurotist/importing-matlab-files-into-python-a-step-by-step-guide-for-eeg-data-analysis-with-mne-d6454a07c066\\
-
-Filtering EEG Data. Filtering EEG Data - Neural Data Science in Python. (n.d.). https://neuraldatascience.io/7-eeg/erp\_filtering.html \\
-
-Name, Y. A. (2021, January 13). Data Visualization. Tutorial \#2: Visualize EEG Data. https://neuro.inf.unibe.ch/AlgorithmsNeuroscience/Tutorial\_files/DataVisualization.html
+\section{References}
+\begin{itemize}
+    \item Neurotist. (2024, February 12). \emph{Importing MATLAB Files into Python: A Step-by-Step Guide for EEG Data Analysis with MNE}. Medium. Retrieved from \url{https://medium.com/@neurotist/importing-matlab-files-into-python-a-step-by-step-guide-for-eeg-data-analysis-with-mne-d6454a07c066}
+    \item \emph{Filtering EEG Data - Neural Data Science in Python}. (n.d.). Retrieved from \url{https://neuraldatascience.io/7-eeg/erp_filtering.html}
+\end{itemize}
 
 \end{document}
