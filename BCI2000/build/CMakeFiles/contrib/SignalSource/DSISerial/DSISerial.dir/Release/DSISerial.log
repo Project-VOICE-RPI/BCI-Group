@@ -1,4 +1,15 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  DSISerialADC.cpp
+  DSI_API_Loader.c
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  SourceFilter.cpp
+  IIRFilterBase.cpp
+  FilterDesign.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   DSISerial.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\DSISerial\Release\DSISerial.exe
   	Deploying executable
   copying files:

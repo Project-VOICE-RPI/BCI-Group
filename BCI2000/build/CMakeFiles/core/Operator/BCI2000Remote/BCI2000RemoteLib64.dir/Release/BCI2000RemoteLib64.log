@@ -1,0 +1,9 @@
+﻿  BCI2000RemoteLib.cpp
+  BCI2000Connection.cpp
+  BCI2000Remote.cpp
+  SockStream.cpp
+  SelfPipe.cpp
+  Generating Code...
+     Creating library C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000Remote/Release/BCI2000RemoteLib64.lib and object C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/BCI2000Remote/Release/BCI2000RemoteLib64.exp
+  BCI2000RemoteLib64.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\BCI2000Remote\Release\BCI2000RemoteLib64.dll
+  Copy to destination

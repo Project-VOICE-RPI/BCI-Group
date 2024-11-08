@@ -1,10 +1,21 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  SignalGeneratorADC.cpp
+  TestLogger.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  SourceFilter.cpp
+  IIRFilterBase.cpp
+  FilterDesign.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   SignalGenerator.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\SignalGenerator\Release\SignalGenerator.exe
   				Deploying executable
   copying files:
   Copying SignalGenerator.exe ...
-  Copying msvcp140.dll ...
   Copying vcomp140.dll ...
+  Copying msvcp140.dll ...
   Copying vcruntime140.dll ...
   Copying vcruntime140_1.dll ...
   Done.

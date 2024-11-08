@@ -1,3 +1,13 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  NeuSenWADC.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\NeuSenW\NeuracleSDK.h(44,17): warning C4091: 'typedef ': ignored on left of 'NeuracleDeviceStatus' when no variable is declared
+  (compiling source file '../../../../../src/contrib/SignalSource/NeuSenW/NeuSenWADC.cpp')
+  
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   NeuSenW.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuSenW\Release\NeuSenW.exe
   			Copy to destination									

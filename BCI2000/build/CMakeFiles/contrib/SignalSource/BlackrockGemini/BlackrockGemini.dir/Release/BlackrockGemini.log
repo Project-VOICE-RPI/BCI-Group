@@ -1,4 +1,59 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  BlackrockGeminiADC.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(1260,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(1949,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(1994,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2237,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2422,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2498,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2526,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2554,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2620,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2680,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2703,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2732,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2763,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2793,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2831,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\BlackrockGemini\include\cbhwlib.h(2868,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/BlackrockGemini/BlackrockGeminiADC.cpp')
+  
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   BlackrockGemini.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\BlackrockGemini\Release\BlackrockGemini.exe
   			Deploying executable
   copying files:

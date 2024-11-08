@@ -1,4 +1,59 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  BlackrockADC.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(1168,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(1784,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(1828,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2248,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2323,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2350,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2377,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2444,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2504,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2527,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2556,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2587,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2615,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2653,1): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2690,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\src\contrib\SignalSource\Blackrock\include\cbhwlib.h(2757,16): warning C5208: unnamed class used in typedef name cannot declare members other than non-static data members, member enumerations, or member classes
+  (compiling source file '../../../../../src/contrib/SignalSource/Blackrock/BlackrockADC.cpp')
+  
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   Blackrock.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\Blackrock\Release\Blackrock.exe
   			Deploying executable
   copying files:

@@ -31,7 +31,7 @@ const VersionInfo VersionInfo::Current(
   "$Version: 3.6.8348.2517 $"
   "$Source Revision: 8348.2517 $"
   "$Source Date: 2024-09-17T19:58:35Z $"
-  "$Build Date: 2024-11-05T21:48:41Z $"
+  "$Build Date: 2024-11-08T22:14:33Z $"
   "$Build Type: " BUILD_TYPE " $"
   "$Build User: " BUILD_USER " $"
   "$Config: " BUILD_CONFIG " $"

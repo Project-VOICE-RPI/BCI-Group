@@ -1,4 +1,47 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  BCI_OperatorLib.cpp
+  CallbackBase.cpp
+  StateMachine.cpp
+  CoreClient.cpp
+  EventLink.cpp
+  TelnetServer.cpp
+  WebsocketServer.cpp
+  ScriptInterpreter.cpp
+  CommandInterpreter.cpp
+  ObjectType.cpp
+  ConditionType.cpp
+  ExecutableType.cpp
+  ImpliedType.cpp
+  ConnectionType.cpp
+  SystemTypes.cpp
+  SystemStates.cpp
+  ParameterTypes.cpp
+  StateTypes.cpp
+  EventTypes.cpp
+  VariableTypes.cpp
+  Generating Code...
+  Compiling...
+  SignalTypes.cpp
+  VisPropertyTypes.cpp
+  MessageTypes.cpp
+  ScriptType.cpp
+  ScriptEvents.cpp
+  InterpreterExpression.cpp
+  Watches.cpp
+  WatchTypes.cpp
+  ExpressionType.cpp
+  FileSystemTypes.cpp
+  LineType.cpp
+  ProcessType.cpp
+  Script.cpp
+  ParserToken.cpp
+  ParserNodes.cpp
+  ScriptParser.cpp
+  BCIStream_opdll.cpp
+  Main.cpp
+  ModuleInventory.cpp
+  Version.cpp
+  Generating Code...
      Creating library C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/OperatorLib/Release/OperatorLib.lib and object C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/CMakeFiles/core/Operator/OperatorLib/Release/OperatorLib.exp
   OperatorLib.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Operator\OperatorLib\Release\OperatorLib.dll
   	Copy to destination

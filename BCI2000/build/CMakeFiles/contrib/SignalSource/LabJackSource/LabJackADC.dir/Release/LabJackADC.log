@@ -1,4 +1,11 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  LabJackADC.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   LabJackADC.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\LabJackSource\Release\LabJackADC.exe
   	Deploying executable
   copying files:

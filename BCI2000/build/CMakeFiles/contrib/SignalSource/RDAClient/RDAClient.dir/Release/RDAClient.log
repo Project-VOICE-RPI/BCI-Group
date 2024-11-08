@@ -1,10 +1,21 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  RDAClientADC.cpp
+  RDAProtocol.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  SourceFilter.cpp
+  IIRFilterBase.cpp
+  FilterDesign.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   RDAClient.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\RDAClient\Release\RDAClient.exe
   	Deploying executable
   copying files:
   Copying RDAClient.exe ...
   Copying msvcp140.dll ...
   Copying vcomp140.dll ...
-  Copying vcruntime140.dll ...
   Copying vcruntime140_1.dll ...
+  Copying vcruntime140.dll ...
   Done.

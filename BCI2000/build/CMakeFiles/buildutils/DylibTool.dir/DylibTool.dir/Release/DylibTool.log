@@ -1,3 +1,11 @@
-﻿  Version.cpp
+﻿  Generating DylibTool_/imports.h.in.res.cpp
+  Generating DylibTool_/imports.cpp.in.res.cpp
+  Generating DylibTool_/cdecl_imports.cpp.in.res.cpp
+  DylibTool.cpp
+  imports.h.in.res.cpp
+  imports.cpp.in.res.cpp
+  cdecl_imports.cpp.in.res.cpp
+  Version.cpp
+  Generating Code...
   DylibTool.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\DylibTool.dir\Release\DylibTool.exe
   	Copy to destination

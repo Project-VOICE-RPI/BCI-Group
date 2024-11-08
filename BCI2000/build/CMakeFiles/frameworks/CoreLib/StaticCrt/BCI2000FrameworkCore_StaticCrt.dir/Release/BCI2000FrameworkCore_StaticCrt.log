@@ -1,8 +1,61 @@
-﻿  BCIEvent.cpp
+﻿  CorePCH.cpp
+  BCIEvent.cpp
+  Environment.cpp
+  ParamRef.cpp
+  StateRef.cpp
+  BCIStream.cpp
+  VersionInfo.cpp
+  RequiredParameters.cpp
+  RunManager.cpp
+  BCI2000FileReader.cpp
+  ChoiceCombination.cpp
+  FilterCombination.cpp
+  GenericFilter.cpp
+  SignalSharingHook.cpp
+  StandaloneFilters.cpp
+  VisualizationHook.cpp
+  CoreConnection.cpp
+  MessageChannel.cpp
+  BitmapImage.cpp
+  Blob.cpp
+  Brackets.cpp
+  Generating Code...
+  Compiling...
+  CfgID.cpp
+  Color.cpp
+  EncodedString.cpp
+  GenericSignal.cpp
+  GenericVisualization.cpp
+  HierarchicalLabel.cpp
+  Label.cpp
+  LabelIndex.cpp
+  Param.cpp
+  ParamList.cpp
+  PhysicalUnit.cpp
+  SignalProperties.cpp
+  SignalType.cpp
+  State.cpp
+  StateList.cpp
   StateVector.cpp
   Status.cpp
   SysCommand.cpp
+  Tree.cpp
   VideoFrame.cpp
+  Generating Code...
+  Compiling...
   VisID.cpp
+  AsyncIODevice.cpp
+  Directory.cpp
+  EventQueue.cpp
+  ArithmeticExpression.cpp
+  Expression.cpp
+  ExpressionNodes.cpp
+  ExpressionParser.cpp
+  IndexList.cpp
+  LogFile.cpp
+  MeasurementUnits.cpp
+  PrecisionTime.cpp
+  RandomGenerator.cpp
+  SerialStream.cpp
   Generating Code...
   BCI2000FrameworkCore_StaticCrt.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\StaticCrt\Release\BCI2000FrameworkCore_StaticCrt.lib

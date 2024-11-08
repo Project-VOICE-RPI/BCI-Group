@@ -1,4 +1,13 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  TMSiADC.cpp
+  Feature.cpp
+  RTDevice.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   TMSi.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\TMSi\Release\TMSi.exe
   	Deploying executable
   copying files:

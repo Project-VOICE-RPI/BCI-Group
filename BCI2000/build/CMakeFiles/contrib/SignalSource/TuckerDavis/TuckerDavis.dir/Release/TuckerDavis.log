@@ -1,4 +1,11 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  TDTADC.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   TuckerDavis.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\TuckerDavis\Release\TuckerDavis.exe
   	Deploying executable
   copying files:

@@ -1,5 +1,5 @@
 // auto-created file, do not edit
-// created 2024-11-05 21:32:43Z
+// created 2024-11-08 21:33:45Z
 // created from: C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in
 #define IS_RESOURCE_P3Speller_ADC_bat_in
 #ifdef REGISTER_RESOURCE

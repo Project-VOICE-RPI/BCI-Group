@@ -132,6 +132,8 @@ if %errorlevel% neq 0 goto :cmEnd
 if %errorlevel% neq 0 goto :cmEnd
 ..\..\..\buildutils\Release\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/StimulusPresentation_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
 if %errorlevel% neq 0 goto :cmEnd
+..\..\..\buildutils\Release\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/VeryNiceSignalProcessing_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
+if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 :cmErrorLevel
@@ -257,6 +259,8 @@ if %errorlevel% neq 0 goto :cmEnd
 if %errorlevel% neq 0 goto :cmEnd
 ..\..\..\buildutils\RelWithDebInfo\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/StimulusPresentation_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
 if %errorlevel% neq 0 goto :cmEnd
+..\..\..\buildutils\RelWithDebInfo\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/VeryNiceSignalProcessing_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
+if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 :cmErrorLevel
@@ -381,6 +385,8 @@ if %errorlevel% neq 0 goto :cmEnd
 ..\..\..\buildutils\Debug\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/P3Speller_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
 if %errorlevel% neq 0 goto :cmEnd
 ..\..\..\buildutils\Debug\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/StimulusPresentation_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
+if %errorlevel% neq 0 goto :cmEnd
+..\..\..\buildutils\Debug\copy_if_newer.exe C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch/VeryNiceSignalProcessing_SignalGenerator.bat C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000//batch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

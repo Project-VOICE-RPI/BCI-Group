@@ -1,4 +1,8 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  Calculator.cpp
+  BCIStream_tool.cpp
+  Version.cpp
+  Generating Code...
   Calculator.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Expression\Release\Calculator.exe
   	Deploying executable
   copying files:

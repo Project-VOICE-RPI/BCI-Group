@@ -1,4 +1,12 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  NC_flexXADC.cpp
+  flexX.imports.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   FlexEEG.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FlexEEG\Release\FlexEEG.exe
   			Deploying executable
   copying files:

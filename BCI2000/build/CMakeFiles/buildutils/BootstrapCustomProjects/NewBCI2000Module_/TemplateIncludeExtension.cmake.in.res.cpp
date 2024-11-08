@@ -1,5 +1,5 @@
 // auto-created file, do not edit
-// created 2024-11-05 21:32:49Z
+// created 2024-11-08 21:33:46Z
 // created from: C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in
 #define IS_RESOURCE_TemplateIncludeExtension_cmake_in
 #ifdef REGISTER_RESOURCE

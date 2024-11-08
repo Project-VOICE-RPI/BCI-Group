@@ -1,30 +1,29 @@
-﻿  Generating SigProcRegistry.inc
-  CorePCH.cpp
-  SourceDecimationFilter.cpp
-  SpatialFilter.cpp
-  IIRFilterBase.cpp
-  IIRBandpass.cpp
-  ThreadedFilter.cpp
-  WindowingFilter.cpp
-  Spectrum.cpp
-  ARSpectrum.cpp
-  FFTSpectrum.cpp
-  SpectralEstimator.cpp
-  ARFilter.cpp
-  P3TemporalFilter.cpp
-  LinearClassifier.cpp
-  LPFilter.cpp
-  ExpressionFilter.cpp
-  Normalizer.cpp
-  FrequencyEstimator.cpp
-  AverageDisplay.cpp
-  RandomFilter.cpp
-  Multithreading.cpp
-  Generating Code...
-  Compiling...
-  BCIRegistry.cpp
-  FilterDesign.cpp
+﻿  CorePCH.cpp
   FFTLibWrap.cpp
   fftw3.imports.cpp
+  FilterDesign.cpp
+  BCIRegistry.cpp
+  ARFilter.cpp
+  ARSpectrum.cpp
+  AverageDisplay.cpp
+  ExpressionFilter.cpp
+  FFTSpectrum.cpp
+  FrequencyEstimator.cpp
+  IIRBandpass.cpp
+  IIRFilterBase.cpp
+  LPFilter.cpp
+  LinearClassifier.cpp
+  Normalizer.cpp
+  P3TemporalFilter.cpp
+  RandomFilter.cpp
+  SourceDecimationFilter.cpp
+  SpatialFilter.cpp
+  SpectralEstimator.cpp
+  Generating Code...
+  Compiling...
+  Spectrum.cpp
+  ThreadedFilter.cpp
+  WindowingFilter.cpp
+  Multithreading.cpp
   Generating Code...
   BCI2000FrameworkSigProcModule.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\SigProcModuleLib\Release\BCI2000FrameworkSigProcModule.lib

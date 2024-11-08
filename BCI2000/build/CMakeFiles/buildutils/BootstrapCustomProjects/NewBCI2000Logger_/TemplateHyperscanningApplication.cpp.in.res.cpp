@@ -1,5 +1,5 @@
 // auto-created file, do not edit
-// created 2024-11-05 21:32:41Z
+// created 2024-11-08 21:33:46Z
 // created from: C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in
 #define IS_RESOURCE_TemplateHyperscanningApplication_cpp_in
 #ifdef REGISTER_RESOURCE
