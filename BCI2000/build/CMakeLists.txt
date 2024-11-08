@@ -61,8 +61,6 @@ ADD_SUBDIRECTORY( ${PROJECT_SOURCE_ROOT}/build/cmake/frameworks "${PROJECT_BUILD
 ADD_SUBDIRECTORY( ${PROJECT_SOURCE_ROOT}/build/cmake/extlib "${PROJECT_BUILD_DIR}/extlib" )
 ADD_SUBDIRECTORY( ${PROJECT_SRC_DIR}/shared/utils/Expression/test "${PROJECT_BUILD_DIR}/shared/Expression" )
 ADD_SUBDIRECTORY( ${PROJECT_SRC_DIR}/shared/test "${PROJECT_BUILD_DIR}/shared" )
-ADD_SUBDIRECTORY(${PROJECT_SRC_DIR}/core/Operator/OperatorQt "${PROJECT_BUILD_DIR}/core/Operator/OperatorQt")
-
 
 # Recurse down into all project subdirectories
 
