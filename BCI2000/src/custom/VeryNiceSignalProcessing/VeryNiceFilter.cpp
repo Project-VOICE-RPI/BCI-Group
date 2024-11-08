@@ -129,8 +129,8 @@ void
 VeryNiceFilter::Process( const GenericSignal& Input, GenericSignal& Output )
 {
   //Check if filter enabled
-  if (Paramter("EnableVeryNiceFilter") == 1) {
-    float scalefactor = Parameter("ScaleFactor");
+  if (Parameter("EnableVeryNiceFilter") == 1) {
+    float scaleFactor = Parameter("ScaleFactor");
     
     //Apply scaling
     for (int chan = 0; chan < Output.Channels(); chan++) {

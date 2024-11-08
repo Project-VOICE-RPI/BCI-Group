@@ -1,4 +1,12 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  NeuroSkyADC.cpp
+  thinkgear.imports.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   NeuroSky.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroSky\Release\NeuroSky.exe
   	Deploying executable
   copying files:

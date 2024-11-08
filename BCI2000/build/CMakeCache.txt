@@ -570,5 +570,5 @@ PROJECT_ICON_STYLE-ADVANCED:INTERNAL=1
 PROJECT_ICON_TEMPLATE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PROJECT_SEARCH_ENGINE
 PROJECT_SEARCH_ENGINE-ADVANCED:INTERNAL=1
-UTILS_ICON_TARGETS:INTERNAL=icon-wrench;icon-signal-document;icon-text-document;icon-puzzlepiece;icon-cogwheel-screen;icon-signal-screen;icon-presentation-screen;icon-gui-screen;icon-prompt;icon-generic-document;icon-exclamation-mark;icon-question-mark;icon-film;icon-eye
+UTILS_ICON_TARGETS:INTERNAL=icon-wrench;icon-signal-document;icon-text-document;icon-puzzlepiece;icon-gui-screen;icon-cogwheel-screen;icon-signal-screen;icon-presentation-screen;icon-prompt;icon-generic-document;icon-exclamation-mark;icon-question-mark;icon-film;icon-eye
 

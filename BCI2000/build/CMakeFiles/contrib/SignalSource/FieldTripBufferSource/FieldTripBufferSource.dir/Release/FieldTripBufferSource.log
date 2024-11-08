@@ -1,4 +1,23 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  FieldTripBufferADC.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  cleanup.c
+  clientrequest.c
+  dmarequest.c
+  endianutil.c
+  extern.c
+  printstruct.c
+  swapbytes.c
+  tcprequest.c
+  tcpserver.c
+  tcpsocket.c
+  util.c
+  gettimeofday.c
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   FieldTripBufferSource.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\FieldTripBufferSource\Release\FieldTripBufferSource.exe
   	Deploying executable
   copying files:

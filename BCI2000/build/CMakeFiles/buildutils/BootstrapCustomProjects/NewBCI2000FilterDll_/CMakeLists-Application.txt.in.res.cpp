@@ -1,5 +1,5 @@
 // auto-created file, do not edit
-// created 2024-11-05 21:32:40Z
+// created 2024-11-08 21:33:45Z
 // created from: C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in
 #define IS_RESOURCE_CMakeLists_Application_txt_in
 #ifdef REGISTER_RESOURCE

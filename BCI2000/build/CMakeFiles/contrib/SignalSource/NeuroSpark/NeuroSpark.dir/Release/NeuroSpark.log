@@ -1,3 +1,10 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  NeuroSparkADC.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   NeuroSpark.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroSpark\Release\NeuroSpark.exe
   	Copy to destination

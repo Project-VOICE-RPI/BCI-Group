@@ -1,4 +1,19 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  SoundcardADC.cpp
+  AudioDevice.cpp
+  ClockTick.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  portaudio.imports.cpp
+  ObserverMemory.cpp
+  ObserverBase.cpp
+  PowerSumObserver.cpp
+  HistogramObserver.cpp
+  Histogram.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   SoundcardSource.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\SoundcardSource\Release\SoundcardSource.exe
   	Deploying executable
   copying files:

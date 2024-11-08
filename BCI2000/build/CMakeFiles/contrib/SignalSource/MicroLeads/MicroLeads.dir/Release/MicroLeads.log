@@ -1,3 +1,20 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  MicroLeadsADC.cpp
+  basestation_SOH.cpp
+  powerpad_SOH.cpp
+  record_disable.cpp
+  record_enable.cpp
+  record_init.cpp
+  open_data_port.cpp
+  send_tcp.cpp
+  send_udp.cpp
+  socket_init.cpp
+  stim_enable.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   MicroLeads.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\MicroLeads\Release\MicroLeads.exe
   	Copy to destination

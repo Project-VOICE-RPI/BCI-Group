@@ -1,3 +1,11 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  actiCHampPlusADC.cpp
+  AmplifierSDK.imports.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   actiCHampPlus.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\actiCHampPlus\Release\actiCHampPlus.exe
   	Copy to destination			

@@ -1,0 +1,46 @@
+﻿  Generating NewBCI2000Module_/ADC.prm.in.res.cpp
+  Generating NewBCI2000Module_/CMakeLists-Application.txt.in.res.cpp
+  Generating NewBCI2000Module_/CMakeLists-HyperscanningApplication.txt.in.res.cpp
+  Generating NewBCI2000Module_/CMakeLists-SignalProcessing.txt.in.res.cpp
+  Generating NewBCI2000Module_/CMakeLists-SignalSource.txt.in.res.cpp
+  Generating NewBCI2000Module_/CursorTask_ADC.bat.in.res.cpp
+  Generating NewBCI2000Module_/P3Speller_ADC.bat.in.res.cpp
+  Generating NewBCI2000Module_/PipeDefinition.cpp.in.res.cpp
+  Generating NewBCI2000Module_/StimulusPresentation_ADC.bat.in.res.cpp
+  Generating NewBCI2000Module_/TemplateApplication.cpp.in.res.cpp
+  Generating NewBCI2000Module_/TemplateApplication.h.in.res.cpp
+  Generating NewBCI2000Module_/TemplateBufferedADC.cpp.in.res.cpp
+  Generating NewBCI2000Module_/TemplateBufferedADC.h.in.res.cpp
+  Generating NewBCI2000Module_/TemplateFilter.cpp.in.res.cpp
+  Generating NewBCI2000Module_/TemplateFilter.h.in.res.cpp
+  Generating NewBCI2000Module_/TemplateHyperscanningApplication.cpp.in.res.cpp
+  Generating NewBCI2000Module_/TemplateHyperscanningApplication.h.in.res.cpp
+  Generating NewBCI2000Module_/TemplateIncludeExtension.cmake.in.res.cpp
+  Generating NewBCI2000Module_/TemplateLogger.cpp.in.res.cpp
+  Generating NewBCI2000Module_/TemplateLogger.h.in.res.cpp
+  BootstrapCustomProjects.cpp
+  ADC.prm.in.res.cpp
+  CMakeLists-Application.txt.in.res.cpp
+  CMakeLists-HyperscanningApplication.txt.in.res.cpp
+  CMakeLists-SignalProcessing.txt.in.res.cpp
+  CMakeLists-SignalSource.txt.in.res.cpp
+  CursorTask_ADC.bat.in.res.cpp
+  P3Speller_ADC.bat.in.res.cpp
+  PipeDefinition.cpp.in.res.cpp
+  StimulusPresentation_ADC.bat.in.res.cpp
+  TemplateApplication.cpp.in.res.cpp
+  TemplateApplication.h.in.res.cpp
+  TemplateBufferedADC.cpp.in.res.cpp
+  TemplateBufferedADC.h.in.res.cpp
+  TemplateFilter.cpp.in.res.cpp
+  TemplateFilter.h.in.res.cpp
+  TemplateHyperscanningApplication.cpp.in.res.cpp
+  TemplateHyperscanningApplication.h.in.res.cpp
+  TemplateIncludeExtension.cmake.in.res.cpp
+  TemplateLogger.cpp.in.res.cpp
+  Generating Code...
+  Compiling...
+  TemplateLogger.h.in.res.cpp
+  Generating Code...
+  NewBCI2000Module.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutils\BootstrapCustomProjects\Release\NewBCI2000Module.exe
+  Copy to destination

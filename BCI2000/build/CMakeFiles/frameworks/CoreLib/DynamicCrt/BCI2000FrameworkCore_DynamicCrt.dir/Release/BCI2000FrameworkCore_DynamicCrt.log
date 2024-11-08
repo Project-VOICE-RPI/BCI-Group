@@ -1,31 +1,26 @@
 ﻿  CorePCH.cpp
+  BCIEvent.cpp
+  Environment.cpp
+  ParamRef.cpp
+  StateRef.cpp
+  BCIStream.cpp
   VersionInfo.cpp
-  LogFile.cpp
-  RandomGenerator.cpp
-  MeasurementUnits.cpp
-  PrecisionTime.cpp
-  IndexList.cpp
-  EventQueue.cpp
-  AsyncIODevice.cpp
-  Directory.cpp
-  ArithmeticExpression.cpp
-  Expression.cpp
-  ExpressionNodes.cpp
-  ExpressionParser.cpp
-  GenericFilter.cpp
+  RequiredParameters.cpp
+  RunManager.cpp
+  BCI2000FileReader.cpp
   ChoiceCombination.cpp
   FilterCombination.cpp
+  GenericFilter.cpp
+  SignalSharingHook.cpp
   StandaloneFilters.cpp
   VisualizationHook.cpp
-  SignalSharingHook.cpp
-  MessageChannel.cpp
-  Generating Code...
-  Compiling...
   CoreConnection.cpp
+  MessageChannel.cpp
   BitmapImage.cpp
   Blob.cpp
-  Tree.cpp
   Brackets.cpp
+  Generating Code...
+  Compiling...
   CfgID.cpp
   Color.cpp
   EncodedString.cpp
@@ -41,21 +36,26 @@
   SignalType.cpp
   State.cpp
   StateList.cpp
-  Generating Code...
-  Compiling...
   StateVector.cpp
   Status.cpp
   SysCommand.cpp
-  VisID.cpp
+  Tree.cpp
   VideoFrame.cpp
-  BCIEvent.cpp
-  Environment.cpp
-  ParamRef.cpp
-  StateRef.cpp
-  BCIStream.cpp
-  RunManager.cpp
-  RequiredParameters.cpp
-  BCI2000FileReader.cpp
+  Generating Code...
+  Compiling...
+  VisID.cpp
+  AsyncIODevice.cpp
+  Directory.cpp
+  EventQueue.cpp
+  ArithmeticExpression.cpp
+  Expression.cpp
+  ExpressionNodes.cpp
+  ExpressionParser.cpp
+  IndexList.cpp
+  LogFile.cpp
+  MeasurementUnits.cpp
+  PrecisionTime.cpp
+  RandomGenerator.cpp
   SerialStream.cpp
   Generating Code...
   BCI2000FrameworkCore_DynamicCrt.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\frameworks\CoreLib\DynamicCrt\Release\BCI2000FrameworkCore_DynamicCrt.lib

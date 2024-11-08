@@ -1,4 +1,5 @@
 // File contents created by BCI2000_ADD_TO_INVENTORY -- re-run CMake to update this file
+MODULE( Operator, Operator )
 MODULE( SignalProcessing, ARSignalProcessing )
 MODULE( SignalProcessing, P3SignalProcessing )
 MODULE( SignalProcessing, FFTSignalProcessing )
@@ -16,7 +17,6 @@ MODULE( Tool, gHIampgetinfo )
 MODULE( SignalSource, gHIampSource )
 MODULE( SignalSource, gNautilusSource )
 MODULE( SignalSource, gUnicornADC )
-MODULE( Operator, Operator )
 MODULE( SignalSource, actiCHampSource )
 MODULE( SignalSource, AmpServerPro )
 MODULE( SignalSource, BioRadio )

@@ -1,4 +1,13 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  gHIampADC.cpp
+  gHIampDevice.cpp
+  gHIamp.imports.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   gHIampSource.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\SignalSource\g.HIampSource\Release\gHIampSource.exe
   	Deploying executable
   copying files:

@@ -1,8 +1,11 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  bci_tool.cpp
+  bci_stream2mat.cpp
+  BCIStream_tool.cpp
+  Version.cpp
+  Generating Code...
   bci_stream2mat.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\Release\bci_stream2mat.exe
   	Deploying executable
   copying files:
-  The process cannot access the file because it is being used by another process.
-  The system cannot find the file C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\core\Tools\cmdline\Release\.depends.
   Copying bci_stream2mat.exe ...
   Done.

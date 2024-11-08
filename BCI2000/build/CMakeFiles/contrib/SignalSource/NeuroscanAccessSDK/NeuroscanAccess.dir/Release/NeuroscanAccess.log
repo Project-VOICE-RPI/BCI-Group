@@ -1,4 +1,12 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  NeuroscanADC.cpp
+  NSDevice.imports.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   NeuroscanAccess.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\NeuroscanAccessSDK\Release\NeuroscanAccess.exe
   	Deploying executable
   copying files:

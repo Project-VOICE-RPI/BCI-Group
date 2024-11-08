@@ -1,12 +1,6 @@
-﻿  Building Custom Rule C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/src/custom/VeryNiceSignalProcessing/CMakeLists.txt
-  CorePCH.cpp
+﻿  Version.cpp
   PipeDefinition.cpp
   VeryNiceFilter.cpp
-  CoreMain.cpp
-  CoreModule.cpp
-  BCIStream_module.cpp
-  Version.cpp
-  WinMain.cpp
   Generating Code...
   VeryNiceSignalProcessing.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\custom\VeryNiceSignalProcessing\Release\VeryNiceSignalProcessing.exe
   	Copy to destination	

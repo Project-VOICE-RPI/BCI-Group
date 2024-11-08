@@ -1,4 +1,7 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  ioobjects_test.cpp
+  Version.cpp
+  Generating Code...
   ioobjects_test.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\shared\Release\ioobjects_test.exe
   	Deploying executable
   copying files:

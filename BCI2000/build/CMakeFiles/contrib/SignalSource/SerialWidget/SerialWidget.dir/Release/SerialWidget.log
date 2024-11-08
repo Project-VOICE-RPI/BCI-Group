@@ -1,4 +1,12 @@
-﻿  Version.cpp
+﻿  CorePCH.cpp
+  SerialWidgetADC.cpp
+  SerialConnection.cpp
+  CoreMain.cpp
+  CoreModule.cpp
+  BCIStream_module.cpp
+  Version.cpp
+  WinMain.cpp
+  Generating Code...
   SerialWidget.vcxproj -> C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\contrib\SignalSource\SerialWidget\Release\SerialWidget.exe
   			Deploying executable
   copying files:

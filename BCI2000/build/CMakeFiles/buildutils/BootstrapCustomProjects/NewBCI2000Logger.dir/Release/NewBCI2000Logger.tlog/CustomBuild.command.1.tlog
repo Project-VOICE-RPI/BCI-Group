@@ -4,7 +4,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource ADC_prm_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/ADC.prm.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/ADC.prm.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource ADC_prm_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/ADC.prm.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/ADC.prm.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -18,7 +18,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_Application_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/CMakeLists-Application.txt.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_Application_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-Application.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/CMakeLists-Application.txt.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -32,7 +32,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_HyperscanningApplication_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-HyperscanningApplication.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/CMakeLists-HyperscanningApplication.txt.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_HyperscanningApplication_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-HyperscanningApplication.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/CMakeLists-HyperscanningApplication.txt.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -46,7 +46,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalProcessing_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalProcessing.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/CMakeLists-SignalProcessing.txt.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalProcessing_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalProcessing.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/CMakeLists-SignalProcessing.txt.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -60,7 +60,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalSource_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalSource.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/CMakeLists-SignalSource.txt.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CMakeLists_SignalSource_txt_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CMakeLists-SignalSource.txt.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/CMakeLists-SignalSource.txt.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -74,7 +74,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CursorTask_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CursorTask_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/CursorTask_ADC.bat.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource CursorTask_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/CursorTask_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/CursorTask_ADC.bat.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -88,7 +88,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource P3Speller_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/P3Speller_ADC.bat.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource P3Speller_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/P3Speller_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/P3Speller_ADC.bat.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -102,7 +102,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource PipeDefinition_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/PipeDefinition.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/PipeDefinition.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource PipeDefinition_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/PipeDefinition.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/PipeDefinition.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,7 +116,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource StimulusPresentation_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/StimulusPresentation_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/StimulusPresentation_ADC.bat.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource StimulusPresentation_ADC_bat_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/StimulusPresentation_ADC.bat.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/StimulusPresentation_ADC.bat.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +130,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateApplication.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateApplication.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -144,7 +144,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateApplication.h.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateApplication.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateApplication.h.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -158,7 +158,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateBufferedADC.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateBufferedADC.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -172,7 +172,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateBufferedADC.h.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateBufferedADC_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateBufferedADC.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateBufferedADC.h.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -186,7 +186,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateFilter.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateFilter.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -200,7 +200,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateFilter.h.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateFilter_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateFilter.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateFilter.h.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -214,7 +214,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateHyperscanningApplication.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateHyperscanningApplication.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -228,7 +228,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateHyperscanningApplication.h.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateHyperscanningApplication_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateHyperscanningApplication.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateHyperscanningApplication.h.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -242,7 +242,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateIncludeExtension_cmake_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateIncludeExtension.cmake.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateIncludeExtension_cmake_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateIncludeExtension.cmake.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateIncludeExtension.cmake.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -256,7 +256,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateLogger.cpp.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_cpp_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.cpp.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateLogger.cpp.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -270,7 +270,7 @@ cd C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\CMakeFiles\buildutil
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NE51A1~1/TemplateLogger.h.in.res.cpp
+C:\Users\kotlab\Documents\GitHub\BCI-Group\BCI2000\build\buildutils\create_resource TemplateLogger_h_in C:/Users/kotlab/Documents/GitHub/BCI-Group/BCI2000/build/buildutils/BootstrapCustomProjects/templates/TemplateLogger.h.in > C:/Users/kotlab/DOCUME~1/GitHub/BCI-GR~1/BCI2000/build/CMAKEF~1/BUILDU~1/BOOTST~1/NEWBCI~4/TemplateLogger.h.in.res.cpp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
