@@ -24,5 +24,9 @@ The data is in MATLAB variable format. There is experiment data from 6 participa
 The metadata includes the subject number (header.Subject), the session number (header.sample), the recording sampling rate (header.SampleRate), the electrode labels (header.Label), and the recording events (header.EVENT).
 
 \section{Notes on my experiment}
-I will be using the recording events and the raw eeg data. Each run will be counted as a data point (120). I will use the recording events to create output data (+1 for correct direction and -1 for incorrect direction), and I will use the raw eeg data as input data. I plan to make two features for the input data.
+I will be using the recording events and the raw EEG data. Each sample in each run will be counted as a data point. I will use the recording events to create output data (+1 for correct direction and -1 for incorrect direction), and I will use the raw eeg data as input data. I plan to make two features for the input data.
+
+For the raw EEG data, I will focus on the electrodes for the occipital lobe (which is used for image processing) and the frontal lobe (which is used for decision making).
+
+For the recording events, I will use Positions to locate which sample in the raw EEG data got recorded with a type. If the type is labeled with a 5 or 10, then that sample is of correct movements. If the type is labeled with a 6 or 9, then that sample is of erroneous movements. All other types will be ignored.
 \end{document}

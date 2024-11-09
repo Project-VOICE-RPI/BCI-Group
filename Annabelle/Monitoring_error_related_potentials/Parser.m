@@ -1,4 +1,4 @@
-function [EEGs, Positions, Types] = Parser(File)
+function [EEGs, Positions, Types, SampleRate, Labels] = Parser(File)
     %  Returns a list containing the an array of raw eeg data, 
     %       an array of event positions, and an array of event types
     %  File:  file to read
@@ -8,6 +8,8 @@ function [EEGs, Positions, Types] = Parser(File)
     EEGs = {};
     Positions = {};
     Types = {};
+    SampleRate = {};
+    Labels = {};
     
     for i=1:10
         STRUCT = run(i);
@@ -17,10 +19,14 @@ function [EEGs, Positions, Types] = Parser(File)
         EVENT = HEADER.EVENT;
         Position = EVENT.POS;
         Type = EVENT.TYP;
+        Sample = HEADER.SampleRate;
+        Label = HEADER.Label;
     
         EEGs{end+1} = EEG_DATA;
         Positions{end+1} = Position;
         Types{end+1} = Type;
+        SampleRate{end+1} = Sample;
+        Labels{end+1} = Label;
     end
 end
 
