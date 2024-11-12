@@ -61,13 +61,60 @@ To extract meaningful features from EEG data, the following steps are typically 
     \item \textbf{Feature Extraction with PCA}: Use Principal Component Analysis (PCA) to reduce the dimensionality of the data while retaining the most informative components.
 \end{enumerate}
 
+\subsection{Feature Selection}
+After feature extraction, a feature selection step is applied to obtain a subset of features that may improve classifier performance. Reducing the number of features reduces the number of parameters the classifier needs to optimize, which can lead to better efficiency and effectiveness. The main feature selection approaches are as follows:
+
+\begin{enumerate}
+    \item \textbf{Filter Methods}: These methods rely on measures of the relationship between each feature and the target class, independently of the classifier to be used. The coefficient of determination (the square of the Pearson correlation coefficient) can serve as a feature ranking criterion. However, the correlation coefficient detects only linear dependencies between features and classes. To exploit non-linear relationships, one solution is applying non-linear preprocessing, such as squaring or taking the logarithm of features.
+
+    \item \textbf{Wrapper Methods}: In this approach, a subset of features is selected and presented as input to a classifier for training. The resulting performance is observed, and the search stops when a specified criterion is satisfied. Otherwise, a new subset is proposed.
+
+    \item \textbf{Embedded Methods}: These methods integrate feature selection and evaluation into a single process, such as with a decision tree or a multilayer perceptron with optimal pruning strategies.
+\end{enumerate}
+
+Five feature selection methods were evaluated on the BCI Competition III datasets, namely information gain ranking, correlation-based feature selection, Relief, consistency-based feature selection, and 1R ranking. Among ten classifiers, the top three feature selection methods were correlation-based feature selection, information gain, and 1R ranking.
+
+\subsection{Correlation-based Feature Selection}
+Correlation-based Feature Selection (CFS) is a technique that identifies subsets of features that have high correlation with the target variable but low correlation with each other. The purpose of CFS is to select a subset of features that provides the maximum information about the target while minimizing redundancy among the features.
+
+A CFS algorithm calculates the correlation between each feature and the target variable. It then computes the correlation between each pair of features and selects the subset with the highest correlation with the target variable and the lowest correlation with each other.
+
+In the following code, CFS is applied to a Breast Cancer diagnostic dataset containing 569 samples of malignant and benign tumor cells. The goal is to determine if a tumor is malignant or benign based on features such as radius, texture, and perimeter.
+
+The first part of the code imports the necessary libraries and loads the dataset:
+\begin{verbatim}
+import pandas as pd
+import numpy as np
+from sklearn.datasets import load_breast_cancer
+
+data = load_breast_cancer()
+df = pd.DataFrame(data.data, columns=data.feature_names)
+df['target'] = pd.Series(data.target)
+\end{verbatim}
+
+Next, it calculates the correlation matrix between the features and the target variable:
+\begin{verbatim}
+corr_matrix = df.corr()
+corr_with_target = corr_matrix['target']
+\end{verbatim}
+
+The code then sorts the values in descending order, selects the top \( k \) features, and checks the correlation matrix among the selected features:
+\begin{verbatim}
+selected_corr_matrix = selected_features.corr()
+selected_corr_matrix
+\end{verbatim}
+
+
 \subsection{Training and Classification with SVM}
 After preprocessing, the reduced feature set is used to train an SVM classifier to differentiate between target and non-target responses. The classifier’s goal is to maximize the separation (margin) between P300 and non-P300 responses, enhancing single-trial classification accuracy.
 
 \section{References}
 \begin{itemize}
     \item Bernard Ng, Rebecca K. Reh, Sara Mostafavi, \emph{A Practical Guide to Applying Machine Learning to Infant EEG Data}, Developmental Cognitive Neuroscience, Volume 54, 2022, 101096, ISSN 1878-9293. \href{https://doi.org/10.1016/j.dcn.2022.101096}{https://doi.org/10.1016/j.dcn.2022.101096}
-    \item Nand Sharma, \emph{Single-trial P300 Classification using PCA with LDA, QDA, and Neural Networks}, arXiv preprint, 2017. \href{https://arxiv.org/pdf/1712.01977}{https://arxiv.org/pdf/1712.01977}
+\item Nand Sharma, \emph{Single-trial P300 Classification using PCA with LDA, QDA, and Neural Networks}, arXiv preprint, 2017. \href{https://arxiv.org/pdf/1712.01977}{https://arxiv.org/pdf/1712.01977}
+ \item Grosse-Wentrup, M., \emph{The Role of Feature Extraction in Single-Trial EEG Classification}, Journal of Neural Engineering, Volume 5, 2008. \href{https://iopscience.iop.org/article/10.1088/1741-2552/aab2f2\#fnref-jneaab2f2bib082}{https://iopscience.iop.org/article/10.1088/1741-2552/aab2f2\#fnref-jneaab2f2bib082}
+ \item Sariq Khan, \emph{Correlation-Based Feature Selection in a Data Science Project}, Medium, 2020. \href{https://medium.com/@sariq16/correlation-based-feature-selection-in-a-data-science-project-3ca08d2af5c6}{https://medium.com/@sariq16/correlation-based-feature-selection-in-a-data-science-project-3ca08d2af5c6}
+
 \end{itemize}
 
 \end{document}
