@@ -1,6 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx}
-\graphicspath{ {./} }
+\graphicspath{ {./NotesImages} }
 
 \title{Monitoring Error-related potentials Experiment Notes}
 \author{Annabelle Chan}
@@ -26,10 +26,21 @@ The metadata includes the subject number (header.Subject), the session number (h
 \section{Notes on my experiment}
 I will be using the recording events and the raw EEG data. Each sample in each run will be counted as a data point. I will use the recording events to create output data (+1 for correct direction and -1 for incorrect direction), and I will use the raw eeg data as input data. I plan to make two features for the input data.
 
-For the raw EEG data, I will focus on the electrodes for the occipital lobe (which is used for image processing) and the frontal lobe (which is used for decision making).
+For the raw EEG data, I will focus on the electrodes for the occipital lobe (which is used for image processing) and the frontal lobe (which is used for decision making).\newline
+\includegraphics[scale=0.4]{ElectrodePlacements}\newline
+In the above image, I've circled all the eletrodes used in the Monitoring Error-related potentials experiment in red, and circled grouped the elctrodes used in my experiment in a green circle.
 
 For the recording events, I will use Positions to locate which sample in the raw EEG data got recorded with a type. If the type is labeled with a 5 or 10, then that sample is of correct movements. If the type is labeled with a 6 or 9, then that sample is of erroneous movements. All other types will be ignored.
 
+Reference "Organize.m"
+
 \section{EEGLAB}
+EEGLAB Download SIte: https://sccn.ucsd.edu/eeglab/downloadtoolbox.php
+
+To start up EEGLAB, open MATLAB and change the MATLAB path to the eeglab2024.2. Next type "eeglab" in the command window and press enter. You should see the main menu.\newline
+\includegraphics[scale=0.4]{EEGLABMainMenu}\newline
+To restart EEGLAB, close out of the main menu. This will remove all loaded EEG datasets.
+
+To load the raw EEG data from as datasets in EEGLAB:
 
 \end{document}
