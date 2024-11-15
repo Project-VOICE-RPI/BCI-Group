@@ -1,8 +1,7 @@
 import scipy.io as sio
-import mne
 import numpy as np
 import matplotlib.pyplot as plt
-
+from scipy.signal import savgol_filter
 
 #read matlab file and put into data that holds key-value pair
 data = sio.loadmat("Subject_A_Train.mat")
@@ -10,65 +9,53 @@ data = sio.loadmat("Subject_A_Train.mat")
 #store eeg signals, flashes of p300 signal and labels
 eeg_data = data['Signal']
 flashing_data = data['Flashing']
-stimulus_code_data = data['StimulusCode'] 
 stimulus_type_data = data['StimulusType']
+sampling_rate = 240 #can be reduced to decrease computation time
 
-n_trials, n_time_samples, n_channels = eeg_data.shape
-sampling_rate = 512
-info = mne.create_info(ch_names=[f"ch_{i + 1}" for i in range(n_channels)],
-                       sfreq=sampling_rate,
-                       ch_types='eeg')
+#create and process epochs
+epochs, labels = create_epochs(eeg_data, flashing_data, stimulus_type_data)
+target_epochs = epochs[labels == 1]
+nontarget_epochs = epochs[labels == 0]
 
-#reshape eeg data for MNE
-eeg_data_reshaped = eeg_data.transpose(2, 1, 0).reshape(n_channels, -1)
-raw = mne.io.RawArray(eeg_data_reshaped, info)
+target_processed = np.array([process_epoch(epoch) for epoch in target_epochs])
+nontarget_processed = np.array([process_epoch(epoch) for epoch in nontarget_epochs])
 
-#apply a bandpass filter from 1Hz to 40Hz
-raw.filter(1, 40, method='fir')
-events = []
+#find averages and create time axis
+target_avg = np.mean(target_processed, axis=0)
+nontarget_avg = np.mean(nontarget_processed, axis=0)
+difference_wave = target_avg - nontarget_avg
+times = np.linspace(-200, 800, target_avg.shape[0])
 
-#build the events array with corrected sample indices
-for trial_idx in range(flashing_data.shape[0]):
-    for time_idx in range(1, flashing_data.shape[1]):
-        prev_flash = flashing_data[trial_idx, time_idx - 1]
-        flash = flashing_data[trial_idx, time_idx]
-        label = stimulus_type_data[trial_idx, time_idx]
-        
-        #detect rising edge of flash signal
-        if prev_flash == 0 and flash == 1:
-            event_type = 1 if label == 1 else 2
-            sample_idx = time_idx + trial_idx * n_time_samples
-            events.append([sample_idx, 0, event_type])
+#plot target/non-target ERP
+plt.figure(figsize=(12, 8))
+plt.plot(times, target_avg, 'b-', label='Target', linewidth=2)
+plt.plot(times, nontarget_avg, 'r--', label='Non-Target', linewidth=2)
+plt.axvline(x=300, color='gray', linestyle=':', alpha=0.5)
+plt.axhline(y=0, color='black', linestyle='-', alpha=0.1)
+plt.axvspan(300, 500, color='yellow', alpha=0.1)
+plt.xlabel('Time (ms)')
+plt.ylabel('Amplitude (z-score)')
+plt.title('P300 ERP Comparison')
+plt.grid(True, alpha=0.3)
+plt.legend()
 
-events = np.array(events)
-
-#define dictionary for target/non-target
-event_id = {'Target': 1, 'Non-Target': 2}
-
-#create epochs showing a difference between target and non-target events
-epochs = mne.Epochs(raw, events, event_id={'Target': 1, 'Non-Target': 2}, 
-                    tmin=-0.2, tmax=0.8, baseline=(None, None), preload=True, event_repeated='merge')
-
-#plot the averaged ERPs for target/non-target events
-target_evoked = epochs['Target'].average()
-nontarget_evoked = epochs['Non-Target'].average()
-
-#compute averaged ERP across all channels for target/non-target events
-target_avg_across_channels = target_evoked.data.mean(axis=0)
-nontarget_avg_across_channels = nontarget_evoked.data.mean(axis=0)
-
-#plot the averaged ERP across all channels for target events
-plt.figure()
-plt.plot(target_evoked.times, target_avg_across_channels)
-plt.title("Target P300 ERP (Averaged Across Channels)")
-plt.xlabel("Time (s)")
-plt.ylabel("Amplitude (µV)")
-
-#plot the averaged ERP across all channels for non-target events
-plt.figure()
-plt.plot(nontarget_evoked.times, nontarget_avg_across_channels)
-plt.title("Non-Target ERP (Averaged Across Channels)")
-plt.xlabel("Time (s)")
-plt.ylabel("Amplitude (µV)")
+#find and annotate P300 peak (300-500ms)
+p300_window = np.logical_and(times >= 300, times <= 500)
+p300_peak_idx = np.argmax(difference_wave[p300_window]) + np.where(p300_window)[0][0]
+p300_peak_time = times[p300_peak_idx]
+print(f"P300 Peak Latency: {p300_peak_time:.1f}ms")
 
 plt.show()
+
+
+p300_start = int(300 / 1000 * sampling_rate)
+p300_end = int(500 / 1000 * sampling_rate)
+
+#calculate signal power of target signal
+target_signal_power = np.mean(target_avg[p300_start:p300_end] ** 2)
+
+#calculate noise power of non-target signal
+nontarget_noise_power = np.mean(nontarget_avg[p300_start:p300_end] ** 2)
+
+snr_db = 10 * np.log10(target_signal_power / nontarget_noise_power)
+print(f"Signal-to-Noise Ratio (SNR): {snr_db:.2f} dB")
