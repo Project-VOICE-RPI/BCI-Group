@@ -29,7 +29,7 @@ for i=1:6
                     yesx2 = [yesx2; x(1, 3)];
                 elseif type(l) == 6 || type(l) == 9
                     x = getFeature( eeg(pos(l), :), label );
-                    X = [X; getFeature( eeg(pos(l), :), label )];
+                    X = [X; x];
                     Y = [Y; -1];
 
                     nox1 = [nox1; x(1, 2)];
