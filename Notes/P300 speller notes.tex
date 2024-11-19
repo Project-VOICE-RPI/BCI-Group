@@ -16,6 +16,27 @@ A P300 speller consists of 36 alphanumeric characters arranged in a 6x6 matrix. 
 
 A classification algorithm is needed to distinguish between these stimuli. In ERP-based BCIs, many iterations are required to improve the SNR (signal-to-noise ratio) for accurate selection. Machine learning and optimization techniques can further improve classification performance.
 
+\section{Optimizations of a P300-Based BCI Speller}
+Brain-computer interface (BCI) spellers enable communication for severely motor-disabled patients using brain activity without muscular mobility. Several usability factors of the speller, such as size and visual configurations, have been studied extensively. Key findings include:
+
+\begin{itemize}
+    \item \textbf{Speller Size Comparison}:
+    - Evaluated two matrix sizes: 3x3 and 6x6.
+    - Found medium-sized spellers had lower error rates (EP = 25\%) but no significant differences among sizes.
+    - Small size spellers resulted in higher physical demands and lower satisfaction.
+    - Large size spellers caused visual and spatial challenges.
+
+    \item \textbf{Adaptive Stimulus Selection}:
+    - Focused on enhancing stimulus presentation efficiency by using a data-driven method that adaptively selects stimuli.
+    - Maximized the P300 response by concentrating on characters with higher uncertainty in classification.
+    - Improved accuracy, especially in dynamic environments where user performance varies significantly over time.
+
+    \item \textbf{Visual Factors Evaluation}:
+    - Analyzed how speller size, symbol spacing, and matrix design affect performance.
+    - Concluded that medium-sized spellers (~9.98 cm with 0.75°H × 0.75°W symbol size and 1° spacing) are the best for general usability.
+    - While medium size is optimal for motor-disabled users, large spellers may be suitable for users with higher mobility or when higher character density is needed.
+\end{itemize}
+
 \section{Links to EEG Data for P300 Speller Brain-Computer Interfaces}
 \begin{itemize}
     \item \url{https://www.nature.com/articles/s41597-022-01509-w#ref-CR28}
@@ -44,6 +65,10 @@ Each sample in the \texttt{Signal} matrix has associated event codes, defined by
 \section{References}
 \begin{itemize}
     \item Bianchi, L., Liti, C., Liuzzi, G., et al. Improving P300 Speller performance by means of optimization and machine learning. \emph{Annals of Operations Research, 312}, 1221–1259 (2022). \url{https://doi.org/10.1007/s10479-020-03921-0}
+    \item \url{https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.583358/full}
+    \item \url{https://arxiv.org/abs/1707.00375}
+    \item \url{https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.583358/full}
 \end{itemize}
 
 \end{document}
+
