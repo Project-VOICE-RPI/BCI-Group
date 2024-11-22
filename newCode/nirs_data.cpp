@@ -1,33 +1,37 @@
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 #include <string>
-#include <H5Cpp.h>
+
+namespace fs = std::filesystem;
 
 int main(){
-    std::string filePath = "../BCI2000/data/samplefiles/sample_nirs_data1.snirf";
+    std::string folderPath = "../BCI2000/data/samplefiles/snirf_data";
     
-    try {
-        H5::H5File file(filePath, H5F_ACC_RDONLY);
-
-        std::cout << "File opened successfully: " << filePath << std::endl;
-
-        H5::Group rootGroup = file.openGroup("/");
-        std::cout << "Root group opened successfully." << std::endl;
-
-        hsize_t numObjs = rootGroup.getNumObjs();
-        for (hsize_t i = 0; i < numObjs; ++i) {
-            std::string objName = rootGroup.getObjnameByIdx(i);
-            std::cout << "Found object: " << objName << std::endl;
-        }
-
-    } catch (H5::FileIException &e) {
-        std::cerr << "Error opening file: " << e.getDetailMsg() << std::endl;
-        return -1;
-    } catch (H5::Exception &e) {
-        std::cerr << "HDF5 error: " << e.getDetailMsg() << std::endl;
-        return -1;
+    if (!fs::exists(folderPath)){
+        std::cerr << "Could not open the folder at: " << folderPath << std::endl;
+        return 1;
     }
-    //std::cout << filePath << std::endl;
+
+    for (const auto& entry : fs::directory_iterator(folderPath)) {
+
+        if (fs::is_regular_file(entry)) {
+            std::string filePath = entry.path().string();
+            std::cout << "Opening file: " << filePath << std::endl;
+
+            std::ifstream file(filePath);
+            char header[100];
+            file.read(header, sizeof(header));
+
+            std::cout << "Header read: " << std::endl;
+            for (int i = 0; i < 100; ++i) {
+                std::cout << header[i]; 
+            }
+            std::cout << "\n";
+
+            file.close();
+        }
+    }
 
     return 0;
 }
