@@ -43,6 +43,9 @@ To restart EEGLAB, close out of the main menu. This will remove all loaded EEG d
 
 To load all the EEG data, run "LoadDataset.m" then run "loadEEGScript.m". If there are issues loading the eeglab from script, try manually loading eeglab, close out of the main menu, and then run the script. After the script finish running, there should be 120 data sets.
 "LoadDataset.m" reorganizes the raw EEG data into a format that eeglab can read. Then it will create a matrix holding the event information (the first column contains the time stamp and the second column contains the event type, protocol events).
-"loadEEGScript.m" will load all the datasets into the eeglab with the format "Subjectij\_rk" with i being the subject number, j being the session number, and k being the run number.
+"loadEEGScript.m" will load all the datasets into the eeglab with the format "Subjectij\_rk" with i being the subject number, j being the session number, and k being the run number. It will then use eeglab's automatic clean raw data tool and then apply a notch filter to remove artifacts.
 
+Here is a before and after the data is cleaned.\newline
+Before:  \includegraphics[scale=0.4]{Subject11r1before}\newline
+After:  \includegraphics[scale=0.4]{Subject11r1after}\newline
 \end{document}
