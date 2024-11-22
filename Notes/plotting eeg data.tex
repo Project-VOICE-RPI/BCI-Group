@@ -11,7 +11,7 @@
 
 \maketitle
 
-\section{Visualizing EEG Data in Python}
+\section{Plotting using MNE}
 When starting to visualize an EEG dataset, the first step is to inspect a single trial. After this initial inspection, we can examine all recorded epochs to assess the dataset’s overall quality. 
 
 The easiest way to visualize an EEG dataset is by using MNE's \texttt{plot()} function, which plots epochs with:
@@ -40,6 +40,56 @@ In a typical EEG PSD plot, you might observe:
     \item A \textbf{10 Hz spike in the alpha band}, which is a common brainwave frequency associated with relaxed wakefulness.
 \end{itemize}
 
+\section{Plotting using Matplotlib for EEG Analysis}
+You can use MNE's built-in plot methods to visualize raw data traces. Matplotlib is often used under the hood to create these plots. Below are some common plotting techniques using Matplotlib:
+
+\subsection{Power Spectral Density (PSD) Plot}
+The power spectral density (PSD) gives insight into the frequency content of the data. The code to generate a PSD plot is:
+
+\begin{verbatim}
+raw.plot_psd(fmax=50)  # Plot frequencies up to 50 Hz
+\end{verbatim}
+
+\subsection{Customizing Plots}
+You can extract data and create custom plots with Matplotlib for greater flexibility. Here is an example:
+
+\begin{verbatim}
+# Extract data and times
+data, times = raw[:, :1000]  # First 1000 samples
+
+# Create a custom Matplotlib plot
+plt.figure(figsize=(10, 5))
+plt.plot(times, data.T)  # Transpose to match dimensions
+plt.xlabel('Time (s)')
+plt.ylabel('Amplitude (\mu V)')
+plt.title('Custom EEG Plot with Matplotlib')
+plt.show()
+\end{verbatim}
+
+\subsection{Evoked Responses}
+Event-related potentials (ERPs) can be plotted to visualize the average response. Use the following code:
+
+\begin{verbatim}
+# Define events and epochs
+events = mne.find_events(raw)
+event_id = {'Stimulus': 1}  # Event of interest
+epochs = mne.Epochs(raw, events, event_id, tmin=-0.2, tmax=0.5, preload=True)
+
+# Compute the average (evoked response)
+evoked = epochs.average()
+
+# Plot the evoked response
+evoked.plot()
+\end{verbatim}
+
+\subsection{Topographical Plots}
+Topographical plots allow you to visualize EEG data across the scalp. The following code demonstrates how to create a topomap:
+
+\begin{verbatim}
+evoked.plot_topomap(times=[0.1, 0.2, 0.3], ch_type='eeg')  # Times in seconds
+\end{verbatim}
+
+
 \section{Time and Frequency Domains}
 For EEG data used in a P300 speller system, visualization in the \textbf{time domain} is ideal, as the P300 component appears as a distinct positive deflection around 300 ms after a stimulus. Typically, EEG data for P300 detection is filtered in the 1–30 Hz range, removing low-frequency drifts and high-frequency noise. This filter range covers delta, theta, alpha, and beta bands, which are associated with brain activity related to cognitive processing.
 
@@ -55,6 +105,7 @@ Understanding Power Spectral Density (PSD) aids in assessing noise levels across
 \begin{itemize}
     \item Filtering EEG Data. \emph{Filtering EEG Data - Neural Data Science in Python}. (n.d.). Retrieved from \url{https://neuraldatascience.io/7-eeg/erp_filtering.html}
     \item Name, Y. A. (2021, January 13). \emph{Data Visualization. Tutorial \#2: Visualize EEG Data}. Retrieved from \url{https://neuro.inf.unibe.ch/AlgorithmsNeuroscience/Tutorial_files/DataVisualization.html}
+    \item Plotly Team. (n.d.). \emph{Process MEG/EEG Data with Plotly in Python}. Retrieved from \url{https://plotly.com/python/v3/ipython-notebooks/mne-tutorial/}
 \end{itemize}
 
 \end{document}
