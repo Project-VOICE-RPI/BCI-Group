@@ -3,28 +3,38 @@ import numpy as np
 from scipy.signal import savgol_filter
 from joblib import Parallel, delayed
 
-#batch processing of signal epochs with smoothing and baseline removal
-def process_signals(epochs, sampling_rate=240):
-    signals = np.mean(epochs, axis=2)
-    signals = np.apply_along_axis(lambda x: savgol_filter(x, 9, 2), 1, signals)
+#to select the top channels, calculate variance across time for each channel
+#find indices of top channels all sorted by variance
+def select_top_channels(signals, num_channels=10):
+    channel_variances = np.var(signals, axis=0)
+    top_channel_indices = np.argsort(channel_variances)[-num_channels:]
     
+    return signals[:, top_channel_indices]
+
+#batch processing of signal epochs with savitzky-golay filter and baseline correction
+def process_signals(epochs, sampling_rate=240, num_channels=10):
+    signals = np.mean(epochs[:, :, :num_channels], axis=2)
+    
+    signals = np.apply_along_axis(lambda x: savgol_filter(x, 9, 2), 1, signals)
+
     baselines = np.mean(signals[:, :int(0.2 * sampling_rate)], axis=1)
     return signals - baselines[:, None]
 
 #predict a character from a trial by finding valid flashes and extracting epochs for those flashes
-def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, sampling_rate=240):
+def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, sampling_rate=240, num_channels=10):
     row_scores = np.zeros(6)
     col_scores = np.zeros(6)
     
-    valid_flashes = np.where((flash_chunk == 1) & 
+    valid_flashes = np.where((flash_chunk == 1) & (stim_type == 1) &
                              (np.arange(len(flash_chunk)) >= 48) & 
                              (np.arange(len(flash_chunk)) < len(flash_chunk) - 192))[0]
+    
     
     if len(valid_flashes) == 0:
         return 0, 0 
     
     epochs = np.array([
-        eeg_chunk[flash_idx - 48:flash_idx + 192, :] 
+        eeg_chunk[flash_idx - 48:flash_idx + 192, :num_channels]
         for flash_idx in valid_flashes
     ])
     
@@ -47,7 +57,7 @@ def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, sampling_rate=2
 
 def run_p300_speller():
     #load data, extract the arrays from matlab 
-    data = sio.loadmat("Subject_B_Train.mat")
+    data = sio.loadmat("Subject_A_Train.mat")
     eeg_data = data['Signal']
     flashing = data['Flashing']
     stim_code = data['StimulusCode']
@@ -72,8 +82,9 @@ def run_p300_speller():
         flash_chunk = flashing[trial_idx]
         stim_chunk = stim_code[trial_idx]
         actual = target_char[trial_idx]
+        stim_type = data['StimulusType'][trial_idx]
         
-        row, col = predict_single_character(eeg_chunk, flash_chunk, stim_chunk)
+        row, col = predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type)
         pred_char = char_matrix[row, col]
         return actual, pred_char
     
