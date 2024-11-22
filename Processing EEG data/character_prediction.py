@@ -2,26 +2,29 @@ import scipy.io as sio
 import numpy as np
 from scipy.signal import savgol_filter
 from joblib import Parallel, delayed
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
 
 #to select the top channels, calculate variance across time for each channel
 #find indices of top channels all sorted by variance
-def select_top_channels(signals, num_channels=10):
+def select_top_channels(signals, num_channels=20):
     channel_variances = np.var(signals, axis=0)
     top_channel_indices = np.argsort(channel_variances)[-num_channels:]
     
     return signals[:, top_channel_indices]
 
 #batch processing of signal epochs with savitzky-golay filter and baseline correction
-def process_signals(epochs, sampling_rate=240, num_channels=10):
+def process_signals(epochs, sampling_rate=240, num_channels=20):
     signals = np.mean(epochs[:, :, :num_channels], axis=2)
     
-    signals = np.apply_along_axis(lambda x: savgol_filter(x, 9, 2), 1, signals)
+    signals = np.apply_along_axis(lambda x: savgol_filter(x, 7, 2), 1, signals)
 
-    baselines = np.mean(signals[:, :int(0.2 * sampling_rate)], axis=1)
+    baselines = np.mean(signals[:, :int(0.3 * sampling_rate)], axis=1)
     return signals - baselines[:, None]
 
 #predict a character from a trial by finding valid flashes and extracting epochs for those flashes
-def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, sampling_rate=240, num_channels=10):
+def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, sampling_rate=240, num_channels=20):
     row_scores = np.zeros(6)
     col_scores = np.zeros(6)
     
@@ -46,7 +49,7 @@ def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, samp
         if stim < 1 or stim > 12:
             continue
 
-        score = np.mean(processed_signals[i, 72:120])
+        score = np.mean(processed_signals[i, 72:130])
         
         if stim <= 6:
             col_scores[stim - 1] += score
@@ -113,3 +116,14 @@ for i, (pred, actual) in enumerate(zip(predictions, actuals)):
         break
     correct = "✓" if pred == actual else "✗"
     print(f"{i+1:5d} | {pred:9s} | {actual:6s} | {correct:7s}")
+    
+# Create confusion matrix
+unique_chars = list(set(actuals))
+cm = confusion_matrix(actuals, predictions, labels=unique_chars)
+
+plt.figure(figsize=(10, 8))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=unique_chars, yticklabels=unique_chars)
+plt.xlabel("Predicted Characters")
+plt.ylabel("Actual Characters")
+plt.title("Confusion Matrix of Predictions")
+plt.show()
