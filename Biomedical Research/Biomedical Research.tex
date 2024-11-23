@@ -129,5 +129,49 @@
 	\newline - Medical History Data and Trends (sensor aspect @ Jimin): Comparing current physiological and behavioral data with historical data from the same individual can improve accuracy. For example, if the individual shows a particular physiological response consistently during certain activities, it may reveal patterns of enjoyment or distress. 
 	\newline - Sensory Preferences or Sensitivities (sensor aspect @ Jimin): For some individuals, specific sensory inputs—like light, sound, or touch—can affect their emotional state. Tracking the presence of such inputs (e.g., detecting a light level or sound frequency) may help correlate environmental stimuli with emotional responses.
 	
+	\noindent \rule{13.85cm}{0.01cm}
+	
+	\noindent \textbf{Literature Reviews on Correlation Between Biological Vitals and Emotions}
+	\newline \textbf{Title:} The pupil as a measure of emotional arousal and autonomic activation
+	\newline \textbf{Author(s):} Margaret M. Bradley, Laura Miccoli, Miguel A. Escrig, Peter J. Lang
+	\newline \textbf{Summary of Source:} Hess and Polt (1960) observed that pupil dilation and constriction were influenced by emotional stimuli, but their findings lacked replicability due to methodological limitations, such as small sample sizes and absence of statistical analysis. Libby et al. (1973) expanded this research by using more participants and stimuli, finding that "attention-getting" images increased pupil dilation, though results were mixed regarding emotional valence. Recent studies suggest that emotional arousal, not valence, drives pupil dilation, with Steinhauer et al. (1983) and Aboyoun and Dabbs (1998) reporting that arousing stimuli increase pupil size regardless of hedonic content.
+	The current study revisits these findings using a modern eye-tracking system and standardized IAPS images. It also examines the autonomic nervous system's role, distinguishing between sympathetic and parasympathetic influences on pupil changes. Results showed that emotional images, whether pleasant or unpleasant, elicited greater pupil dilation and skin conductance compared to neutral images, while heart rate deceleration was linked to unpleasant stimuli. Luminance effects were controlled to isolate emotional arousal as the primary driver of pupil changes, reinforcing the hypothesis that arousal, rather than valence, modulates these responses. These findings contrast earlier research by Hess and Polt and partially align with Libby et al.'s work, emphasizing the complexity of emotion-driven physiological changes.
+	\newline \textbf{Significance:} The findings on pupil dilation and its correlation with emotional arousal provide valuable insights for my project, which aims to translate physiological data into emotions to help non-verbal individuals communicate. Knowing that pupil size reflects arousal regardless of whether the emotion is positive or negative simplifies the challenge of emotion detection. Coupled with evidence that heart rate and skin conductance are reliable markers of emotional intensity, I can refine the data streams my device will analyze. Additionally, understanding that arousal often outweighs valence in emotional responses helps me focus on detecting "how much" emotion is present rather than attempting to classify it. This research gives me confidence in designing a system that prioritizes clarity and precision, making meaningful communication possible for those who can't express themselves verbally.
+	\bigskip 
+	
+	\noindent \textbf{Title:} The influence of happiness, anger, and anxiety on the blood pressure of borderline intensives
+	\newline \textbf{Authors:} James, G D; Yee, L S; Harshfield, G A; Blank, S G; Pickering, T G
+	\newline \textbf{Summary of Source:} This study investigates how emotions like happiness, anger, and anxiety influence blood pressure in 90 individuals with borderline hypertension during 24-hour monitoring. Participants recorded their emotional states (happiness, anger, or anxiety) alongside 1152 ambulatory blood pressure readings. Data analysis revealed that emotional arousal significantly increased systolic and diastolic blood pressure, independent of position or location. Notably, anger and anxiety were associated with higher blood pressure than happiness. Happiness was inversely correlated with systolic pressure, while anxiety was positively linked to diastolic pressure. The extent of emotional impact varied with individuals' daily blood pressure variability, suggesting that more labile blood pressure amplifies emotional effects.
+	\newline \textbf{Significance:} This study directly supports your project's aim to use physiological signals, such as blood pressure, to infer emotional states for non-verbal communication. It demonstrates that distinct emotions are associated with specific, measurable changes in blood pressure, providing a foundation for developing algorithms to map physiological data to emotional states. Additionally, the findings emphasize the importance of accounting for individual variability, which could guide the personalization of your device for more accurate emotional translation. This research validates the feasibility of leveraging blood pressure as a meaningful biomarker in your communication device.
+	\noindent \rule{13.85cm}{0.01cm}
+	
+	\noindent \textbf{Research Plan (Idea for the Biomedical Team):}
+	\newline \textbf{Objective:}
+	To test whether physiological metrics (e.g., heart rate and blood pressure) can be mapped to emotional states and used as a foundation for creating a device that helps non-verbal individuals communicate emotions.
+	\newline \textbf{Materials:}
+	A heart rate monitor and a blood pressure cuff.
+	A computer with data acquisition software (e.g., Arduino, MATLAB, or Python).
+	Emotionally stimulating materials (e.g., images, videos, or sounds validated to induce specific emotions such as happiness, sadness, or anger).
+	Participants who can provide feedback about their emotional state.
+	\newline \textbf{Procedure:}
+	Baseline Measurement:
+	Have participants sit in a calm environment.
+	Record their resting heart rate and blood pressure for a baseline.
+	Stimuli Presentation:
+	Present participants with stimuli designed to evoke a range of emotions (e.g., a happy video clip, a sad piece of music, etc.).
+	Allow time between stimuli to return to baseline.
+	\newline \textbf{Data Collection:}
+	Measure heart rate and blood pressure continuously during each stimulus presentation.
+	Record the participant’s self-reported emotional state after each stimulus for correlation.
+	\newline \textbf{Data Analysis:}
+	Analyze trends in heart rate and blood pressure for each reported emotion.
+	Identify patterns (e.g., increased heart rate for excitement or sadness).
+	Prototype Testing (Optional):
+	Use the identified patterns to design a simple algorithm that assigns a specific emotional "label" based on the physiological data collected.
+	Test if the algorithm's labels match self-reported emotions
+	\newline \textbf{Hypothesis:}
+	There will be measurable, consistent changes in heart rate and blood pressure associated with specific emotional states, forming the basis for translating physiological signals into emotional communication.
+	
+	
 	
 \end{document}
