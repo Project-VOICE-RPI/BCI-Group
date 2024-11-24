@@ -5,9 +5,9 @@ from joblib import Parallel, delayed
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
+from scipy.signal import butter, filtfilt
 
-#to select the top channels, calculate variance across time for each channel
-#find indices of top channels all sorted by variance
+#calculate variance across time for each channel to select top 20
 def select_top_channels(signals, num_channels=20):
     channel_variances = np.var(signals, axis=0)
     top_channel_indices = np.argsort(channel_variances)[-num_channels:]
@@ -18,9 +18,14 @@ def select_top_channels(signals, num_channels=20):
 def process_signals(epochs, sampling_rate=240, num_channels=20):
     signals = np.mean(epochs[:, :, :num_channels], axis=2)
     
-    signals = np.apply_along_axis(lambda x: savgol_filter(x, 7, 2), 1, signals)
+    signals = np.apply_along_axis(lambda x: savgol_filter(x, 11, 3), 1, signals)
 
-    baselines = np.mean(signals[:, :int(0.3 * sampling_rate)], axis=1)
+    #add bandpass filtering for p300 frequency range
+    baselines = np.mean(signals[:, :int(0.4 * sampling_rate)], axis=1)
+    nyq = sampling_rate * 0.5
+    b, a = butter(3, [0.1/nyq, 20/nyq], btype='band')
+    signals = filtfilt(b, a, signals, axis=1)
+    
     return signals - baselines[:, None]
 
 #predict a character from a trial by finding valid flashes and extracting epochs for those flashes
@@ -49,7 +54,7 @@ def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, samp
         if stim < 1 or stim > 12:
             continue
 
-        score = np.mean(processed_signals[i, 72:130])
+        score = np.mean(processed_signals[i, 74:130])
         
         if stim <= 6:
             col_scores[stim - 1] += score
@@ -60,7 +65,7 @@ def predict_single_character(eeg_chunk, flash_chunk, stim_chunk, stim_type, samp
 
 def run_p300_speller():
     #load data, extract the arrays from matlab 
-    data = sio.loadmat("Subject_A_Train.mat")
+    data = sio.loadmat("Subject_B_Train.mat")
     eeg_data = data['Signal']
     flashing = data['Flashing']
     stim_code = data['StimulusCode']
@@ -102,7 +107,7 @@ def run_p300_speller():
 
 predictions, actuals, accuracy = run_p300_speller()
 
-#find accuracy and display first 10 results
+#display first 10 trials results
 print(f"\nP300 Speller Results:")
 print(f"Overall Accuracy: {accuracy:.2f}%")
 print(f"Total Predictions: {len(predictions)}")
@@ -117,13 +122,16 @@ for i, (pred, actual) in enumerate(zip(predictions, actuals)):
     correct = "✓" if pred == actual else "✗"
     print(f"{i+1:5d} | {pred:9s} | {actual:6s} | {correct:7s}")
     
-# Create confusion matrix
+#create confusion matrix
 unique_chars = list(set(actuals))
 cm = confusion_matrix(actuals, predictions, labels=unique_chars)
 
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=unique_chars, yticklabels=unique_chars)
 plt.xlabel("Predicted Characters")
+plt.ylabel("Actual Characters")
+plt.title("Confusion Matrix of Predictions")
+plt.show()
 plt.ylabel("Actual Characters")
 plt.title("Confusion Matrix of Predictions")
 plt.show()
