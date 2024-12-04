@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  3 DEC 2024 02:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  3 DEC 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,16 +187,22 @@ Overfull \hbox (4.07083pt too wide) in paragraph at lines 271--275
  []
 
 [14]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 286--294
-[]
+Overfull \hbox (27.57344pt too wide) in paragraph at lines 295--301
+\OT1/cmr/m/n/12 At the heart of the project lies a com-mit-ment to human-centri
+c de-sign|prioritizing
  []
 
 [15]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 295--300
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 308--316
+[]
+ []
+
+[16]
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 317--322
 [] 
  []
 
-[16] [17] (Biomedical Research.aux)
+[17] [18] (Biomedical Research.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -214,9 +220,9 @@ Here is how much of TeX's memory you used:
 cmbx12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb>
-Output written on "Biomedical Research.pdf" (18 pages, 98998 bytes).
+Output written on "Biomedical Research.pdf" (19 pages, 101290 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
