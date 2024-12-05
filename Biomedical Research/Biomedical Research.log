@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  4 DEC 2024 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  5 DEC 2024 02:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -198,16 +198,32 @@ Overfull \hbox (4.07083pt too wide) in paragraph at lines 308--312
  []
 
 [16]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 340--348
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 340--344
 []
  []
 
 [17]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 349--354
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 359--363
+[]
+ []
+
+
+Overfull \hbox (4.65698pt too wide) in paragraph at lines 359--363
+\OT1/cmr/bx/n/12 Cur-rent Lim-i-ta-tions of Com-mu-ni-ca-tion Tech-nolo-gies fo
+r Non-Verbal
+ []
+
+[18]
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 375--383
+[]
+ []
+
+[19]
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 384--389
 [] 
  []
 
-[18] [19] (Biomedical Research.aux)
+[20] [21] (Biomedical Research.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -225,9 +241,9 @@ Here is how much of TeX's memory you used:
 cmbx12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb>
-Output written on "Biomedical Research.pdf" (20 pages, 104615 bytes).
+Output written on "Biomedical Research.pdf" (22 pages, 109329 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
