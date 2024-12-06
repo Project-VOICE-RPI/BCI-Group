@@ -20,3 +20,5 @@ for file in os.scandir(folderPath):
 
 with open('nirs_array.json', 'w') as f:
     json.dump(big_data, f)
+    
+print("Sucessfully created json")
