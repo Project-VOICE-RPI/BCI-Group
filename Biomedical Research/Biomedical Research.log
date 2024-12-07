@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.24)  6 DEC 2024 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,16 +278,21 @@ vey mes-sages through
  []
 
 [25]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 494--502
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 494--498
+[]
+ []
+
+
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 507--515
 []
  []
 
 [26]
-Overfull \hbox (4.07083pt too wide) in paragraph at lines 503--508
+Overfull \hbox (4.07083pt too wide) in paragraph at lines 516--521
 [] 
  []
 
-[27] [28] (Biomedical Research.aux)
+[27] [28] [29] (Biomedical Research.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -305,9 +310,9 @@ Here is how much of TeX's memory you used:
 cmbx12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/19293/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb>
-Output written on "Biomedical Research.pdf" (29 pages, 125417 bytes).
+Output written on "Biomedical Research.pdf" (30 pages, 127377 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
