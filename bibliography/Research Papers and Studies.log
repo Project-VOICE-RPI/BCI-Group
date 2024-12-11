@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  8 NOV 2024 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  10 DEC 2024 23:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -213,37 +213,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Overfull \hbox (23.65437pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 of its dys-func-tion. \OT1/cmr/m/it/12 Nat Rev Neu-rosci \OT1/cmr/bx/n/12 7\OT1/cmr/m/n/12 , 942{951 (2006). []doi.org/10.1038/nrn2024[]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<macaque.jpg, id=24, 4175.6pt x 2673.99pt>
+<macaque.jpg, id=28, 4175.6pt x 2673.99pt>
 File: macaque.jpg Graphic file (type jpg)
 <use macaque.jpg>
-Package pdftex.def Info: macaque.jpg  used on input line 21.
+Package pdftex.def Info: macaque.jpg  used on input line 22.
 (pdftex.def)             Requested size: 195.0pt x 124.85335pt.
-<brain1.png, id=26, 656.4525pt x 413.04312pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<brain1.png, id=30, 656.4525pt x 413.04312pt>
 File: brain1.png Graphic file (type png)
 <use brain1.png>
-Package pdftex.def Info: brain1.png  used on input line 29.
+Package pdftex.def Info: brain1.png  used on input line 30.
 (pdftex.def)             Requested size: 195.0pt x 122.6912pt.
-<brain2.png, id=29, 242.9075pt x 221.82875pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<brain2.png, id=33, 242.9075pt x 221.82875pt>
 File: brain2.png Graphic file (type png)
 <use brain2.png>
-Package pdftex.def Info: brain2.png  used on input line 36.
+Package pdftex.def Info: brain2.png  used on input line 37.
 (pdftex.def)             Requested size: 195.0pt x 178.07587pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
@@ -252,39 +266,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 [1
 
 {C:/Users/tariqt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
 
 [2 <./macaque.jpg> <./brain1.png>]
-Overfull \hbox (6.77644pt too wide) in paragraph at lines 60--61
+Overfull \hbox (6.77644pt too wide) in paragraph at lines 61--62
 \OT1/cmr/m/n/12 electroencephalography, tran-scra-nial mag-netic stim-u-la-tion and func-tional MRI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
@@ -293,10 +307,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [3 <./brain2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 72.
+(hyperref)                removing `\\' on input line 73.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
@@ -305,11 +319,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<brain_waves.png, id=55, 743.77875pt x 770.88pt>
+<brain_waves.png, id=59, 743.77875pt x 770.88pt>
 File: brain_waves.png Graphic file (type png)
 <use brain_waves.png>
 Package pdftex.def Info: brain_waves.png  used on input line 81.
 (pdftex.def)             Requested size: 195.0pt x 202.10612pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 86.
@@ -367,27 +384,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 117.
 
-[6] (Research Papers and Studies.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+
+[7] (Research Papers and Studies.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `"Research Papers and Studies".out' has not changed.
-(rerunfilecheck)             Checksum: 99762892764EB1FFE54374390619321F;1852.
+(rerunfilecheck)             Checksum: DD18FFF3BA7E6EDB1CA411D57C4AF898;2267.
  ) 
 Here is how much of TeX's memory you used:
- 8491 strings out of 473899
- 134238 string characters out of 5726028
+ 8497 strings out of 473899
+ 134305 string characters out of 5726028
  528636 words of memory out of 5000000
- 31285 multiletter control sequences out of 15000+600000
- 561176 words of font info for 46 fonts, out of 8000000 for 9000
+ 31288 multiletter control sequences out of 15000+600000
+ 561940 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,79p,723b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\tariqt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Research Papers and Studies.pdf" (6 pages, 2818030 bytes).
+ <C:\Users\tariqt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\tariqt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Research Papers and Studies.pdf" (7 pages, 2820842 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

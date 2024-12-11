@@ -108,6 +108,7 @@ INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.t
 INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\macaque.jpg
 INPUT .\macaque.jpg
 INPUT .\macaque.jpg
@@ -138,10 +139,12 @@ INPUT .\brain_waves.png
 INPUT .\brain_waves.png
 INPUT .\brain_waves.png
 INPUT .\brain_waves.png
-INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT Research Papers and Studies.aux
 INPUT .\Research Papers and Studies.out
 INPUT .\Research Papers and Studies.out
+INPUT C:\Users\tariqt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\tariqt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\tariqt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\tariqt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\tariqt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
