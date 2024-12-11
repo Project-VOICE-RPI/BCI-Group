@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  10 DEC 2024 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.27)  10 DEC 2024 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -222,7 +222,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-<macaque.jpg, id=32, 4175.6pt x 2673.99pt>
+<macaque.jpg, id=36, 4175.6pt x 2673.99pt>
 File: macaque.jpg Graphic file (type jpg)
 <use macaque.jpg>
 Package pdftex.def Info: macaque.jpg  used on input line 22.
@@ -230,7 +230,7 @@ Package pdftex.def Info: macaque.jpg  used on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<brain1.png, id=34, 656.4525pt x 413.04312pt>
+<brain1.png, id=38, 656.4525pt x 413.04312pt>
 File: brain1.png Graphic file (type png)
 <use brain1.png>
 Package pdftex.def Info: brain1.png  used on input line 30.
@@ -238,7 +238,7 @@ Package pdftex.def Info: brain1.png  used on input line 30.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<brain2.png, id=37, 242.9075pt x 221.82875pt>
+<brain2.png, id=41, 242.9075pt x 221.82875pt>
 File: brain2.png Graphic file (type png)
 <use brain2.png>
 Package pdftex.def Info: brain2.png  used on input line 37.
@@ -319,7 +319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-<brain_waves.png, id=63, 743.77875pt x 770.88pt>
+<brain_waves.png, id=67, 743.77875pt x 770.88pt>
 File: brain_waves.png Graphic file (type png)
 <use brain_waves.png>
 Package pdftex.def Info: brain_waves.png  used on input line 81.
@@ -415,32 +415,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
  []
 
 
-Overfull \hbox (124.4442pt too wide) in paragraph at lines 131--132
-\OT1/cmr/m/it/12 In-tel-lec-tual & De-vel-op-men-tal Dis-abil-ity\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 25\OT1/cmr/m/n/12 (3), 207{216. []https://doi.org/10.1080/13269780050144271[] 
+Overfull \hbox (19.27582pt too wide) in paragraph at lines 133--133
+[]\OT1/cmr/bx/n/17.28 How physi-cian elec-tronic health record screen
+ []
+
+
+Overfull \hbox (11.91577pt too wide) in paragraph at lines 133--133
+\OT1/cmr/bx/n/17.28 shar-ing af-fects pa-tient and doc-tor non-verbal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
  []
 
 
 
-[7] (Research Papers and Studies.aux)
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+
+[8] (Research Papers and Studies.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `"Research Papers and Studies".out' has not changed.
-(rerunfilecheck)             Checksum: FDEAE6C0301CC6A9ADE5C2DA451FEF93;2697.
+(rerunfilecheck)             Checksum: F04040956DA31E86623CA45C6D58F854;3390.
  ) 
 Here is how much of TeX's memory you used:
- 8499 strings out of 473899
- 134325 string characters out of 5726028
+ 8502 strings out of 473899
+ 134351 string characters out of 5726028
  528636 words of memory out of 5000000
- 31289 multiletter control sequences out of 15000+600000
+ 31290 multiletter control sequences out of 15000+600000
  561940 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,724b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,813b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\tariqt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\tariqt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tariqt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Research Papers and Studies.pdf" (7 pages, 2824839 bytes).
+Output written on "Research Papers and Studies.pdf" (8 pages, 2829388 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
